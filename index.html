@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="세종대학교 사진동아리 밤부의 사진, 전시, 활동 기록 아카이브"
+    />
+    <meta name="theme-color" content="#fbfbf8" />
+    <title>BAMBOO Archive | 세종대학교 사진동아리</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23154f3d'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Arial,sans-serif' font-size='34' font-weight='700' fill='%23fbfbf8'%3EB%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="preload" as="image" href="assets/photos/campus-hero.jpg" fetchpriority="high" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#archive" aria-label="BAMBOO Archive 홈">
+          <span class="brand-name">BAMBOO</span>
+          <span class="brand-subtitle">Sejong Univ. Photo Club</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+          aria-label="메뉴 열기"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="primary-navigation" id="primary-navigation" aria-label="주요 메뉴">
+          <a class="active" href="#archive" aria-current="page">Archive</a>
+          <a href="#exhibition">Exhibition</a>
+          <a href="#activities">Activities</a>
+          <a href="#recruit">Recruit</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero page-shell" id="archive" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <h1 id="hero-title">BAMBOO Archive</h1>
+          <p>세종대학교 사진동아리 밤부의 사진, 전시, 활동 기록</p>
+          <div class="hero-links" aria-label="바로가기">
+            <a class="text-link" href="#recent">View Archive <span aria-hidden="true">→</span></a>
+            <a class="text-link" href="#recruit">Recruit 2026 <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+
+        <div class="hero-gallery" aria-label="밤부 활동 사진 모음">
+          <figure class="hero-photo hero-photo-main">
+            <img
+              src="assets/photos/campus-hero.jpg"
+              alt="캠퍼스 잔디밭에서 사진을 찍는 밤부 회원 두 명"
+              width="1122"
+              height="1402"
+              fetchpriority="high"
+            />
+          </figure>
+          <figure class="hero-photo hero-photo-contact">
+            <img
+              src="assets/photos/contact-sheet.jpg"
+              alt="라이트박스 위에 펼쳐 둔 흑백 필름 콘택트 시트"
+              width="1456"
+              height="1092"
+            />
+          </figure>
+          <figure class="hero-photo hero-photo-exhibit">
+            <img
+              src="assets/photos/exhibition-view.jpg"
+              alt="밤부 사진전을 관람하는 학생"
+              width="1456"
+              height="1092"
+            />
+          </figure>
+          <figure class="hero-photo hero-photo-coast">
+            <img
+              src="assets/photos/coast-outing.jpg"
+              alt="해변 출사에서 등대를 촬영하는 밤부 회원"
+              width="1456"
+              height="1092"
+            />
+          </figure>
+          <figure class="hero-photo hero-photo-prep">
+            <img
+              src="assets/photos/exhibition-prep.jpg"
+              alt="전시할 흑백 사진을 함께 고르는 밤부 회원들"
+              width="1456"
+              height="1092"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="records page-shell" id="recent" aria-labelledby="records-title">
+        <div class="section-heading">
+          <h2 id="records-title">최근 기록</h2>
+          <a href="#exhibition">전체 보기 <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="record-grid">
+          <article class="record-item">
+            <a href="#exhibition" aria-label="겹겹의 시간 기록 보기">
+              <div class="record-image record-image-time">
+                <img src="assets/photos/contact-sheet.jpg" alt="빛이 비치는 흑백 필름 기록" loading="lazy" />
+              </div>
+              <h3>겹겹의 시간</h3>
+              <time datetime="2024-11">2024.11</time>
+            </a>
+          </article>
+          <article class="record-item">
+            <a href="#activities" aria-label="사소한 빛 기록 보기">
+              <div class="record-image record-image-light">
+                <img src="assets/photos/campus-hero.jpg" alt="나뭇잎 사이로 비치는 늦은 오후의 빛" loading="lazy" />
+              </div>
+              <h3>사소한 빛</h3>
+              <time datetime="2024-05">2024.05</time>
+            </a>
+          </article>
+          <article class="record-item">
+            <a href="#activities" aria-label="같은 하늘 아래 기록 보기">
+              <div class="record-image record-image-sky">
+                <img src="assets/photos/coast-outing.jpg" alt="푸른 저녁 하늘과 바닷가의 등대" loading="lazy" />
+              </div>
+              <h3>같은 하늘 아래</h3>
+              <time datetime="2023-11">2023.11</time>
+            </a>
+          </article>
+          <article class="record-item">
+            <a href="#activities" aria-label="여름 출사 기록 보기">
+              <div class="record-image record-image-summer">
+                <img src="assets/photos/campus-hero.jpg" alt="여름 캠퍼스에서 카메라를 든 밤부 회원들" loading="lazy" />
+              </div>
+              <h3>여름 출사</h3>
+              <time datetime="2024-08">2024.08</time>
+            </a>
+          </article>
+          <article class="record-item">
+            <a href="#exhibition" aria-label="전시 준비 기록 보기">
+              <div class="record-image record-image-prep">
+                <img src="assets/photos/exhibition-prep.jpg" alt="테이블 위 사진을 검토하는 밤부 회원들" loading="lazy" />
+              </div>
+              <h3>전시 준비 기록</h3>
+              <time datetime="2024-10">2024.10</time>
+            </a>
+          </article>
+          <article class="record-item">
+            <a href="#activities" aria-label="겨울 방학 출사 기록 보기">
+              <div class="record-image record-image-winter">
+                <img src="assets/photos/coast-outing.jpg" alt="겨울 바다에서 사진을 찍는 밤부 회원" loading="lazy" />
+              </div>
+              <h3>겨울 방학 출사</h3>
+              <time datetime="2024-02">2024.02</time>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <nav class="site-index page-shell" aria-label="밤부 사이트 인덱스">
+        <a class="index-item" href="#archive">
+          <span class="index-number">1.</span>
+          <span>
+            <strong>동아리 소개</strong>
+            <small>사진을 함께 찍고 전시하며 시선을 나누는 밤부의 소개</small>
+          </span>
+        </a>
+        <a class="index-item" id="exhibition" href="#recent">
+          <span class="index-number">2.</span>
+          <span>
+            <strong>사진전</strong>
+            <small>온라인과 오프라인으로 진행한 지난 전시 아카이브</small>
+          </span>
+        </a>
+        <a class="index-item" id="activities" href="#recent">
+          <span class="index-number">3.</span>
+          <span>
+            <strong>활동 사진</strong>
+            <small>출사, 소모임, 콘테스트, 전시 준비 기록</small>
+          </span>
+        </a>
+        <a class="index-item" id="recruit" href="mailto:bamboo@sejong.ac.kr?subject=BAMBOO%202026%20신입부원%20문의">
+          <span class="index-number">4.</span>
+          <span>
+            <strong>신입부원 모집</strong>
+            <small>2026년 신입부원 모집 일정과 지원 안내</small>
+          </span>
+        </a>
+        <a class="index-item" href="#contact">
+          <span class="index-number">5.</span>
+          <span>
+            <strong>연락처</strong>
+            <small>인스타그램, 이메일, 오픈채팅 문의</small>
+          </span>
+        </a>
+      </nav>
+    </main>
+
+    <footer class="site-footer page-shell" id="contact">
+      <div class="footer-about">
+        <div class="footer-name">
+          <strong>BAMBOO</strong>
+          <span>세종대학교 사진동아리</span>
+        </div>
+        <p>Photo Contest 4회 / 1학기 / 여름방학 / 2학기 / 겨울방학 / 소모임 활동</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.instagram.com/bamboo_sejong/" target="_blank" rel="noreferrer">
+          <span>Instagram</span> @bamboo_sejong
+        </a>
+        <a href="mailto:bamboo@sejong.ac.kr"><span>Email</span> bamboo@sejong.ac.kr</a>
+        <a href="mailto:bamboo@sejong.ac.kr?subject=BAMBOO%20오픈채팅%20문의">
+          Kakao Open Chat <span aria-hidden="true">→</span>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
