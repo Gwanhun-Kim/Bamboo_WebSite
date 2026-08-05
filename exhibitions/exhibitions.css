@@ -1,0 +1,236 @@
+.exhibitions-hero {
+  padding-top: clamp(80px, 10vw, 150px);
+  padding-bottom: clamp(86px, 11vw, 158px);
+}
+
+.exhibitions-hero h1,
+.exhibitions-hero p {
+  margin: 0;
+}
+
+.exhibitions-hero h1 {
+  font-size: clamp(48px, 6vw, 86px);
+  font-weight: 620;
+  letter-spacing: -0.065em;
+  line-height: 1;
+}
+
+.exhibitions-hero p {
+  max-width: 470px;
+  margin-top: 30px;
+  color: var(--muted);
+  font-size: 15px;
+  letter-spacing: -0.025em;
+  line-height: 1.75;
+}
+
+.exhibition-archive {
+  padding-bottom: clamp(100px, 12vw, 170px);
+}
+
+.archive-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 0 34px;
+  border-top: 1px solid var(--line);
+}
+
+.archive-heading h2,
+.archive-heading p {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.archive-heading p {
+  color: var(--muted);
+}
+
+.archive-status {
+  min-height: 240px;
+  display: grid;
+  place-items: center;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.archive-status[hidden] {
+  display: none;
+}
+
+.archive-status.error {
+  justify-items: start;
+  place-content: center start;
+  border-top: 1px solid var(--line);
+}
+
+.exhibition-list {
+  display: grid;
+  gap: clamp(72px, 8vw, 120px);
+}
+
+.exhibition-entry {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(300px, 0.72fr);
+  gap: clamp(48px, 7vw, 112px);
+  align-items: center;
+  padding-top: 2px;
+}
+
+.entry-images {
+  display: grid;
+  grid-template-columns: 1.42fr 0.92fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
+  height: clamp(390px, 43vw, 610px);
+}
+
+.entry-images figure {
+  overflow: hidden;
+  margin: 0;
+  background: #e9eae7;
+}
+
+.entry-images figure:first-child {
+  grid-row: 1 / 3;
+}
+
+.entry-images img {
+  transition: opacity 200ms ease;
+}
+
+.exhibition-entry:hover .entry-images img {
+  opacity: 0.9;
+}
+
+.entry-copy {
+  align-self: end;
+  padding-bottom: clamp(10px, 2vw, 30px);
+}
+
+.entry-period,
+.entry-title,
+.entry-description,
+.entry-count {
+  margin: 0;
+}
+
+.entry-period {
+  color: var(--green);
+  font-size: 12px;
+}
+
+.entry-title {
+  margin-top: 18px;
+  font-size: clamp(38px, 4vw, 58px);
+  font-weight: 600;
+  letter-spacing: -0.065em;
+  line-height: 1.05;
+}
+
+.entry-description {
+  max-width: 340px;
+  margin-top: 25px;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  line-height: 1.75;
+}
+
+.entry-count {
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.entry-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+  margin-top: 42px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid color-mix(in srgb, var(--green) 55%, transparent);
+  font-size: 12px;
+  transition: color 180ms ease, border-color 180ms ease;
+}
+
+.entry-link span {
+  transition: transform 220ms var(--ease);
+}
+
+.entry-link:hover,
+.entry-link:focus-visible {
+  color: var(--green);
+  border-color: var(--green);
+}
+
+.entry-link:hover span,
+.entry-link:focus-visible span {
+  transform: translateX(4px);
+}
+
+@media (max-width: 900px) {
+  .exhibition-entry {
+    grid-template-columns: 1fr;
+    gap: 38px;
+  }
+
+  .entry-images {
+    height: min(76vw, 560px);
+  }
+
+  .entry-copy {
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 680px) {
+  .exhibitions-hero {
+    padding-top: 62px;
+    padding-bottom: 90px;
+  }
+
+  .exhibitions-hero h1 {
+    font-size: clamp(43px, 14vw, 58px);
+  }
+
+  .exhibitions-hero p {
+    max-width: 310px;
+    margin-top: 22px;
+    font-size: 14px;
+  }
+
+  .archive-heading {
+    padding-bottom: 22px;
+  }
+
+  .entry-images {
+    grid-template-columns: 1.18fr 0.82fr;
+    height: 104vw;
+    max-height: 520px;
+    gap: 4px;
+  }
+
+  .entry-title {
+    margin-top: 14px;
+    font-size: 40px;
+  }
+
+  .entry-description {
+    max-width: 320px;
+    margin-top: 19px;
+  }
+
+  .entry-link {
+    min-height: 44px;
+    margin-top: 27px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .entry-images img,
+  .entry-link,
+  .entry-link span {
+    transition: none;
+  }
+}

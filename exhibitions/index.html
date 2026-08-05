@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="세종대학교 사진동아리 밤부의 온라인 및 오프라인 사진전 아카이브"
+    />
+    <meta name="theme-color" content="#fbfbf8" />
+    <title>Exhibitions | BAMBOO Archive</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23154f3d'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Arial,sans-serif' font-size='34' font-weight='700' fill='%23fbfbf8'%3EB%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="exhibitions.css" />
+    <script src="exhibitions.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="../index.html#archive" aria-label="BAMBOO Archive 홈">
+          <span class="brand-name">BAMBOO</span>
+          <span class="brand-subtitle">Sejong Univ. Photo Club</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+          aria-label="메뉴 열기"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="primary-navigation" id="primary-navigation" aria-label="주요 메뉴">
+          <a href="../index.html#archive">Archive</a>
+          <a class="active" href="./" aria-current="page">Exhibition</a>
+          <a href="../index.html#activities">Activities</a>
+          <a href="../index.html#recruit">Recruit</a>
+          <a href="../index.html#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="exhibitions-hero page-shell" aria-labelledby="exhibitions-title">
+        <h1 id="exhibitions-title">Exhibitions</h1>
+        <p>밤부가 온라인과 오프라인으로 선보인 사진전을 기록합니다.</p>
+      </section>
+
+      <section class="exhibition-archive page-shell" aria-labelledby="archive-title">
+        <div class="archive-heading">
+          <h2 id="archive-title">사진전 아카이브</h2>
+          <p data-exhibition-count>1 exhibition</p>
+        </div>
+
+        <div class="archive-status" data-archive-status role="status" aria-live="polite">
+          전시 기록을 불러오는 중입니다.
+        </div>
+        <div class="exhibition-list" data-exhibition-list></div>
+      </section>
+    </main>
+
+    <footer class="site-footer page-shell" id="contact">
+      <div class="footer-about">
+        <div class="footer-name">
+          <strong>BAMBOO</strong>
+          <span>세종대학교 사진동아리</span>
+        </div>
+        <p>Online and Offline Exhibition Archive</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.instagram.com/bamboo_sejong/" target="_blank" rel="noreferrer">
+          <span>Instagram</span> @bamboo_sejong
+        </a>
+        <a href="mailto:bamboo@sejong.ac.kr"><span>Email</span> bamboo@sejong.ac.kr</a>
+      </div>
+    </footer>
+  </body>
+</html>

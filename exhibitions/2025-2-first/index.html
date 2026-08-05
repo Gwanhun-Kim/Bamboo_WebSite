@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="세종대학교 사진동아리 밤부의 2025년 2학기 오프라인 사진전 처음"
+    />
+    <meta name="theme-color" content="#fbfbf8" />
+    <title>처음 | BAMBOO Exhibition</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23154f3d'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Arial,sans-serif' font-size='34' font-weight='700' fill='%23fbfbf8'%3EB%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+    <link rel="stylesheet" href="exhibition.css" />
+    <script src="exhibition.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="../../index.html#archive" aria-label="BAMBOO Archive 홈">
+          <span class="brand-name">BAMBOO</span>
+          <span class="brand-subtitle">Sejong Univ. Photo Club</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+          aria-label="메뉴 열기"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="primary-navigation" id="primary-navigation" aria-label="주요 메뉴">
+          <a href="../../index.html#archive">Archive</a>
+          <a class="active" href="../" aria-current="page">Exhibition</a>
+          <a href="../../index.html#activities">Activities</a>
+          <a href="../../index.html#recruit">Recruit</a>
+          <a href="../../index.html#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <div class="gallery-view" data-gallery-view>
+        <section class="exhibition-hero page-shell" aria-labelledby="exhibition-title">
+          <div class="hero-slideshow" data-hero-slideshow aria-hidden="true"></div>
+          <div class="exhibition-hero-content">
+            <p class="exhibition-meta">2025-2 Offline Exhibition</p>
+            <h1 id="exhibition-title">처음</h1>
+            <p class="exhibition-club">세종대학교 사진동아리 밤부</p>
+            <p class="exhibition-description">
+              밤부의 2025년 2학기 오프라인 사진전 ‘처음’에 출품된 작품 기록입니다.
+            </p>
+          </div>
+        </section>
+
+        <section class="album page-shell" id="gallery" aria-labelledby="album-title">
+          <div class="album-heading">
+            <h2 id="album-title">출품 작품</h2>
+            <p><span data-work-count>52</span> works</p>
+          </div>
+
+          <div class="gallery-status" data-gallery-status role="status" aria-live="polite">
+            <span>작품 기록을 불러오는 중입니다.</span>
+          </div>
+          <div class="album-grid" data-album-grid></div>
+        </section>
+      </div>
+
+      <section class="detail-view page-shell" data-detail-view hidden aria-labelledby="detail-title">
+        <div class="detail-toolbar">
+          <a class="back-link" href="#gallery" data-back-to-gallery>← 목록으로</a>
+          <p class="detail-position" aria-live="polite" data-detail-position></p>
+        </div>
+
+        <div class="detail-layout">
+          <figure class="detail-image-wrap">
+            <img data-detail-image src="" alt="" />
+          </figure>
+
+          <article class="detail-caption">
+            <header>
+              <h1 id="detail-title" data-detail-title></h1>
+              <p data-detail-artist></p>
+            </header>
+
+            <div class="detail-statement">
+              <h2>작가의 말</h2>
+              <p data-detail-statement></p>
+            </div>
+
+            <dl class="detail-metadata">
+              <div>
+                <dt>Camera</dt>
+                <dd data-detail-camera></dd>
+              </div>
+              <div>
+                <dt>Settings</dt>
+                <dd data-detail-settings></dd>
+              </div>
+              <div>
+                <dt>Date</dt>
+                <dd data-detail-date></dd>
+              </div>
+            </dl>
+          </article>
+        </div>
+
+        <nav class="work-navigation" aria-label="작품 이동">
+          <a href="#" data-previous-work>← 이전 작품</a>
+          <a href="#" data-next-work>다음 작품 →</a>
+        </nav>
+      </section>
+    </main>
+
+    <footer class="site-footer page-shell exhibition-footer" id="contact">
+      <div class="footer-about">
+        <div class="footer-name">
+          <strong>BAMBOO</strong>
+          <span>세종대학교 사진동아리</span>
+        </div>
+        <p>2025-2 Offline Exhibition Archive</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.instagram.com/bamboo_sejong/" target="_blank" rel="noreferrer">
+          <span>Instagram</span> @bamboo_sejong
+        </a>
+        <a href="mailto:bamboo@sejong.ac.kr"><span>Email</span> bamboo@sejong.ac.kr</a>
+      </div>
+    </footer>
+  </body>
+</html>
