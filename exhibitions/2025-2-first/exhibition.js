@@ -10,7 +10,7 @@ const footer = document.querySelector(".exhibition-footer");
 const albumGrid = document.querySelector("[data-album-grid]");
 const galleryStatus = document.querySelector("[data-gallery-status]");
 const workCount = document.querySelector("[data-work-count]");
-const heroSlideshow = document.querySelector("[data-hero-slideshow]");
+const heroWorkCount = document.querySelector("[data-hero-work-count]");
 const backToGallery = document.querySelector("[data-back-to-gallery]");
 const previousWork = document.querySelector("[data-previous-work]");
 const nextWork = document.querySelector("[data-next-work]");
@@ -18,9 +18,6 @@ const nextWork = document.querySelector("[data-next-work]");
 let works = [];
 let selectedIndex = -1;
 let lastGridWidth = 0;
-let slideshowTimer = null;
-let activeSlideIndex = 0;
-const reducedMotionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
 
 const detailFields = {
   image: document.querySelector("[data-detail-image]"),
@@ -72,6 +69,19 @@ function createWorkCard(work) {
   link.href = workHash(work.id);
   link.setAttribute("aria-label", `${shownTitle}, ${work.artist} 작품 상세 보기`);
   imageWrap.className = "work-image";
+  image.addEventListener(
+    "load",
+    () => {
+      // EXIF rotation can make the browser's natural dimensions differ from
+      // the metadata stored in the exhibition JSON. Use the decoded size so
+      // the intrinsic ratio and masonry span stay in sync.
+      image.width = image.naturalWidth;
+      image.height = image.naturalHeight;
+      resizeMasonryItem(article);
+      requestAnimationFrame(() => resizeMasonryItem(article));
+    },
+    { once: true }
+  );
   image.src = assetUrl(work.webAsset.publicUrl);
   image.alt = `${work.artist}의 작품 ${shownTitle}`;
   image.loading = "lazy";
@@ -86,67 +96,40 @@ function createWorkCard(work) {
   caption.append(title, artist);
   link.append(imageWrap, caption);
   article.append(link);
+  masonryContentResizeObserver.observe(link);
   return article;
 }
 
-function resizeMasonryItems() {
+function resizeMasonryItem(card) {
   const rowHeight = Number.parseFloat(getComputedStyle(albumGrid).gridAutoRows);
   if (!rowHeight) return;
-  albumGrid.querySelectorAll(".work-card").forEach((card) => {
-    const cardStyle = getComputedStyle(card);
-    const contentHeight = card.querySelector("a").getBoundingClientRect().height;
-    const span = Math.ceil(
-      (contentHeight + Number.parseFloat(cardStyle.paddingBottom)) / rowHeight
-    );
-    card.style.gridRowEnd = `span ${span}`;
-  });
+  const cardStyle = getComputedStyle(card);
+  const contentHeight = card.querySelector("a").getBoundingClientRect().height;
+  const span = Math.ceil(
+    (contentHeight + Number.parseFloat(cardStyle.paddingBottom)) / rowHeight
+  );
+  card.style.gridRowEnd = `span ${span}`;
 }
+
+function resizeMasonryItems() {
+  albumGrid.querySelectorAll(".work-card").forEach(resizeMasonryItem);
+}
+
+const masonryContentResizeObserver = new ResizeObserver((entries) => {
+  entries.forEach(({ target }) => {
+    const card = target.closest(".work-card");
+    if (card) resizeMasonryItem(card);
+  });
+});
 
 function renderGallery() {
   const fragment = document.createDocumentFragment();
   works.forEach((work) => fragment.append(createWorkCard(work)));
   albumGrid.replaceChildren(fragment);
   workCount.textContent = String(works.length);
+  heroWorkCount.textContent = String(works.length);
   galleryStatus.hidden = true;
   requestAnimationFrame(resizeMasonryItems);
-}
-
-function createHeroSlideshow() {
-  const slideIndexes = [0, 10, 20, 30, 40, 51].filter((index) => works[index]);
-  const fragment = document.createDocumentFragment();
-  slideIndexes.forEach((workIndex, slideIndex) => {
-    const work = works[workIndex];
-    const image = document.createElement("img");
-    image.className = `hero-slide${slideIndex === 0 ? " active" : ""}`;
-    image.src = assetUrl(work.webAsset.publicUrl);
-    image.alt = "";
-    image.decoding = "async";
-    if (slideIndex > 0) image.loading = "lazy";
-    fragment.append(image);
-  });
-  heroSlideshow.replaceChildren(fragment);
-  heroSlideshow.dataset.motion = reducedMotionQuery.matches ? "reduced" : "active";
-  startSlideshow();
-}
-
-function stopSlideshow() {
-  if (slideshowTimer) window.clearInterval(slideshowTimer);
-  slideshowTimer = null;
-}
-
-function startSlideshow() {
-  stopSlideshow();
-  const slides = heroSlideshow.querySelectorAll(".hero-slide");
-  if (reducedMotionQuery.matches || slides.length < 2) {
-    heroSlideshow.dataset.motion = "reduced";
-    return;
-  }
-  heroSlideshow.dataset.motion = "active";
-  slideshowTimer = window.setInterval(() => {
-    slides[activeSlideIndex].classList.remove("active");
-    activeSlideIndex = (activeSlideIndex + 1) % slides.length;
-    slides[activeSlideIndex].classList.add("active");
-  }, 8000);
 }
 
 function showGallery({ focusHeading = false } = {}) {
@@ -222,7 +205,6 @@ async function loadExhibition() {
     }
     works = data.works;
     renderGallery();
-    createHeroSlideshow();
     syncViewWithHash();
   } catch (error) {
     galleryStatus.classList.add("error");
@@ -258,8 +240,6 @@ window.addEventListener("keydown", (event) => {
 window.matchMedia("(min-width: 681px)").addEventListener("change", (event) => {
   if (event.matches) setMenu(false);
 });
-reducedMotionQuery.addEventListener("change", startSlideshow);
-
 const galleryResizeObserver = new ResizeObserver(([entry]) => {
   const width = entry.contentRect.width;
   if (Math.abs(width - lastGridWidth) < 1) return;

@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="세종대학교 사진동아리 밤부의 열일곱번째 사진전 익숙한 행복"
+    />
+    <meta name="theme-color" content="#fbfbf8" />
+    <title>익숙한 행복 | BAMBOO Exhibition</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23154f3d'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Arial,sans-serif' font-size='34' font-weight='700' fill='%23fbfbf8'%3EB%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="../../styles.css?v=20260821" />
+    <link rel="stylesheet" href="exhibition.css?v=20260825" />
+    <script src="exhibition.js?v=20260825" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="../../index.html" aria-label="BAMBOO 홈">
+          <span class="brand-name">BAMBOO</span>
+          <span class="brand-subtitle">Sejong Univ. Photo Club</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+          aria-label="메뉴 열기"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="primary-navigation" id="primary-navigation" aria-label="주요 메뉴">
+          <a href="../../index.html">Home</a>
+          <a href="../../activities/index.html">Activities</a>
+          <a class="active" href="../index.html" aria-current="page">Exhibition</a>
+          <a href="../../recruitment/index.html">Recruit</a>
+          <a href="../../index.html#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <div class="familiar-gallery-view" data-gallery-view>
+        <section class="familiar-hero page-shell" aria-labelledby="exhibition-title">
+          <div class="familiar-hero-copy">
+            <p class="familiar-meta">열일곱번째 사진전</p>
+            <h1 id="exhibition-title">익숙한 행복</h1>
+            <p class="familiar-description">
+              익숙한 풍경과 일상 속에서 발견한 행복을 담은 밤부의 열일곱번째 사진전입니다.
+            </p>
+            <div class="familiar-summary" aria-label="전시 요약">
+              <span>2025년</span>
+              <span><strong data-hero-work-count>64</strong> works</span>
+            </div>
+          </div>
+          <figure class="familiar-hero-poster">
+            <img
+              src="../../assets/exhibition-posters/familiar-happiness-poster.jpg"
+              alt="밤부 열일곱번째 사진전 익숙한 행복 포스터"
+              width="2000"
+              height="2500"
+            />
+          </figure>
+        </section>
+
+        <section class="familiar-album page-shell" id="gallery" aria-labelledby="album-title">
+          <div class="familiar-album-heading">
+            <h2 id="album-title">출품 작품</h2>
+            <p><span data-work-count>64</span> works</p>
+          </div>
+
+          <div class="familiar-gallery-status" data-gallery-status role="status" aria-live="polite">
+            작품 기록을 불러오는 중입니다.
+          </div>
+          <div class="familiar-album-grid" data-album-grid></div>
+        </section>
+      </div>
+
+      <section
+        class="familiar-detail-view page-shell"
+        data-detail-view
+        hidden
+        aria-labelledby="detail-title"
+      >
+        <div class="familiar-detail-toolbar">
+          <a class="familiar-back-link" href="#gallery" data-back-to-gallery>← 목록으로</a>
+          <p class="familiar-detail-position" aria-live="polite" data-detail-position></p>
+        </div>
+
+        <div class="familiar-detail-layout">
+          <figure class="familiar-detail-image-wrap">
+            <img data-detail-image alt="" hidden />
+            <div class="familiar-detail-placeholder" data-detail-placeholder role="img" hidden></div>
+          </figure>
+
+          <article class="familiar-detail-caption">
+            <header>
+              <h1 id="detail-title" data-detail-title></h1>
+              <p data-detail-artist></p>
+            </header>
+
+            <div class="familiar-detail-statement">
+              <h2>작가의 말</h2>
+              <p data-detail-statement></p>
+            </div>
+
+            <dl class="familiar-detail-metadata">
+              <div>
+                <dt>Camera</dt>
+                <dd data-detail-camera></dd>
+              </div>
+              <div>
+                <dt>Settings</dt>
+                <dd data-detail-settings></dd>
+              </div>
+              <div>
+                <dt>Location</dt>
+                <dd data-detail-location></dd>
+              </div>
+              <div>
+                <dt>Date</dt>
+                <dd data-detail-date></dd>
+              </div>
+            </dl>
+          </article>
+        </div>
+
+        <nav class="familiar-work-navigation" aria-label="작품 이동">
+          <a href="#" data-previous-work>← 이전 작품</a>
+          <a href="#" data-next-work>다음 작품 →</a>
+        </nav>
+      </section>
+    </main>
+
+    <footer class="site-footer page-shell familiar-footer" id="contact">
+      <div class="footer-about">
+        <div class="footer-name">
+          <strong>BAMBOO</strong>
+          <span>세종대학교 사진동아리</span>
+        </div>
+        <p>열일곱번째 사진전 기록</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.instagram.com/bamboo_sejong/" target="_blank" rel="noreferrer">
+          <span>Instagram</span> @bamboo_sejong
+        </a>
+        <a href="mailto:bamboo@sejong.ac.kr"><span>Email</span> bamboo@sejong.ac.kr</a>
+      </div>
+    </footer>
+  </body>
+</html>
