@@ -1,0 +1,1760 @@
+{
+  "id": "2025-2-familiar-happiness",
+  "title": "익숙한 행복",
+  "semester": "2025-2",
+  "type": "offline-exhibition",
+  "works": [
+    {
+      "id": "familiar-happiness-2025-2-01",
+      "title": "봄밤",
+      "artist": "강나연",
+      "statement": "어둠 속에서 유독 빛나는 달. 일 년을 주기로 봄의 시작을 알리는 벚꽃. 봄날이 올 때면 항상 눈에 담아두었던 익숙한 꽃과 흔히 볼 수 있는 달이지만, 이날 보았던 벚꽃들 사이의 달은 내게 더욱 특별한 느낌을 주었다. 코끝을 찌르는 봄 내음과 피부에 닿는 부드러운 바람을 느끼며, 고개를 들고 봄밤의 하늘을 보는 순간 '행복'이라는 감정이 나를 가득 채웠다. 내 옆에 앉아 있는 친구, 흘러나오는 노래, 누군가와 함께 봄을 느끼며 저마다의 소중한 시간을 보내는 사람들까지.",
+      "camera": "iPhone 16 Pro",
+      "settings": {
+        "aperture": "F1.78",
+        "shutterSpeed": "1/8s",
+        "iso": "ISO 1000",
+        "focalLength": "30mm"
+      },
+      "location": null,
+      "date": "2025.04.10",
+      "sourceFile": "25-2 사진집 (1차)-7.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/강나연_전시_25_1.jpg",
+      "notes": [
+        "사진집 표기는 iPhone 16 Pro이나 원본 EXIF 모델은 iPhone 14 Pro입니다."
+      ],
+      "needsReview": true,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "01-강나연-봄밤.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/01-강나연-봄밤.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/01-강나연-봄밤.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 2262407
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-02",
+      "title": "햇살이 머무는 동네",
+      "artist": "강동곤",
+      "statement": "이 골목은 특별한 무언가가 있는 곳은 아닙니다. 하지만 매일 같은 시간, 같은 방향으로 드리우는 햇살이 이곳을 특별하게 만듭니다. 익숙함 속에 머무는 따스함, 그 속에서 문득 행복을 마주합니다. 그저 지나치던 일상에 잠시 멈춰 서 보았습니다. 햇살도, 바람도, 이 동네도, 그대로여서 고마운 순간이었습니다.",
+      "camera": "iPhone 14 Pro",
+      "settings": {
+        "aperture": null,
+        "shutterSpeed": null,
+        "iso": null,
+        "focalLength": null
+      },
+      "location": null,
+      "date": "2025.05.29",
+      "sourceFile": "25-2 사진집 (1차)-8.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/강동곤_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "02-강동곤-햇살이-머무는-동네.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/02-강동곤-햇살이-머무는-동네.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/02-강동곤-햇살이-머무는-동네.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 892411
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-03",
+      "title": "한강에서 바라보는 노을",
+      "artist": "강신혁",
+      "statement": "한강에서 보는 노을은 참 익숙하면서도 소중한 거 같아요. 소중한 사람과 함께라면 더욱더...?",
+      "camera": "SONY a6400",
+      "settings": {
+        "aperture": "F3.2",
+        "shutterSpeed": "1/4000s",
+        "iso": "ISO 1000",
+        "focalLength": "105mm"
+      },
+      "location": "한강",
+      "date": "2025.05.18",
+      "sourceFile": "25-2 사진집 (1차)-9.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/강신혁_전시_25_1.jpg",
+      "notes": [
+        "사진집 촬영값(1/4000s, ISO 1000)과 원본 EXIF(1/1000s, ISO 200)가 다릅니다."
+      ],
+      "needsReview": true,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "03-강신혁-한강에서-바라보는-노을.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/03-강신혁-한강에서-바라보는-노을.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/03-강신혁-한강에서-바라보는-노을.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 14380901
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-04",
+      "title": "우리는 기지개 출근합니다",
+      "artist": "강은지",
+      "statement": "바쁜 발걸음 사이, 길 위의 작은 생명체가 여유를 만끽한다. 오늘은 나도 기지개 켜고 잠시 쉬어간다. 작고 작은 존재만이 볼 수 있는 아침 풍경을 바라본다.",
+      "camera": "SONY a5100",
+      "settings": {
+        "aperture": "F5.6",
+        "shutterSpeed": "1/160s",
+        "iso": "ISO 200",
+        "focalLength": "60mm"
+      },
+      "location": null,
+      "date": "2025.05.02",
+      "sourceFile": "25-2 사진집 (1차)-10.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/강은지_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "04-강은지-우리는-기지개-출근합니다.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/04-강은지-우리는-기지개-출근합니다.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/04-강은지-우리는-기지개-출근합니다.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 8233410
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-05",
+      "title": "익숙함에 스미는 따뜻함",
+      "artist": "공원명",
+      "statement": "익숙한 길을 걷다 보면 문득, 멈추게 되는 순간이 있다. 노들섬의 노을은 언제나 그 자리에 있었지만, 그날 따라 유난히 따뜻하게 느껴졌다. 크게 특별할 것 없는 하루의 끝에서, 작은 안정을 느꼈고 그것이 바로 ‘행복’이라는 생각이 들었다. 이 사진은 그런 익숙한 순간에 스며든 따뜻함을 담고 싶었다.",
+      "camera": "FUJIFILM X100V",
+      "settings": {
+        "aperture": "F8",
+        "shutterSpeed": "1/160s",
+        "iso": "ISO 320",
+        "focalLength": "23mm"
+      },
+      "location": "노들섬",
+      "date": "2025.05.13",
+      "sourceFile": "25-2 사진집 (1차)-11.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/공원명_전시_25_1.jpg",
+      "notes": [
+        "사진집 조리개값은 F8이나 원본 EXIF는 F3.2입니다."
+      ],
+      "needsReview": true,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "05-공원명-익숙함에-스미는-따뜻함.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/05-공원명-익숙함에-스미는-따뜻함.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/05-공원명-익숙함에-스미는-따뜻함.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 3328634
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-06",
+      "title": "낯선",
+      "artist": "권세린",
+      "statement": "낯선 환경, 특히나 자연이 주는 분위기와 모호함이 주는 느낌을 담고 싶었다. 익숙한 곳이 아닌 풍경",
+      "camera": "Galaxy Jump2",
+      "settings": {
+        "aperture": null,
+        "shutterSpeed": null,
+        "iso": null,
+        "focalLength": null
+      },
+      "location": null,
+      "date": "2025.05.31",
+      "sourceFile": "25-2 사진집 (1차)-12.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/권세린_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "06-권세린-낯선.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/06-권세린-낯선.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/06-권세린-낯선.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 5780330
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-07",
+      "title": "동심",
+      "artist": "권인준",
+      "statement": "창밖에 보이는 새하얀 풍경, 특히나 눈으로 뒤덮인 운동장을 보면 괜히 가슴이 두근거리고 행복해지지 않으신가요?",
+      "camera": "Galaxy S23+",
+      "settings": {
+        "aperture": "F1.8",
+        "shutterSpeed": "1/121s",
+        "iso": "ISO 25",
+        "focalLength": "23mm"
+      },
+      "location": null,
+      "date": "2025.01.27",
+      "sourceFile": "25-2 사진집 (1차)-13.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/권인준_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "07-권인준-동심.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/07-권인준-동심.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/07-권인준-동심.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 6405627
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-08",
+      "title": "비눗방울",
+      "artist": "김관훈",
+      "statement": "아버지가 불어준 비눗방울 사이로 아이는 뛰어다니고, 연인들은 산책하며, 친구들은 소풍을 즐긴다. 비눗방울처럼 금세 사라지지만, 그 짧은 순간은 무지갯빛으로 반짝인다. 여느 때와 다를 것 없는 익숙한 하루. 그 평범함 속에서 따듯한 행복이 스며들었다.",
+      "camera": "Pentax K2",
+      "settings": {
+        "aperture": null,
+        "shutterSpeed": null,
+        "iso": null,
+        "focalLength": null
+      },
+      "location": null,
+      "date": "2025.06.03",
+      "sourceFile": "25-2 사진집 (1차)-14.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/김관훈_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "08-김관훈-비눗방울.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/08-김관훈-비눗방울.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/08-김관훈-비눗방울.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 5084920
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-09",
+      "title": "기억의 무늬",
+      "artist": "김다연",
+      "statement": "단청은 우리에게 언제나 익숙한 배경이며 사진은 우리에게 소중한 순간을 담는 기록입니다. 그 둘의 교차점에서 익숙한 무늬 위에 쌓인 기억이 시간이 지나도 남았기를 바라는 마음을 담았습니다.",
+      "camera": "FUJIFILM JV1004",
+      "settings": {
+        "aperture": null,
+        "shutterSpeed": null,
+        "iso": null,
+        "focalLength": null
+      },
+      "location": null,
+      "date": "2025.03.29",
+      "sourceFile": "25-2 사진집 (1차)-15.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/김다연_전시_25_1.jpg",
+      "notes": [
+        "사진집 촬영일(2025.03.29)과 원본 EXIF 촬영일(2010.01.01)이 다릅니다. 카메라 시계 설정 오류 가능성이 있습니다."
+      ],
+      "needsReview": true,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "09-김다연-기억의-무늬.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/09-김다연-기억의-무늬.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/09-김다연-기억의-무늬.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 6074522
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-10",
+      "title": "밤의 정취",
+      "artist": "김보현",
+      "statement": "매일 거닐던 거리이지만 왜인지 모르게 특별하게 느껴진 순간이었다. 유달리 크고 빛났던 달, 주고받던 대화와 밤 공기까지 곳곳에 행복의 정취가 배어 있었다. 저 순간, 행복이 아주 가까이에 있는 듯 느껴졌다.",
+      "camera": "iPhone 16 Pro",
+      "settings": {
+        "aperture": null,
+        "shutterSpeed": null,
+        "iso": null,
+        "focalLength": null
+      },
+      "location": null,
+      "date": "2025.06.10",
+      "sourceFile": "25-2 사진집 (1차)-16.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/김보현_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "10-김보현-밤의-정취.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/10-김보현-밤의-정취.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/10-김보현-밤의-정취.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 488722
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-11",
+      "title": "등교길",
+      "artist": "김시현",
+      "statement": "자연이 만들어준 액자 속에 우리 학교 시계탑이 고요히 자리 잡고 있습니다. 이제는 익숙해져 버린 시계탑, 늘 스쳐 지나가기만 했던 화단들이 보여주는 풍경 덕분에, 평소와 다를 바 없던 등굣길이 그날따라 참 행복하게 느껴졌습니다. 행복. 참 가까이에 있었네요.",
+      "camera": "iPhone 15 Pro",
+      "settings": {
+        "aperture": null,
+        "shutterSpeed": null,
+        "iso": null,
+        "focalLength": null
+      },
+      "location": null,
+      "date": "2025.04.24",
+      "sourceFile": "25-2 사진집 (1차)-17.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/김시현_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "11-김시현-등교길.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/11-김시현-등교길.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/11-김시현-등교길.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 1547832
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-12",
+      "title": "고요함 속의 산책",
+      "artist": "김용환",
+      "statement": "“떨어짐 주의”라는 경고는 실제로 필요한 것이었다.\n위험은 여전히 존재하지만, 그 경고는 땅에 쓰러졌고\n푸르른 풀들이 그것을 뒤덮으며 서서히 잊혀 간다.\n\n경고는 사라지지 않았다.\n다만 익숙함 속에 묻혀 시야에서 흐려졌고,\n결국 의식에서도 지워졌다.\n\n믿음도 그와 다르지 않다.\n의식 위로 떠오르지 않는 믿음은,\n변화하지 않고 그대로 굳어버린다.\n\n떨어진 경고를 넘어서듯,\n우리는 흔들리지 않는 믿음 위를 아무렇지 않게 걷는다.\n아무렇지 않기에 행복할 수 있다.\n\n우리는 지금도,\n무엇을, ‘왜’ 믿기로 했는가.\n우리는 이것을,\n명확히 답하지 않고서 행복해도 되는가.",
+      "camera": "Galaxy S24 Ultra",
+      "settings": {
+        "aperture": "F2.4",
+        "shutterSpeed": "1/163s",
+        "iso": "ISO 50",
+        "focalLength": "69mm"
+      },
+      "location": null,
+      "date": "2025.05.08",
+      "sourceFile": "25-2 사진집 (1차)-18.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/김용환_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "12-김용환-고요함-속의-산책.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/12-김용환-고요함-속의-산책.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/12-김용환-고요함-속의-산책.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 8746111
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-13",
+      "title": "작기에 소중한 것들",
+      "artist": "김유빈",
+      "statement": "매일 지나가는 길 속에서 소중한 사람과 작은 것들에도 행복해하는 모습을 담은 사진입니다. 언제든 생길 수 있는 작은 일이 행복을 가져다주며, 그렇기에 소중하다는 의미의 사진입니다.",
+      "camera": "iPhone 11 Pro",
+      "settings": {
+        "aperture": "F2",
+        "shutterSpeed": "1/310s",
+        "iso": "ISO 20",
+        "focalLength": "52mm"
+      },
+      "location": null,
+      "date": "2025.07.10",
+      "sourceFile": "25-2 사진집 (1차)-19.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/김유빈_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "13-김유빈-작기에-소중한-것들.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/13-김유빈-작기에-소중한-것들.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/13-김유빈-작기에-소중한-것들.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 5735242
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-14",
+      "title": "7호선의 아침 인사",
+      "artist": "김은효",
+      "statement": "매일 똑같은 등굣길, 소음이 멎는 순간이 있다. 햇빛이 창밖으로 쏟아지는, 나도 모르게 고개를 드는 순간이 있다.",
+      "camera": "Galaxy S23",
+      "settings": {
+        "aperture": null,
+        "shutterSpeed": null,
+        "iso": null,
+        "focalLength": null
+      },
+      "location": "서울 지하철 7호선",
+      "date": "2025.03.06",
+      "sourceFile": "25-2 사진집 (1차)-20.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/김은효_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "14-김은효-7호선의-아침-인사.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/14-김은효-7호선의-아침-인사.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/14-김은효-7호선의-아침-인사.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 297348
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-15",
+      "title": "일상의 소중함",
+      "artist": "김종수",
+      "statement": "나중에는 그리울 순간들",
+      "camera": "Fujifilm X-T5, XF 23mm F2",
+      "settings": {
+        "aperture": "F4",
+        "shutterSpeed": "1/35s",
+        "iso": "ISO 2000",
+        "focalLength": "35mm"
+      },
+      "location": null,
+      "date": "2025.06.06",
+      "sourceFile": "25-2 사진집 (1차)-21.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/김종수_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "15-김종수-일상의-소중함.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/15-김종수-일상의-소중함.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/15-김종수-일상의-소중함.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 3789214
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-16",
+      "title": "다시 피는 계절",
+      "artist": "김채희",
+      "statement": "봄은 매년 오고, 늘 같은 자리에 벚꽃이 핀다. 같은 계절을 다시 맞이할 수 있다는 것은 당연한 일인 듯하면서도 정말 소중하다. 이 사진은 그런 평범한 하루의 끝에서 피어난 조용한 행복을 이야기한다.",
+      "camera": "iPhone SE3",
+      "settings": {
+        "aperture": null,
+        "shutterSpeed": null,
+        "iso": null,
+        "focalLength": null
+      },
+      "location": null,
+      "date": "2025.04.10",
+      "sourceFile": "25-2 사진집 (1차)-22.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/김채희_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "16-김채희-다시-피는-계절.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/16-김채희-다시-피는-계절.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/16-김채희-다시-피는-계절.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 247656
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-17",
+      "title": "숨바꼭질",
+      "artist": "김현서",
+      "statement": "날이 따뜻해지면 어김없이 새로운 아기 새들이 태어납니다. 매년 마주하는 아기 새지만 늘 처음처럼 설레는 순간을 안겨줍니다.",
+      "camera": "Canon EOS 800D",
+      "settings": {
+        "aperture": "F5.6",
+        "shutterSpeed": "1/500s",
+        "iso": "ISO 2500",
+        "focalLength": "250mm"
+      },
+      "location": null,
+      "date": "2025.06.03",
+      "sourceFile": "25-2 사진집 (1차)-23.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/김현서_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "17-김현서-숨바꼭질.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/17-김현서-숨바꼭질.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/17-김현서-숨바꼭질.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 3855875
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-18",
+      "title": "엄마와 걷던 길",
+      "artist": "김현아",
+      "statement": "유채꽃이 피어 있는 건 매년 봄마다 볼 수 있는 익숙한 풍경이다. 하지만 처음으로 엄마와 단둘이 떠난 여행이었기에, 그 익숙한 풍경이 유난히 따뜻했고, 오래도록 마음에 남았다.",
+      "camera": "iPhone 7",
+      "settings": {
+        "aperture": null,
+        "shutterSpeed": null,
+        "iso": null,
+        "focalLength": null
+      },
+      "location": null,
+      "date": "2025.04.16",
+      "sourceFile": "25-2 사진집 (1차)-24.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/김현아_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "18-김현아-엄마와-걷던-길.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/18-김현아-엄마와-걷던-길.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/18-김현아-엄마와-걷던-길.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 5921765
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-19",
+      "title": "호수 속 숲",
+      "artist": "김희선",
+      "statement": "푸른 하늘과 호수의 비친 하늘이 마치 호수가 숲을 품고 있는 것과 같다.",
+      "camera": "iPhone 16",
+      "settings": {
+        "aperture": null,
+        "shutterSpeed": null,
+        "iso": null,
+        "focalLength": null
+      },
+      "location": null,
+      "date": "2025.07",
+      "sourceFile": "25-2 사진집 (1차)-25.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/김희선_전시_25_1.jpg",
+      "notes": [
+        "사진집에 촬영일이 2025.07까지만 표기되어 일자가 없습니다."
+      ],
+      "needsReview": true,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "19-김희선-호수-속-숲.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/19-김희선-호수-속-숲.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/19-김희선-호수-속-숲.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 8880141
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-20",
+      "title": "해수욕장",
+      "artist": "나윤서",
+      "statement": "어릴 적 부모님 손을 잡고 갔던 바다를 이젠 친구들 손을 잡고 간다. 물장구 하며 노는 피서객들, 아이 웃음소리, 푸른 파도. 아이스크림처럼 녹을 것 같은 열기와 바다는 여전하다. 바다에 가면 내 마음은 천연덕스러운 어린 시절로 돌아간다.",
+      "camera": "FUJIFILM XHF1",
+      "settings": {
+        "aperture": "F11",
+        "shutterSpeed": "1/550s",
+        "iso": "ISO 200",
+        "focalLength": "35mm"
+      },
+      "location": null,
+      "date": "2025.07.09",
+      "sourceFile": "25-2 사진집 (1차)-26.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/나윤서_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "20-나윤서-해수욕장.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/20-나윤서-해수욕장.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/20-나윤서-해수욕장.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 8433882
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-21",
+      "title": "세상의 끝에서 찾은 익숙함",
+      "artist": "남태민",
+      "statement": "'익숙한 행복'이라는 주제는 어찌 보면 매우 한정적이라 느껴질 수 있지만, 우리 주변에서 생각보다 익숙한 것을 찾는 일은 그리 어렵지 않습니다. 그 중에서도 바다와 태양은 전 세계 어딜 가나 만날 수 있는 친숙한 풍경입니다. 여행을 좋아하는 제게, 태양과 바다는 늘 기시감과 함께, 마치 한국의 집과 이어져 있다는 안도감을 주기도 합니다. 한때 세상의 끝이라고 여겨졌던 포르투갈 리스본의 해안가에서 포착한 순간을 통해, 여러분들도 익숙한 행복을 느껴보시기 바랍니다.",
+      "camera": "iPhone 14 Pro Max",
+      "settings": {
+        "aperture": "F2.8",
+        "shutterSpeed": "1/6944s",
+        "iso": "ISO 25",
+        "focalLength": "77mm"
+      },
+      "location": "포르투갈 리스본 해안가",
+      "date": "2025.02.25",
+      "sourceFile": "25-2 사진집 (1차)-27.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/남태민_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "21-남태민-세상의-끝에서-찾은-익숙함.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/21-남태민-세상의-끝에서-찾은-익숙함.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/21-남태민-세상의-끝에서-찾은-익숙함.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 3951842
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-22",
+      "title": "도쿄에서의 퇴근길",
+      "artist": "박성철",
+      "statement": "우리의 여행지는 누군가에게는 생업의 장이자 따뜻한 집이다.",
+      "camera": "Canon AE-1",
+      "settings": {
+        "aperture": null,
+        "shutterSpeed": null,
+        "iso": null,
+        "focalLength": null
+      },
+      "location": "도쿄",
+      "date": "2025.02.01",
+      "sourceFile": "25-2 사진집 (1차)-28.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/박성철_전시_25_1.jpg",
+      "notes": [
+        "사진집 촬영일(2025.02.01)과 원본 EXIF 촬영일(2025.02.16)이 다릅니다."
+      ],
+      "needsReview": true,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "22-박성철-도쿄에서의-퇴근길.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/22-박성철-도쿄에서의-퇴근길.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/22-박성철-도쿄에서의-퇴근길.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 2606446
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-23",
+      "title": "휴게소에 오면",
+      "artist": "박태양",
+      "statement": "어릴 적부터 가족끼리 여행을 갈 땐 꼭 휴게소를 들립니다. 휴게소 근처 명소나, 풍경을 꼭 보고 지나가는데, 이렇게 다 비슷해 보이고 익숙한 휴게소 시골 풍경이 지금 돌이켜보면 가족과의 소중한 순간을 떠올리게 해주는 장치 같습니다 ㅎ",
+      "camera": "Galaxy S23",
+      "settings": {
+        "aperture": null,
+        "shutterSpeed": null,
+        "iso": null,
+        "focalLength": null
+      },
+      "location": null,
+      "date": "2025.06.03",
+      "sourceFile": "25-2 사진집 (1차)-29.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/박태양_전시_25_1.jpg",
+      "notes": [
+        "사진집 촬영일(2025.06.03)과 원본 EXIF 촬영일(2025.06.30)이 다릅니다."
+      ],
+      "needsReview": true,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "23-박태양-휴게소에-오면.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/23-박태양-휴게소에-오면.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/23-박태양-휴게소에-오면.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 9303315
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-24",
+      "title": "파랑의 안쪽",
+      "artist": "박혜린",
+      "statement": "우리는 종종 거대한 것을 좇느라 가장 가까운 평온을 지나치곤 한다. 익숙한 풍경 속에서도 행복은 천천히, 그러나 분명히 자라난다. 어릴 적 수조 앞에 머물던 마음처럼 잠시 멈춰 바라보면 행복은 늘 여기 있었다.",
+      "camera": "iPhone 14 Pro",
+      "settings": {
+        "aperture": null,
+        "shutterSpeed": null,
+        "iso": null,
+        "focalLength": null
+      },
+      "location": null,
+      "date": "2025.01.15",
+      "sourceFile": "25-2 사진집 (1차)-30.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/박혜린_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "24-박혜린-파랑의-안쪽.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/24-박혜린-파랑의-안쪽.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/24-박혜린-파랑의-안쪽.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 8262456
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-25",
+      "title": "서울의 노을",
+      "artist": "배소현",
+      "statement": "매일 보는 노을이지만 늘 감탄할 만큼 예쁜 서울의 노을을 남산타워에서 내려다본 야경과 함께 담아보았다.",
+      "camera": "Galaxy S24+",
+      "settings": {
+        "aperture": "F1.8",
+        "shutterSpeed": "1/60s",
+        "iso": "ISO 160",
+        "focalLength": "23mm"
+      },
+      "location": "남산타워",
+      "date": "2025.07.12",
+      "sourceFile": "25-2 사진집 (1차)-31.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/배소현_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "25-배소현-서울의-노을.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/25-배소현-서울의-노을.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/25-배소현-서울의-노을.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 6796883
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-26",
+      "title": "나른한 햇살",
+      "artist": "백승찬",
+      "statement": "시시각각 변하는 햇살과 그림자는 익숙한 건물도 다시 보게 만들어 준다. 붉은 햇살, 나무의 얼기설기 그림자, 초록 이파리.",
+      "camera": "iPhone 14 Pro",
+      "settings": {
+        "aperture": null,
+        "shutterSpeed": null,
+        "iso": null,
+        "focalLength": null
+      },
+      "location": null,
+      "date": "2025.06.01",
+      "sourceFile": "25-2 사진집 (1차)-32.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/백승찬_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "26-백승찬-나른한-햇살.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/26-백승찬-나른한-햇살.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/26-백승찬-나른한-햇살.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 16330117
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-27",
+      "title": "사라지는 계절의 언어",
+      "artist": "서우석",
+      "statement": "우리는 언제나 익숙한 봄을 맞이하고, 봄은 언제나 지나간다. 그 봄이 유일하게 우리에게 남기는 벚꽃은 봄이 우리에게 건네는 말과도 같다.",
+      "camera": "NIKON ZF",
+      "settings": {
+        "aperture": "F6.3",
+        "shutterSpeed": "1/640s",
+        "iso": "ISO 200",
+        "focalLength": "157mm"
+      },
+      "location": null,
+      "date": "2025.04.06",
+      "sourceFile": "25-2 사진집 (1차)-33.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/서우석_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "27-서우석-사라지는-계절의-언어.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/27-서우석-사라지는-계절의-언어.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/27-서우석-사라지는-계절의-언어.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 731746
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-28",
+      "title": "유난히 반짝이던 날",
+      "artist": "서유진",
+      "statement": "유난히 반짝이던 날. 그날의 반짝임이, 마음을 잠시 머물게 했다.",
+      "camera": "iPhone XS",
+      "settings": {
+        "aperture": "F2.4",
+        "shutterSpeed": "1/3690s",
+        "iso": "ISO 16",
+        "focalLength": "72mm"
+      },
+      "location": null,
+      "date": "2025.03.21",
+      "sourceFile": "25-2 사진집 (1차)-34.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/서유진_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "28-서유진-유난히-반짝이던-날.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/28-서유진-유난히-반짝이던-날.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/28-서유진-유난히-반짝이던-날.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 2056112
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-29",
+      "title": "햇빛은 어느틈에",
+      "artist": "손명지",
+      "statement": "학기 중 과제로 지쳐 있을 때, 기분 전환을 위해 친구와 학교 앞 어린이대공원을 산책했습니다. 그때 우연히 마주한 햇빛이 너무 예뻐서 발걸음을 멈추고 사진을 찍게 되었습니다. 잠깐의 산책이었지만 그 순간이 저에겐 큰 위로가 되었습니다. 지친 일상 속 햇빛은 어느 틈에 저에게 위로가 되었고 그 순간은 작지만 힘이 되어주었습니다.",
+      "camera": "Galaxy Z Flip5",
+      "settings": {
+        "aperture": null,
+        "shutterSpeed": null,
+        "iso": null,
+        "focalLength": null
+      },
+      "location": "서울어린이대공원",
+      "date": "2025.05.13",
+      "sourceFile": "25-2 사진집 (1차)-35.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/손명지_전시_25_1.jpg",
+      "notes": [
+        "사진집의 카메라명 오탈자 “Galaxy Z Filp 5”는 원본 EXIF를 근거로 “Galaxy Z Flip5”로 정규화했습니다."
+      ],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "29-손명지-햇빛은-어느틈에.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/29-손명지-햇빛은-어느틈에.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/29-손명지-햇빛은-어느틈에.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 9279693
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-30",
+      "title": "은근한 무게",
+      "artist": "손승아",
+      "statement": "우리는 취업 준비로 바쁘다거나, 시험공부를 한다거나 하는 무거운 날들을 종종 겪기도 합니다. 하지만 은근한 무게 속에서도 익숙한 행복을 느낄 수 있음을 이 사진을 통해 보여주고 싶습니다. 매번 보는 공원의 풍경이지만, 시험 기간 중 피크닉이었다는 이유로 저는 이 사진을 더 특별하게 느낍니다.",
+      "camera": "Olympus 35 EC",
+      "settings": {
+        "aperture": null,
+        "shutterSpeed": null,
+        "iso": null,
+        "focalLength": null
+      },
+      "location": null,
+      "date": "2025.06.04",
+      "sourceFile": "25-2 사진집 (1차)-36.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/손승아_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "30-손승아-은근한-무게.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/30-손승아-은근한-무게.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/30-손승아-은근한-무게.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 5816919
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-31",
+      "title": "6주차 수업",
+      "artist": "손화랑",
+      "statement": "공강이 없었던 25년 1학기의 나에겐 매일이 익숙한 수업, 하지만 색다른 장소. 한 학기를 함께할 조원들과, 즐거웠던 4월 8일 6주차 문화축제기획프로젝트 야외 수업.",
+      "camera": "Panasonic DC-G9",
+      "settings": {
+        "aperture": "F6.3",
+        "shutterSpeed": "1/6400s",
+        "iso": "ISO 800",
+        "focalLength": "27mm"
+      },
+      "location": null,
+      "date": "2025.04.08",
+      "sourceFile": "25-2 사진집 (1차)-37.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/손화랑_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "31-손화랑-6주차-수업.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/31-손화랑-6주차-수업.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/31-손화랑-6주차-수업.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 1498893
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-32",
+      "title": "멈춰 선 그곳의 여름",
+      "artist": "송용석",
+      "statement": "여름의 한낮, 자전거를 타고 바닷가를 따라 달렸다.\n한참을 달리다 잠깐 멈춰 선 그 순간,\n눈앞에 펼쳐진 잔잔한 파도와 투명하게 반짝이는 수평선.\n\n잠깐 멈췄을 뿐인데 그 풍경은 오래도록 마음에 남았다.\n햇살, 바다, 그리고 조용한 오후.\n모든 게 고요하게 스며든 여름의 한 장면.",
+      "camera": "Fujifilm X-T200",
+      "settings": {
+        "aperture": "F11",
+        "shutterSpeed": "1/320s",
+        "iso": "ISO 200",
+        "focalLength": "35mm"
+      },
+      "location": null,
+      "date": "2025.01.12",
+      "sourceFile": "25-2 사진집 (1차)-38.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/송용석_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "32-송용석-멈춰-선-그곳의-여름.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/32-송용석-멈춰-선-그곳의-여름.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/32-송용석-멈춰-선-그곳의-여름.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 6382778
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-33",
+      "title": "언제나 그 자리에",
+      "artist": "신성준",
+      "statement": "늘 지나던 골목이다. 특별할 것 없어 보이지만, 이곳엔 나의 하루가 쌓여 있다. 매일 오르내리던 계단, 벽에 기대어 있는 에어컨, 바람에 흔들리는 전깃줄까지. 익숙해서 잘 느끼지 못했던 것들이, 문득 소중하게 다가왔다. 언제나 그 자리에 있어줘서 고마운 풍경이다.",
+      "camera": "iPhone 13",
+      "settings": {
+        "aperture": null,
+        "shutterSpeed": null,
+        "iso": null,
+        "focalLength": null
+      },
+      "location": null,
+      "date": "2025.03.20",
+      "sourceFile": "25-2 사진집 (1차)-39.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/신성준_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "33-신성준-언제나-그-자리에.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/33-신성준-언제나-그-자리에.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/33-신성준-언제나-그-자리에.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 1215014
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-34",
+      "title": "밤산책",
+      "artist": "안세훈",
+      "statement": "익숙한 거리와 익숙한 시간에 산책하며.",
+      "camera": "iPhone 14 Pro",
+      "settings": {
+        "aperture": null,
+        "shutterSpeed": null,
+        "iso": null,
+        "focalLength": null
+      },
+      "location": null,
+      "date": "2025.04.03",
+      "sourceFile": "25-2 사진집 (1차)-40.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/안세훈_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "34-안세훈-밤산책.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/34-안세훈-밤산책.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/34-안세훈-밤산책.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 1473607
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-35",
+      "title": "파도에 지워진 발자국",
+      "artist": "안정현",
+      "statement": "매년 여름 바다가 보고파 방문하는 을왕리에서, 친구들과 함께였다. 모래 위에 남긴 우리의 발자국들은 파도가 밀려올 때마다 지워져 갔지만, 그 순간만큼은 영원할 것 같았다.",
+      "camera": "SONY A6400",
+      "settings": {
+        "aperture": "F5.6",
+        "shutterSpeed": "1/1250s",
+        "iso": "ISO 100",
+        "focalLength": "70mm, 116mm"
+      },
+      "location": "을왕리",
+      "date": "2025.07.10",
+      "sourceFile": "25-2 사진집 (1차)-41.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/안정현_전시_25_1.jpg",
+      "notes": [
+        "사진집에 초점거리가 70mm, 116mm 두 값으로 함께 표기되어 있습니다."
+      ],
+      "needsReview": true,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "35-안정현-파도에-지워진-발자국.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/35-안정현-파도에-지워진-발자국.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/35-안정현-파도에-지워진-발자국.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 2366258
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-36",
+      "title": "쉬어갑니다",
+      "artist": "안효원",
+      "statement": "하루쯤은 쉬는 날도 있는 거죠!",
+      "camera": "FUJIFILM X-A5",
+      "settings": {
+        "aperture": "F13",
+        "shutterSpeed": "1/70s",
+        "iso": "ISO 1600",
+        "focalLength": "68mm"
+      },
+      "location": null,
+      "date": "2025.03.31",
+      "sourceFile": "25-2 사진집 (1차)-42.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/안효원_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "36-안효원-쉬어갑니다.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/36-안효원-쉬어갑니다.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/36-안효원-쉬어갑니다.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 661195
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-37",
+      "title": "때 탄 CDP",
+      "artist": "양지민",
+      "statement": "2017년, 용산에서 휴대용 CD 플레이어를 샀다. 홍대, 광화문에서 재즈 음반을 사와 소공동 카페 2층에 앉아 듣는 것이 오래전의 취미였다. 시간이 흘러 그 카페는 사라지고, 때가 탄 플레이어의 버튼은 잘 눌리지 않지만, 그 여전한 감촉은 음악을 즐겁게 만든다.",
+      "camera": "Galaxy S23 FE",
+      "settings": {
+        "aperture": "F1.8",
+        "shutterSpeed": "1/10s",
+        "iso": "ISO 80",
+        "focalLength": "23mm"
+      },
+      "location": null,
+      "date": "2025.07.16",
+      "sourceFile": "25-2 사진집 (1차)-43.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/양지민_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "37-양지민-때-탄-CDP.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/37-양지민-때-탄-CDP.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/37-양지민-때-탄-CDP.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 3991170
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-38",
+      "title": "흰 눈은 그 순간을 기록하고 품는다",
+      "artist": "연도흠",
+      "statement": "눈이 내리는 날은 우리에게 익숙하면서도 늘 새로운 경험을 선물합니다. 새하얀 눈이 내린 그 길 위로 사람들은 걸으며 각자의 기억을 기록합니다.",
+      "camera": "iPhone 15 Pro",
+      "settings": {
+        "aperture": "F1.8",
+        "shutterSpeed": "1/750s",
+        "iso": "ISO 64",
+        "focalLength": "24mm"
+      },
+      "location": null,
+      "date": "2025.01.31",
+      "sourceFile": "25-2 사진집 (1차)-44.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/연도흠_전시_25_1.jpg",
+      "notes": [
+        "사진집 초점거리는 24mm이나 원본 EXIF의 35mm 환산 초점거리는 49mm입니다."
+      ],
+      "needsReview": true,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "38-연도흠-흰-눈은-그-순간을-기록하고-품는다.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/38-연도흠-흰-눈은-그-순간을-기록하고-품는다.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/38-연도흠-흰-눈은-그-순간을-기록하고-품는다.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 4983961
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-39",
+      "title": "고요함 속의 산책",
+      "artist": "오민서",
+      "statement": "힘든 일이 있거나 혼자 있고 싶은 날,나는 산책하러 나간다. 길을 혼자 걷다 보면, 서로를 사랑하는 사람들이 나란히 걷는 모습에 자꾸 나의 시선이 머문다. 그들은 길 위에 조용히 따뜻한 행복을 뿌리고 다닌다. 도란도란 이야기 나누며 걸어가는 그 모습을 보면 나도 모르게 웃음이 난다. 익숙한 행복에서 생겨난 그 모습은 다른 이도 행복하게 만들 수 있다는 사실을 그들은 알고 있을까?",
+      "camera": "Canon EOS R10",
+      "settings": {
+        "aperture": null,
+        "shutterSpeed": null,
+        "iso": null,
+        "focalLength": null
+      },
+      "location": null,
+      "date": "2025.07.02",
+      "sourceFile": "25-2 사진집 (1차)-45.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/오민서_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "39-오민서-고요함-속의-산책.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/39-오민서-고요함-속의-산책.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/39-오민서-고요함-속의-산책.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 966053
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-40",
+      "title": "노을",
+      "artist": "유성종",
+      "statement": "언제나 볼 수 있다는 익숙함에 소중함을 느끼지 못했습니다. 문득 그 익숙하다고 생각한 노을의 풍경을 바라보니 행복은 멀리 있지 않다는 것을 깨닫습니다.",
+      "camera": "iPhone 13",
+      "settings": {
+        "aperture": null,
+        "shutterSpeed": null,
+        "iso": null,
+        "focalLength": null
+      },
+      "location": null,
+      "date": "2025.02.27",
+      "sourceFile": "25-2 사진집 (1차)-46.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/유성종_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "40-유성종-노을.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/40-유성종-노을.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/40-유성종-노을.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 8376295
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-41",
+      "title": "Yellow Flower",
+      "artist": "윤여빈",
+      "statement": "매일 지나던 길에 핀 꽃들. 익숙한 모습이지만 문득 눈에 들어왔고, 작은 행복처럼 느껴져 사진으로 남겼다.",
+      "camera": "iPhone 16 Pro",
+      "settings": {
+        "aperture": null,
+        "shutterSpeed": null,
+        "iso": null,
+        "focalLength": null
+      },
+      "location": null,
+      "date": "2025.06.03",
+      "sourceFile": "25-2 사진집 (1차)-47.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/윤여빈_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "41-윤여빈-Yellow-Flower.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/41-윤여빈-Yellow-Flower.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/41-윤여빈-Yellow-Flower.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 3230056
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-42",
+      "title": "오늘도 내 일상엔 아름다움이 있었다.",
+      "artist": "윤영애",
+      "statement": "터벅터벅 걷다 문득 눈에 들어온 장미 한 송이. 그냥 지나칠까 고민하다가, 조용히 발걸음을 되돌려 사진을 찍었다. 카메라에 담겨있는 수많은 꽃들과 다르지 않은 모습이었지만, 일상 속에 숨어있는 아름다운 순간을 발견했다는 작은 행복이, 하루를 더 즐겁게 만들었다.",
+      "camera": "Pentax K20D",
+      "settings": {
+        "aperture": null,
+        "shutterSpeed": null,
+        "iso": null,
+        "focalLength": null
+      },
+      "location": null,
+      "date": "2025.05.13",
+      "sourceFile": "25-2 사진집 (1차)-48.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/윤영애_전시_25_1.jpg",
+      "notes": [
+        "사진집 촬영일(2025.05.13)과 원본 EXIF 촬영일(2025.01.01)이 다릅니다. 카메라 시계 설정 오류 가능성이 있습니다."
+      ],
+      "needsReview": true,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "42-윤영애-오늘도-내-일상엔-아름다움이-있었다.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/42-윤영애-오늘도-내-일상엔-아름다움이-있었다.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/42-윤영애-오늘도-내-일상엔-아름다움이-있었다.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 1317817
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-43",
+      "title": "한여름의 복도식 아파트",
+      "artist": "이규영",
+      "statement": "서울에는 복잡하고 화려한 건물들이 줄을 선다. 그 사이, 나뭇잎 틈으로 오래된 복도식 아파트가, 스친다. 햇살에 씻긴 복도, 잎사귀에 부딪히는 바람, 소란한 도심 한가운데에서 불쑥 찾아온 고요. 그 풍경을 바라보고 있으면, 세상의 소리가 희미해지고 나 혼자 낯선 시간 속에 들어선 듯하다. 왠지 모르게 신비롭고, 묘한, 새롭지 않아서 더 그리운, 익숙해서 더 소중한 그런 기분이 든다. 행복은 어쩌면, 이처럼 오래된 것들 속에 늘 조용히 숨 쉬고 있었는지도 모른다.",
+      "camera": "SAMSUNG VLUU ST60",
+      "settings": {
+        "aperture": "F4.3",
+        "shutterSpeed": "1/200s",
+        "iso": "ISO 80",
+        "focalLength": "8mm"
+      },
+      "location": null,
+      "date": "2025.07.10",
+      "sourceFile": "25-2 사진집 (1차)-49.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/이규영_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "43-이규영-한여름의-복도식-아파트.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/43-이규영-한여름의-복도식-아파트.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/43-이규영-한여름의-복도식-아파트.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 4540432
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-44",
+      "title": "나를 위한 길",
+      "artist": "이예솔",
+      "statement": "어느 날, 버스정류장에서 내려 집으로 가는 길에 벚꽃이 만개한 것을 보았습니다. 벚꽃은 매년 피는 꽃임에도 불구하고, 이 벚꽃들이 왠지 나를 위해 이 길에 펴주었다는 생각이 들 정도로 너무 예쁘게 피어서 노래를 들으며 행복하게 집에 갔던 기억이 납니다. 행복은 익숙한 곳 어디에나 존재할 수 있습니다. 행복을 먼 곳에서 찾기보다, 익숙한 곳을 한 번 더 둘러보는 오늘을 살아가길 바랍니다.",
+      "camera": "iPhone 14",
+      "settings": {
+        "aperture": null,
+        "shutterSpeed": null,
+        "iso": null,
+        "focalLength": null
+      },
+      "location": null,
+      "date": "2025.04.08",
+      "sourceFile": "25-2 사진집 (1차)-50.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/이예솔_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "44-이예솔-나를-위한-길.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/44-이예솔-나를-위한-길.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/44-이예솔-나를-위한-길.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 4794167
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-45",
+      "title": "익숙한 그러나 소중한 평화",
+      "artist": "이정욱",
+      "statement": "학교 앞, 늘 그 자리에 있는 어린이대공원. 혼자 걸어도 좋고, 친구와 함께여도 좋은 이 길은 나에게 익숙한 평화의 공간이다. 특별할 것 없는 풍경이지만, 평범함 속에서 찾는 작은 행복이 바로 이런게 아닐까 싶다.",
+      "camera": "Canon EOS M50 Mark II",
+      "settings": {
+        "aperture": null,
+        "shutterSpeed": null,
+        "iso": null,
+        "focalLength": null
+      },
+      "location": "서울어린이대공원",
+      "date": "2025.05.28",
+      "sourceFile": "25-2 사진집 (1차)-51.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/이정욱_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "45-이정욱-익숙한-그러나-소중한-평화.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/45-이정욱-익숙한-그러나-소중한-평화.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/45-이정욱-익숙한-그러나-소중한-평화.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 760881
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-46",
+      "title": "순간",
+      "artist": "이지효",
+      "statement": "늘 가족들과 함께했던 나들이에서 마주하던 풍경이 혼자 떠난 출사길에서 다시 펼쳐졌을 때 그 순간은 평화로우면서도, 이 장면이 익숙했을 그때가 무척 그리워지는 시간이었습니다.",
+      "camera": "Pentax Q7",
+      "settings": {
+        "aperture": "F5",
+        "shutterSpeed": "1/320s",
+        "iso": "ISO 100",
+        "focalLength": "69mm"
+      },
+      "location": null,
+      "date": "2025.07.01",
+      "sourceFile": "25-2 사진집 (1차)-52.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/이지효_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "46-이지효-순간.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/46-이지효-순간.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/46-이지효-순간.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 4561172
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-47",
+      "title": "낯선 풍경 속 익숙한 행복",
+      "artist": "이현만",
+      "statement": "처음 마주한 낯선 설원, 하지만 그 풍경 속에서 이상하리만큼 익숙한 따뜻함이 느껴졌습니다. 시끌벅적한 일상에서 잠시 벗어나, 사랑하는 사람과 아무 말 없이 함께 바라본 풍경 속에서 문득 안정을 느꼈고, 그 순간이 '행복'이라는 이름으로 다가왔습니다. 이 사진은 누군가와 함께하는 순간이 나에게 가장 익숙한 행복이란 걸 깨닫게 했습니다.",
+      "camera": "iPhone 14 Pro",
+      "settings": {
+        "aperture": "F2.8",
+        "shutterSpeed": "1/1248s",
+        "iso": "ISO 32",
+        "focalLength": "77mm"
+      },
+      "location": null,
+      "date": "2025.02.11",
+      "sourceFile": "25-2 사진집 (1차)-53.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/이현만_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "47-이현만-낯선-풍경-속-익숙한-행복.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/47-이현만-낯선-풍경-속-익숙한-행복.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/47-이현만-낯선-풍경-속-익숙한-행복.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 4353730
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-48",
+      "title": "섬섬옥수",
+      "artist": "이혜규",
+      "statement": "당연한 듯 항상 내 옆에 있을 것 같던 사람 주삿바늘이 하루에도 몇 번을 찔러서 퉁퉁 부었지만 그래도 할머니 손은 여전히 곱네",
+      "camera": "iPhone 16",
+      "settings": {
+        "aperture": "F1.6",
+        "shutterSpeed": "1/60s",
+        "iso": "ISO 80",
+        "focalLength": "26mm"
+      },
+      "location": null,
+      "date": "2025.07.09",
+      "sourceFile": "25-2 사진집 (1차)-54.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/이혜규_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "48-이혜규-섬섬옥수.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/48-이혜규-섬섬옥수.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/48-이혜규-섬섬옥수.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 4560493
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-49",
+      "title": "추억한 일상",
+      "artist": "임예설",
+      "statement": "스승의 날을 맞아 모교를 방문했을 때 야간 자율학습실에 들렀다. 늦게까지 학교에 남아 공부하던 곳. 친구들과 수업시간에 몰래 나와 떠들던 곳. 설레는 마음으로 축제 준비를 하던 곳. 오랜만에 본 야자실은 그때의 감정을 전이시켰다. 아주 익숙하고 행복한 감정. 나는 카메라를 켜고 일상을 추억으로 담는다.",
+      "camera": "Galaxy S22",
+      "settings": {
+        "aperture": "F1.8",
+        "shutterSpeed": "1/182s",
+        "iso": "ISO 50",
+        "focalLength": "23mm"
+      },
+      "location": null,
+      "date": "2025.05.21",
+      "sourceFile": "25-2 사진집 (1차)-55.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/임예설_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "49-임예설-추억한-일상.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/49-임예설-추억한-일상.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/49-임예설-추억한-일상.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 1807882
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-50",
+      "title": "Unseen",
+      "artist": "임정희",
+      "statement": "이미 수많은 디지털 이미지에 노출된 우리는, 지금 보고 있는 것이 과연 진짜 이미지 인지 질문하게 된다. 내가 찾고자 하는 이미지는 보이는 것에서 시작되지 않는다. 오히려 보이지 않는 것, 화면 너머의 공백과 시선 사이에서 드러나는 잔상에 더 가깝다. 익숙함이 해체되고 낯설게 변하는 순간을 포착하고자 한다.",
+      "camera": "iPhone 8 Plus",
+      "settings": {
+        "aperture": "F1.8",
+        "shutterSpeed": "1/1263s",
+        "iso": "ISO 20",
+        "focalLength": "28mm"
+      },
+      "location": null,
+      "date": "2025.07.07",
+      "sourceFile": "25-2 사진집 (1차)-56.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/임정희_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "50-임정희-Unseen.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/50-임정희-Unseen.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/50-임정희-Unseen.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 736849
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-51",
+      "title": "고요함 속의 산책",
+      "artist": "임찬영",
+      "statement": "하얗게 뒤덮인 눈밭, 고요함 속에서 나란히 걷는 두 사람의 모습은 추억처럼 포근하고 조용한 행복을 담고 있습니다. 함께 걷는 이 순간은 익숙한 순간일지라도 소중한 일상의 한 조각입니다.",
+      "camera": "Canon EOS 600D",
+      "settings": {
+        "aperture": "F8",
+        "shutterSpeed": "1/400s",
+        "iso": "ISO 800",
+        "focalLength": "116mm"
+      },
+      "location": null,
+      "date": "2025.01.05",
+      "sourceFile": "25-2 사진집 (1차)-57.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/임찬영_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "51-임찬영-고요함-속의-산책.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/51-임찬영-고요함-속의-산책.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/51-임찬영-고요함-속의-산책.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 5372500
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-52",
+      "title": "녹엽1",
+      "artist": "전나윤",
+      "statement": "푸를 녹(綠) 잎 엽(葉). 아주 익숙해서 눈치채지 못했던 우리 곁의 녹빛.\n눈을 감고 자세히 귀 기울인다면\n바람을 사이에 두고 저들끼리 부딪혀 속삭이는 소리가 들릴지도 모르겠습니다.",
+      "camera": "Pentax Espio 120sw",
+      "settings": {
+        "aperture": null,
+        "shutterSpeed": null,
+        "iso": null,
+        "focalLength": null
+      },
+      "location": null,
+      "date": "2025.05.12",
+      "sourceFile": "25-2 사진집 (1차)-58.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/전나윤_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "52-전나윤-녹엽1.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/52-전나윤-녹엽1.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/52-전나윤-녹엽1.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 2162272
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-53",
+      "title": "나뭇잎 사이로",
+      "artist": "정단효",
+      "statement": "매일 지나는 길, 문득 올려다본 가로등 불빛. 나뭇잎더미 사이에 숨어있는 빛이 평소보다 밝은 느낌이다. 프레임 속에 담긴 하얀 빛이 나에게 따스하게 말을 걸어오는 것 같다.",
+      "camera": "iPhone 15",
+      "settings": {
+        "aperture": null,
+        "shutterSpeed": null,
+        "iso": null,
+        "focalLength": null
+      },
+      "location": null,
+      "date": "2025.07.15",
+      "sourceFile": "25-2 사진집 (1차)-59.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/정단효_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "53-정단효-나뭇잎-사이로.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/53-정단효-나뭇잎-사이로.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/53-정단효-나뭇잎-사이로.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 6056702
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-54",
+      "title": "늦은 오후, 잠깐의 여유",
+      "artist": "정유진",
+      "statement": "가끔 평소보다 이른 시간에 하루를 마친 날이면 아직도 환한 바깥 풍경과 사람이 없어서 조용한 거리를 여유롭게 걸으며 느긋한 기분을 만끽할 수 있다.",
+      "camera": "iPhone SE",
+      "settings": {
+        "aperture": null,
+        "shutterSpeed": null,
+        "iso": null,
+        "focalLength": null
+      },
+      "location": null,
+      "date": "2025.04.29",
+      "sourceFile": "25-2 사진집 (1차)-60.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/정유진_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "54-정유진-늦은-오후-잠깐의-여유.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/54-정유진-늦은-오후-잠깐의-여유.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/54-정유진-늦은-오후-잠깐의-여유.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 4267809
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-55",
+      "title": "함께 걷는 풍경",
+      "artist": "정윤서",
+      "statement": "반포 한강공원은 좋아하는 사람들과 자주 찾던 익숙한 공간이다. 수없이 바라본 풍경이지만, 볼 때마다 새로운 아름다움이 스며든다. 익숙한 사람과 함께 익숙한 공간을 걷는 일, 그 자체가 참으로 소중하고 따뜻한 순간이다.",
+      "camera": "iPhone 16 Pro",
+      "settings": {
+        "aperture": "F2.8",
+        "shutterSpeed": "1/6289s",
+        "iso": "ISO 40",
+        "focalLength": "120mm"
+      },
+      "location": "반포 한강공원",
+      "date": "2025.05.07",
+      "sourceFile": "25-2 사진집 (1차)-61.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/정윤서_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "55-정윤서-함께-걷는-풍경.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/55-정윤서-함께-걷는-풍경.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/55-정윤서-함께-걷는-풍경.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 6539732
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-56",
+      "title": "스쳐간 구름",
+      "artist": "정진윤",
+      "statement": "매일 볼 수 있지만 단 한 번도 같은 모습인 적 없는 하늘 위 구름처럼, 일상 속에서 스쳐 지나가는 우리의 순간들 역시 모두 처음이자 마지막임을 잊지 않았으면 좋겠습니다.",
+      "camera": "Galaxy S23",
+      "settings": {
+        "aperture": "F2.4",
+        "shutterSpeed": "1/172s",
+        "iso": "ISO 25",
+        "focalLength": "69mm"
+      },
+      "location": null,
+      "date": "2025.06.29",
+      "sourceFile": "25-2 사진집 (1차)-62.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/정진윤_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "56-정진윤-스쳐간-구름.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/56-정진윤-스쳐간-구름.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/56-정진윤-스쳐간-구름.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 2245639
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-57",
+      "title": "그러나 카메라는 늘 주위에 있었다.",
+      "artist": "조한나",
+      "statement": "카메라를 통해 세상을 바라보지만 카메라는 사진에 드러나지 않는다. 초점은 카메라를 향하지 않았다. 그러나 카메라는 늘 주위에 있었다.",
+      "camera": "Canon EOS 20D",
+      "settings": {
+        "aperture": "F2.8",
+        "shutterSpeed": "1/100s",
+        "iso": "ISO 1600",
+        "focalLength": "50mm"
+      },
+      "location": null,
+      "date": "2025.07.02",
+      "sourceFile": "25-2 사진집 (1차)-63.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/조한나_전시_25_1.jpg",
+      "notes": [
+        "사진집에는 “1600”으로만 표기되었으나 원본 EXIF와 촬영값 배열을 근거로 ISO 1600으로 정규화했습니다."
+      ],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "57-조한나-그러나-카메라는-늘-주위에-있었다.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/57-조한나-그러나-카메라는-늘-주위에-있었다.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/57-조한나-그러나-카메라는-늘-주위에-있었다.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 4231385
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-58",
+      "title": "파도는 쉼 없이",
+      "artist": "주종섭",
+      "statement": "파도는 계속 움직인다. 잠깐 멈춘 듯해도, 그 안엔 늘 흐름이 있다. 지칠 때마다 바다를 보면 이상하게 마음이 편해졌다. 그 이유를 알고 싶어서, 이 사진을 찍었다.",
+      "camera": "iPhone 16 Pro",
+      "settings": {
+        "aperture": "F1.78",
+        "shutterSpeed": "1/802s",
+        "iso": "ISO 64",
+        "focalLength": "48mm"
+      },
+      "location": null,
+      "date": "2025.02.26",
+      "sourceFile": "25-2 사진집 (1차)-64.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/주종섭_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "58-주종섭-파도는-쉼-없이.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/58-주종섭-파도는-쉼-없이.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/58-주종섭-파도는-쉼-없이.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 919790
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-59",
+      "title": "스며든 행복",
+      "artist": "진유빈",
+      "statement": "익숙하지 않았던 길이 문득 익숙하게 느껴지던 순간이었다. 그날따라 유난히 빛났던 청계천의 풍경이 준 행복감은 그 어느 때보다 컸다.",
+      "camera": "Canon IXUS 750",
+      "settings": {
+        "aperture": "F3.5",
+        "shutterSpeed": "1/250s",
+        "iso": "ISO 50",
+        "focalLength": "10.49mm"
+      },
+      "location": "청계천",
+      "date": "2025.05.11",
+      "sourceFile": "25-2 사진집 (1차)-65.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/진유빈_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "59-진유빈-스며든-행복.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/59-진유빈-스며든-행복.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/59-진유빈-스며든-행복.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 3393437
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-60",
+      "title": "“우리 신발 똑같다!”",
+      "artist": "최고원",
+      "statement": "공강 시간, 계단에 나란히 앉아 친구와 이야기를 나누다 문득 같은 디자인의 신발이 보였다. 이 신발과 이 순간이 계속 머물렀으면 좋겠다는 생각과 함께 시간이 지나가고 있었다. 평범한 오후, 특별할 것 없지만 그래서 더 소중했던 시간.",
+      "camera": "iPhone 16 Pro",
+      "settings": {
+        "aperture": "F1.78",
+        "shutterSpeed": "1/200s",
+        "iso": "ISO 80",
+        "focalLength": "24mm"
+      },
+      "location": null,
+      "date": "2025.05.28",
+      "sourceFile": "25-2 사진집 (1차)-66.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/최고원_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "60-최고원-우리-신발-똑같다.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/60-최고원-우리-신발-똑같다.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/60-최고원-우리-신발-똑같다.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 7313933
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-61",
+      "title": "친구와 걷는 한강 공원",
+      "artist": "최서아",
+      "statement": "바쁜 일상 속에 서로의 일상을 살아가다 보니 자주 만나지 못하게 되었다. 한강 공원을 거닐며 친구와 함께 추억을 회상하고 서로의 일상을 공유했다. 자주 만나지 못하지만 언제 만나도 어색하지 않은 친구와의 산책은 나에게 작은 행복을 가져다준다.",
+      "camera": "iPhone 13 mini",
+      "settings": {
+        "aperture": null,
+        "shutterSpeed": null,
+        "iso": null,
+        "focalLength": null
+      },
+      "location": null,
+      "date": "2025.05.22",
+      "sourceFile": "25-2 사진집 (1차)-67.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/최서아_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "61-최서아-친구와-걷는-한강-공원.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/61-최서아-친구와-걷는-한강-공원.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/61-최서아-친구와-걷는-한강-공원.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 3235344
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-62",
+      "title": "시선",
+      "artist": "최아란",
+      "statement": "맑고, 푸릇한 색감의 생기있는 식물들과 누워서 하늘을 올려다보면, 함께 있으면 무엇이라도 해낼 수 있을 것 같은 그런 기분. 날씨 때문인지. 풍경 때문인지. 마음이 평안해지는 기분. 나도 모르게 기분이 좋아진다. 그 기분은 나의 '시선'에서 시작된다.",
+      "camera": "iPhone 16 Pro",
+      "settings": {
+        "aperture": null,
+        "shutterSpeed": null,
+        "iso": null,
+        "focalLength": null
+      },
+      "location": null,
+      "date": "2025.05.27",
+      "sourceFile": "25-2 사진집 (1차)-68.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/최아란_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "62-최아란-시선.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/62-최아란-시선.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/62-최아란-시선.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 23009729
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-63",
+      "title": "익숙한 듯 낯선",
+      "artist": "최지민",
+      "statement": "항상 보는 익숙한 풍경이 어느 순간 다르게 보일 때가 있다. 여의교 위에서 바라본 오늘의 풍경은 나에게 그러했다. 무뎌질 법도 한 익숙한 공간이 나의 발걸음을 멈추게 한다는 것은 굉장한 일이 아닐 수 없다. 분명 익숙한데 어딘가 낯설게 느껴지는 풍경. 나는 오늘 익숙함 속에서 새로운 감정을 발견했다.",
+      "camera": "iPhone 16 Pro",
+      "settings": {
+        "aperture": "F1.78",
+        "shutterSpeed": "1/40s",
+        "iso": "ISO 400",
+        "focalLength": "24mm"
+      },
+      "location": "여의교",
+      "date": "2025.03.26",
+      "sourceFile": "25-2 사진집 (1차)-69.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/최지민_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "63-최지민-익숙한-듯-낯선.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/63-최지민-익숙한-듯-낯선.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/63-최지민-익숙한-듯-낯선.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 611504
+      }
+    },
+    {
+      "id": "familiar-happiness-2025-2-64",
+      "title": "맹수의 습격",
+      "artist": "한성민",
+      "statement": "여유롭게 공원을 산책하던 중, 사나운 야생동물과 마주쳤다. 나뭇가지로 녀석의 주의를 돌려 가까스로 자리를 벗어날 수 있었다. 당시의 긴박한 상황을 렌즈에 담아 현장감을 느낄 수 있도록 하였다.",
+      "camera": "iPhone 14 Plus",
+      "settings": {
+        "aperture": "F1.5",
+        "shutterSpeed": "1/121s",
+        "iso": "ISO 50",
+        "focalLength": "26mm"
+      },
+      "location": null,
+      "date": "2025.05.08",
+      "sourceFile": "25-2 사진집 (1차)-70.png",
+      "matchedRawFile": "source-materials/2025-2-familiar-happiness/raw/한성민_전시_25_1.jpg",
+      "notes": [],
+      "needsReview": false,
+      "webAsset": {
+        "status": "ready",
+        "fileName": "64-한성민-맹수의-습격.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/64-한성민-맹수의-습격.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/64-한성민-맹수의-습격.jpg",
+        "extension": ".jpg",
+        "fileSizeBytes": 4338778
+      }
+    }
+  ]
+}

@@ -1,2 +1,4 @@
 /source-materials/
 .DS_Store
+/.vercel/
+.env*

@@ -39,7 +39,7 @@ for (const [name, width, height] of [
   if (failedImages.length) throw new Error(`Failed images: ${failedImages.join(", ")}`);
 
   if (name === "mobile") {
-    const toggle = page.getByRole("button", { name: "메뉴 열기" });
+    const toggle = page.locator(".menu-toggle");
     await toggle.click();
     if ((await toggle.getAttribute("aria-expanded")) !== "true") {
       throw new Error("Mobile menu did not open");

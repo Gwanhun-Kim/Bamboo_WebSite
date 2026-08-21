@@ -1,0 +1,16 @@
+# Deploy only the public static website surface.
+/*
+!index.html
+!styles.css
+!script.js
+!activities
+!exhibitions
+!recruitment
+!assets
+!public
+!data
+!vercel.json
+
+# Keep unused source/reference assets out of the deployment bundle.
+assets/activity-cards/
+data/**/*.md

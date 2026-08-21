@@ -2,11 +2,23 @@ const STATIC_PUBLIC_ROOT = "../public";
 const exhibitions = [
   {
     title: "처음",
-    meta: "2025-2 Offline Exhibition",
-    description: "세종대학교 사진동아리 밤부의 2025년 2학기 오프라인 사진전",
+    meta: "열여덟번째 사진전",
+    description: "처음의 순간과 시선을 기록한 밤부의 열여덟번째 사진전",
     href: "2025-2-first/",
     dataUrl: "../data/exhibitions/2025-2-offline-exhibition-first.json",
-    representativeIndexes: [0, 7, 40],
+    coverImage: "../assets/exhibition-posters/first-poster.png",
+    coverWidth: 3606,
+    coverHeight: 4944,
+  },
+  {
+    title: "익숙한 행복",
+    meta: "열일곱번째 사진전",
+    description: "익숙한 풍경과 일상 속에서 발견한 행복을 담은 밤부의 열일곱번째 사진전",
+    href: "2025-2-familiar-happiness/",
+    dataUrl: "../data/exhibitions/2025-2-familiar-happiness.json",
+    coverImage: "../assets/exhibition-posters/familiar-happiness-poster.jpg",
+    coverWidth: 2000,
+    coverHeight: 2500,
   },
 ];
 
@@ -41,21 +53,36 @@ function createExhibitionEntry(config, data) {
   article.className = "exhibition-entry";
   images.className = "entry-images";
   images.setAttribute("aria-label", `${config.title} 전시 대표 작품`);
-  config.representativeIndexes.forEach((index) => {
-    const work = data.works[index];
-    if (!work) return;
+  if (config.coverImage) {
     const figure = document.createElement("figure");
     const image = document.createElement("img");
-    const sourceImage = work.source?.imageFiles?.[0] ?? {};
-    image.src = assetUrl(work.webAsset.publicUrl);
-    image.alt = `${work.artist}의 출품작 ${work.title || "제목 없음"}`;
+    images.classList.add("single-image");
+    image.src = config.coverImage;
+    image.alt = `${config.title} 전시 기록 대표 이미지`;
     image.loading = "lazy";
     image.decoding = "async";
-    if (sourceImage.width) image.width = sourceImage.width;
-    if (sourceImage.height) image.height = sourceImage.height;
+    image.width = config.coverWidth;
+    image.height = config.coverHeight;
     figure.append(image);
     images.append(figure);
-  });
+  } else {
+    config.representativeIndexes.forEach((index) => {
+      const work = data.works[index];
+      const publicUrl = work?.webAsset?.publicUrl;
+      if (!work || !publicUrl) return;
+      const figure = document.createElement("figure");
+      const image = document.createElement("img");
+      const sourceImage = work.source?.imageFiles?.[0] ?? {};
+      image.src = assetUrl(publicUrl);
+      image.alt = `${work.artist}의 출품작 ${work.title || "제목 없음"}`;
+      image.loading = "lazy";
+      image.decoding = "async";
+      if (sourceImage.width) image.width = sourceImage.width;
+      if (sourceImage.height) image.height = sourceImage.height;
+      figure.append(image);
+      images.append(figure);
+    });
+  }
 
   copy.className = "entry-copy";
   period.className = "entry-period";
