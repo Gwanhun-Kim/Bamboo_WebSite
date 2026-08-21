@@ -215,8 +215,7 @@ button {
 }
 
 .text-link span,
-.section-heading a span,
-.footer-links a:last-child span {
+.section-heading a span {
   transition: transform 220ms var(--ease);
 }
 
@@ -229,9 +228,7 @@ button {
 .text-link:hover span,
 .text-link:focus-visible span,
 .section-heading a:hover span,
-.section-heading a:focus-visible span,
-.footer-links a:last-child:hover span,
-.footer-links a:last-child:focus-visible span {
+.section-heading a:focus-visible span {
   transform: translateX(4px);
 }
 
