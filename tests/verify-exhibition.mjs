@@ -206,7 +206,7 @@ const mainExhibitionHref = await page
 if (withoutIndex(new URL(mainExhibitionHref, baseUrl).pathname) !== "/exhibitions/") {
   throw new Error(`Main Exhibition menu bypasses the list: ${mainExhibitionHref}`);
 }
-if ((await page.locator('a[href="exhibitions/index.html"], a[href="exhibitions/"]').count()) < 2) {
+if ((await page.locator('a[href="exhibitions/"]').count()) < 2) {
   throw new Error("Main exhibition navigation and overview do not target the exhibition list");
 }
 
