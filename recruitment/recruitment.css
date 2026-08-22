@@ -88,16 +88,21 @@
   transform: translateX(3px);
 }
 
-.recruitment-hero-slideshow {
+.recruitment-hero-poster {
   position: relative;
   overflow: hidden;
   margin: 0;
-  aspect-ratio: 3 / 2;
+  max-width: min(420px, 100%);
+  margin-left: auto;
+  aspect-ratio: 1272 / 1800;
   background: #e9eae7;
 }
 
 .recruitment-hero-visual {
   min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .recruitment-gallery-note {
@@ -120,6 +125,13 @@
 
 .recruitment-slide.is-active {
   opacity: 1;
+}
+
+.recruitment-hero-poster img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .club-introduction,
@@ -504,6 +516,14 @@
 
   .recruitment-hero h1 {
     font-size: clamp(39px, 8vw, 54px);
+  }
+
+  .recruitment-hero-visual {
+    align-items: flex-start;
+  }
+
+  .recruitment-hero-poster {
+    margin-left: 0;
   }
 
   .club-introduction,
