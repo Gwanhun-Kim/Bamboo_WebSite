@@ -1,6 +1,8 @@
 # Deploy only the public website surface and guestbook API.
 /*
 !index.html
+!robots.txt
+!sitemap.xml
 !styles.css
 !script.js
 !activities
