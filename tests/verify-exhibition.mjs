@@ -57,6 +57,7 @@ const allowedFiles = new Map([
   ["/exhibitions/index.html", "exhibitions/index.html"],
   ["/exhibitions/exhibitions.css", "exhibitions/exhibitions.css"],
   ["/exhibitions/exhibitions.js", "exhibitions/exhibitions.js"],
+  ["/exhibitions/exhibition-detail.css", "exhibitions/exhibition-detail.css"],
   ["/exhibitions/2025-2-first/", "exhibitions/2025-2-first/index.html"],
   ["/exhibitions/2025-2-first/index.html", "exhibitions/2025-2-first/index.html"],
   ["/exhibitions/2025-2-first/exhibition.css", "exhibitions/2025-2-first/exhibition.css"],
@@ -85,7 +86,7 @@ const mimeTypes = {
 };
 
 const server = createServer(async (request, response) => {
-  const pathname = new URL(request.url, "http://127.0.0.1").pathname;
+  const pathname = decodeURIComponent(new URL(request.url, "http://127.0.0.1").pathname);
   if (pathname === "/api/guestbook" || pathname === "/api/guestbook/") {
     response.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
     response.end(JSON.stringify({ enabled: false, code: "guestbook_not_configured" }));
@@ -164,9 +165,16 @@ const page = await browser.newPage({ deviceScaleFactor: 1 });
 const browserErrors = [];
 
 page.on("console", (message) => {
-  if (message.type() === "error") browserErrors.push(message.text());
+  if (message.type() === "error" && !message.text().startsWith("Failed to load resource")) {
+    browserErrors.push(message.text());
+  }
 });
 page.on("pageerror", (error) => browserErrors.push(error.message));
+page.on("response", (response) => {
+  if (response.status() >= 400) {
+    browserErrors.push(`${response.status()} ${response.url()}`);
+  }
+});
 
 async function openGallery(width, height) {
   await page.setViewportSize({ width, height });
@@ -221,6 +229,48 @@ async function openExhibitionList(width, height) {
       throw new Error(`Exhibition poster ${index + 1} is not rendered correctly`);
     }
   }
+}
+
+async function expectExhibitionIndexLink(detailPath, width, height) {
+  await page.setViewportSize({ width, height });
+  await page.goto(`${baseUrl}${detailPath}`, { waitUntil: "networkidle" });
+
+  const link = page.locator(".exhibition-index-link");
+  await link.waitFor();
+  if ((await link.textContent()).trim() !== "← 전시 목록으로") {
+    throw new Error(`${detailPath} has an unexpected exhibition index link label`);
+  }
+
+  const href = await link.getAttribute("href");
+  if (withoutIndex(new URL(href, `${baseUrl}${detailPath}`).pathname) !== "/exhibitions/") {
+    throw new Error(`${detailPath} has an unexpected exhibition index href: ${href}`);
+  }
+
+  const minimumHeight = await link.evaluate((element) => element.getBoundingClientRect().height);
+  if (minimumHeight < 44) {
+    throw new Error(`${detailPath} exhibition index link is too small at ${width}px`);
+  }
+
+  const activeExhibitionMenu = page.locator('.primary-navigation a[aria-current="page"]');
+  if (
+    (await activeExhibitionMenu.count()) !== 1 ||
+    (await activeExhibitionMenu.textContent()).trim() !== "Exhibition"
+  ) {
+    throw new Error(`${detailPath} lost the active Exhibition navigation state`);
+  }
+
+  await link.focus();
+  const focusStyle = await link.evaluate((element) => ({
+    outlineStyle: getComputedStyle(element).outlineStyle,
+    outlineWidth: getComputedStyle(element).outlineWidth,
+  }));
+  if (focusStyle.outlineStyle === "none" || focusStyle.outlineWidth === "0px") {
+    throw new Error(`${detailPath} exhibition index link has no visible focus state`);
+  }
+
+  await link.click();
+  await page.waitForURL(`${baseUrl}/exhibitions/`);
+  await page.locator(".exhibition-entry").first().waitFor();
 }
 
 async function openAttraction(width, height) {
@@ -321,6 +371,15 @@ await page.locator(".entry-link").nth(1).click();
 await page.locator(".work-card").first().waitFor();
 if (withoutIndex(new URL(page.url()).pathname) !== "/exhibitions/2025-2-first/") {
   throw new Error("Exhibition list did not navigate to the first exhibition");
+}
+
+for (const detailPath of [
+  "/exhibitions/2025-2-first/",
+  "/exhibitions/2025-2-familiar-happiness/",
+  "/exhibitions/2026-2-attraction/",
+]) {
+  await expectExhibitionIndexLink(detailPath, 1440, 1000);
+  await expectExhibitionIndexLink(detailPath, 390, 844);
 }
 
 await openGallery(1440, 1000);
@@ -442,4 +501,4 @@ await new Promise((resolve, reject) => {
   server.close((error) => (error ? reject(error) : resolve()));
 });
 if (browserErrors.length) throw new Error(`Browser errors: ${browserErrors.join(" | ")}`);
-console.log("Exhibition checks passed: archive, upcoming state, guestbook fallback, galleries, details, history, keyboard, responsive layout.");
+console.log("Exhibition checks passed: archive, back links, upcoming state, guestbook fallback, galleries, details, history, keyboard, responsive layout.");
