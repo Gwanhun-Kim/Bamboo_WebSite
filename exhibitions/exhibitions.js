@@ -1,6 +1,16 @@
 const STATIC_PUBLIC_ROOT = "../public";
 const exhibitions = [
   {
+    title: "끌림",
+    meta: "열아홉번째 사진전",
+    description:
+      "열아홉번째 사진전 <끌림>은 현재 준비 중입니다. 작품 공개가 완료되면 이 페이지에서 전시를 감상할 수 있습니다.",
+    href: "2026-2-attraction/",
+    dataUrl: "../data/exhibitions/2026-2-attraction.json",
+    status: "preparing",
+    period: "2026년 2학기",
+  },
+  {
     title: "처음",
     meta: "열여덟번째 사진전",
     description: "처음의 순간과 시선을 기록한 밤부의 열여덟번째 사진전",
@@ -53,7 +63,21 @@ function createExhibitionEntry(config, data) {
   article.className = "exhibition-entry";
   images.className = "entry-images";
   images.setAttribute("aria-label", `${config.title} 전시 대표 작품`);
-  if (config.coverImage) {
+  if (config.status === "preparing" && data.works.length === 0) {
+    const cover = document.createElement("div");
+    const periodLabel = document.createElement("span");
+    const coverTitle = document.createElement("strong");
+    const statusLabel = document.createElement("span");
+    images.classList.add("single-image", "preparing-image");
+    images.setAttribute("aria-label", `${config.title} 전시 준비 중`);
+    cover.className = "preparing-cover";
+    cover.setAttribute("role", "img");
+    periodLabel.textContent = config.period;
+    coverTitle.textContent = config.title;
+    statusLabel.textContent = "전시 준비 중";
+    cover.append(periodLabel, coverTitle, statusLabel);
+    images.append(cover);
+  } else if (config.coverImage) {
     const figure = document.createElement("figure");
     const image = document.createElement("img");
     images.classList.add("single-image");
@@ -92,10 +116,10 @@ function createExhibitionEntry(config, data) {
   description.className = "entry-description";
   description.textContent = config.description;
   count.className = "entry-count";
-  count.textContent = `${data.works.length} works`;
+  count.textContent = data.works.length ? `${data.works.length} works` : "전시 준비 중";
   link.className = "entry-link";
   link.href = config.href;
-  link.innerHTML = "전시 보기 <span aria-hidden=\"true\">→</span>";
+  link.innerHTML = `${data.works.length ? "전시 보기" : "준비 현황 보기"} <span aria-hidden="true">→</span>`;
   copy.append(period, title, description, count, link);
   article.append(images, copy);
   return article;
