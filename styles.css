@@ -234,7 +234,7 @@ button {
 
 .hero-gallery {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   grid-template-rows: repeat(2, minmax(0, 1fr));
   gap: 6px;
   aspect-ratio: 3 / 2;
@@ -252,20 +252,31 @@ button {
 .hero-photo .hero-slide {
   position: absolute;
   inset: 0;
-  opacity: 0;
+  z-index: 0;
+  opacity: 0.78;
   object-fit: cover;
-  transform: scale(1.012);
-  transition: opacity 800ms ease, transform 1000ms var(--ease), filter 300ms ease;
+  transform: translateX(100%);
+  transition: transform 850ms var(--ease), opacity 850ms ease, filter 300ms ease;
+  will-change: transform, opacity;
 }
 
 .hero-photo .hero-slide.is-active {
   z-index: 1;
   opacity: 1;
-  transform: scale(1);
+  transform: translateX(0);
+}
+
+.hero-photo .hero-slide.is-leaving {
+  z-index: 1;
+  opacity: 0.78;
+  transform: translateX(-100%);
+}
+
+.hero-photo .hero-slide.is-resetting {
+  transition: none;
 }
 
 .hero-photo:hover .hero-slide.is-active {
-  transform: scale(1.018);
   filter: contrast(1.02);
 }
 
@@ -341,26 +352,8 @@ button {
 }
 
 .home-overview {
-  display: grid;
-  grid-template-columns: minmax(250px, 0.65fr) minmax(620px, 1.35fr);
-  gap: clamp(52px, 8vw, 126px);
-  padding-block: clamp(72px, 8vw, 118px);
+  padding-block: clamp(58px, 6vw, 88px);
   border-top: 1px solid var(--line);
-}
-
-.home-overview-heading > p {
-  margin: 0 0 18px;
-  color: var(--green);
-  font-size: 11px;
-  letter-spacing: 0.03em;
-}
-
-.home-overview-heading h2 {
-  margin: 0;
-  font-size: clamp(30px, 3.25vw, 48px);
-  font-weight: 610;
-  letter-spacing: -0.055em;
-  line-height: 1.13;
 }
 
 .home-overview-grid {
@@ -516,7 +509,7 @@ button {
   }
 
   .hero-gallery {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     height: auto;
   }
 
@@ -563,8 +556,7 @@ button {
   }
 
   .home-overview {
-    grid-template-columns: 1fr;
-    gap: 42px;
+    padding-block: 64px 76px;
   }
 
   .site-footer {
@@ -692,9 +684,9 @@ button {
 
   .hero-gallery {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    grid-template-rows: repeat(3, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(0, 1fr));
     gap: 4px;
-    aspect-ratio: 2 / 3;
+    aspect-ratio: 3 / 2;
     height: auto;
   }
 
@@ -703,12 +695,7 @@ button {
   }
 
   .home-overview {
-    gap: 34px;
-    padding-block: 62px 72px;
-  }
-
-  .home-overview-heading h2 {
-    font-size: 34px;
+    padding-block: 52px 66px;
   }
 
   .home-overview-item {
@@ -764,5 +751,9 @@ button {
   *::after {
     scroll-behavior: auto !important;
     transition-duration: 0.01ms !important;
+  }
+
+  .hero-photo .hero-slide:not(.is-active) {
+    visibility: hidden;
   }
 }

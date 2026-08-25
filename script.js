@@ -55,6 +55,7 @@ const heroSlides = Object.freeze([
 const heroSlideSlots = [...document.querySelectorAll("[data-hero-slide]")];
 const reduceHeroMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 const HERO_SLIDE_INTERVAL = 3800;
+const HERO_SLIDE_DURATION = 850;
 let heroSlideTimer = null;
 let nextHeroSlot = 0;
 let nextHeroImage = heroSlideSlots.length;
@@ -90,9 +91,18 @@ async function advanceHeroSlide() {
   activeLayer.setAttribute("aria-hidden", "true");
 
   requestAnimationFrame(() => {
+    activeLayer.classList.add("is-leaving");
     nextLayer.classList.add("is-active");
     activeLayer.classList.remove("is-active");
   });
+
+  window.setTimeout(() => {
+    activeLayer.classList.add("is-resetting");
+    activeLayer.classList.remove("is-leaving");
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => activeLayer.classList.remove("is-resetting"));
+    });
+  }, HERO_SLIDE_DURATION);
 
   nextHeroSlot = (nextHeroSlot + 1) % heroSlideSlots.length;
   nextHeroImage = (nextHeroImage + 1) % heroSlides.length;

@@ -39,7 +39,14 @@ for (const [name, width, height] of [
   if (failedImages.length) throw new Error(`Failed images: ${failedImages.join(", ")}`);
 
   const heroSlots = page.locator("[data-hero-slide]");
-  if ((await heroSlots.count()) !== 6) throw new Error("Home hero must keep six slideshow slots");
+  if ((await heroSlots.count()) !== 4) throw new Error("Home hero must use four slideshow slots");
+
+  if ((await page.getByText("밤부의 기록과 새로운 만남", { exact: true }).count()) !== 0) {
+    throw new Error("Removed home overview title is still visible");
+  }
+  if ((await page.getByText("Explore BAMBOO", { exact: true }).count()) !== 0) {
+    throw new Error("Orphaned Explore BAMBOO label is still visible");
+  }
 
   if (name === "desktop") {
     const initialSlides = await heroSlots.locator(".hero-slide.is-active").evaluateAll((images) =>
@@ -49,7 +56,29 @@ for (const [name, width, height] of [
       slots.map((slot) => ({ width: slot.getBoundingClientRect().width, height: slot.getBoundingClientRect().height }))
     );
 
-    await page.waitForTimeout(4300);
+    const slideDirection = await page.evaluate(() =>
+      new Promise((resolve) => {
+        const gallery = document.querySelector(".hero-gallery");
+        const observer = new MutationObserver(() => {
+          const leaving = gallery.querySelector(".hero-slide.is-leaving");
+          if (!leaving) return;
+          const incoming = leaving.parentElement.querySelector(".hero-slide.is-active");
+          observer.disconnect();
+          resolve({
+            leavingTransform: getComputedStyle(leaving).transform,
+            incomingTransform: getComputedStyle(incoming).transform,
+          });
+        });
+        observer.observe(gallery, { attributes: true, subtree: true, attributeFilter: ["class"] });
+        setTimeout(() => {
+          observer.disconnect();
+          resolve(null);
+        }, 5000);
+      })
+    );
+    if (!slideDirection) throw new Error("Hero did not begin a horizontal slide transition");
+
+    await page.waitForTimeout(1000);
 
     const nextSlides = await heroSlots.locator(".hero-slide.is-active").evaluateAll((images) =>
       images.map((image) => image.getAttribute("src"))
@@ -62,6 +91,11 @@ for (const [name, width, height] of [
     if (JSON.stringify(initialRects) !== JSON.stringify(nextRects)) {
       throw new Error("Hero slideshow changed the grid slot dimensions");
     }
+
+    const galleryColumns = await page.locator(".hero-gallery").evaluate((gallery) =>
+      getComputedStyle(gallery).gridTemplateColumns.split(" ").length
+    );
+    if (galleryColumns !== 2) throw new Error(`Expected two desktop hero columns, received ${galleryColumns}`);
   }
 
   if (name === "mobile") {
