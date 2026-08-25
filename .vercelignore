@@ -1,6 +1,8 @@
-# Deploy only the public static website surface.
+# Deploy only the public website surface and guestbook API.
 /*
 !index.html
+!robots.txt
+!sitemap.xml
 !styles.css
 !script.js
 !activities
@@ -9,6 +11,7 @@
 !assets
 !public
 !data
+!api
 !vercel.json
 
 # Keep unused source/reference assets out of the deployment bundle.

@@ -126,7 +126,7 @@ function showGallery({ focusHeading = false } = {}) {
   galleryView.hidden = false;
   detailView.hidden = true;
   footer.hidden = false;
-  document.title = "익숙한 행복 | BAMBOO Exhibition";
+  document.title = "익숙한 행복 | 세종대학교 사진동아리 밤부 사진전";
   if (focusHeading) {
     const heading = document.querySelector("#album-title");
     heading.setAttribute("tabindex", "-1");

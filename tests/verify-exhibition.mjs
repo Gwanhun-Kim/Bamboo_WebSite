@@ -21,6 +21,11 @@ const familiarDataPath = path.join(
   "data/exhibitions/2025-2-familiar-happiness.json"
 );
 const familiarData = JSON.parse(await readFile(familiarDataPath, "utf8"));
+const attractionDataPath = path.join(
+  projectRoot,
+  "data/exhibitions/2026-2-attraction.json"
+);
+const attractionData = JSON.parse(await readFile(attractionDataPath, "utf8"));
 const withoutIndex = (pathname) => pathname.replace(/index\.html$/, "");
 
 if (data.works.length !== 52) throw new Error(`Expected 52 works, got ${data.works.length}`);
@@ -43,6 +48,12 @@ for (const work of data.works) {
 for (const work of familiarData.works) {
   await access(path.join(projectRoot, "public", work.webAsset.publicUrl));
 }
+if (attractionData.status !== "published" || attractionData.works.length !== 68) {
+  throw new Error("Attraction exhibition must be published with exactly 68 works");
+}
+for (const work of attractionData.works) {
+  await access(path.join(projectRoot, "public", work.webAsset.publicUrl));
+}
 
 const allowedFiles = new Map([
   ["/", "index.html"],
@@ -52,6 +63,7 @@ const allowedFiles = new Map([
   ["/exhibitions/index.html", "exhibitions/index.html"],
   ["/exhibitions/exhibitions.css", "exhibitions/exhibitions.css"],
   ["/exhibitions/exhibitions.js", "exhibitions/exhibitions.js"],
+  ["/exhibitions/exhibition-detail.css", "exhibitions/exhibition-detail.css"],
   ["/exhibitions/2025-2-first/", "exhibitions/2025-2-first/index.html"],
   ["/exhibitions/2025-2-first/index.html", "exhibitions/2025-2-first/index.html"],
   ["/exhibitions/2025-2-first/exhibition.css", "exhibitions/2025-2-first/exhibition.css"],
@@ -60,9 +72,14 @@ const allowedFiles = new Map([
   ["/exhibitions/2025-2-familiar-happiness/index.html", "exhibitions/2025-2-familiar-happiness/index.html"],
   ["/exhibitions/2025-2-familiar-happiness/exhibition.css", "exhibitions/2025-2-familiar-happiness/exhibition.css"],
   ["/exhibitions/2025-2-familiar-happiness/exhibition.js", "exhibitions/2025-2-familiar-happiness/exhibition.js"],
+  ["/exhibitions/2026-2-attraction/", "exhibitions/2026-2-attraction/index.html"],
+  ["/exhibitions/2026-2-attraction/index.html", "exhibitions/2026-2-attraction/index.html"],
+  ["/exhibitions/2026-2-attraction/exhibition.css", "exhibitions/2026-2-attraction/exhibition.css"],
+  ["/exhibitions/2026-2-attraction/exhibition.js", "exhibitions/2026-2-attraction/exhibition.js"],
   ["/styles.css", "styles.css"],
   ["/data/exhibitions/2025-2-offline-exhibition-first.json", "data/exhibitions/2025-2-offline-exhibition-first.json"],
   ["/data/exhibitions/2025-2-familiar-happiness.json", "data/exhibitions/2025-2-familiar-happiness.json"],
+  ["/data/exhibitions/2026-2-attraction.json", "data/exhibitions/2026-2-attraction.json"],
 ]);
 const mimeTypes = {
   ".css": "text/css; charset=utf-8",
@@ -75,7 +92,12 @@ const mimeTypes = {
 };
 
 const server = createServer(async (request, response) => {
-  const pathname = new URL(request.url, "http://127.0.0.1").pathname;
+  const pathname = decodeURIComponent(new URL(request.url, "http://127.0.0.1").pathname);
+  if (pathname === "/api/guestbook" || pathname === "/api/guestbook/") {
+    response.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
+    response.end(JSON.stringify({ enabled: false, code: "guestbook_not_configured" }));
+    return;
+  }
   let relativePath = allowedFiles.get(pathname);
   if (pathname.startsWith("/assets/photos/")) {
     relativePath = pathname.slice(1);
@@ -93,6 +115,9 @@ const server = createServer(async (request, response) => {
     relativePath = pathname.slice(1);
   }
   if (pathname.startsWith("/public/exhibitions/2025-2-familiar-happiness/images/")) {
+    relativePath = pathname.slice(1);
+  }
+  if (pathname.startsWith("/public/exhibitions/2026-2-attraction/images/")) {
     relativePath = pathname.slice(1);
   }
   if (!relativePath || relativePath.includes("source-materials")) {
@@ -119,9 +144,16 @@ const page = await browser.newPage({ deviceScaleFactor: 1 });
 const browserErrors = [];
 
 page.on("console", (message) => {
-  if (message.type() === "error") browserErrors.push(message.text());
+  if (message.type() === "error" && !message.text().startsWith("Failed to load resource")) {
+    browserErrors.push(message.text());
+  }
 });
 page.on("pageerror", (error) => browserErrors.push(error.message));
+page.on("response", (response) => {
+  if (response.status() >= 400) {
+    browserErrors.push(`${response.status()} ${response.url()}`);
+  }
+});
 
 async function openGallery(width, height) {
   await page.setViewportSize({ width, height });
@@ -137,20 +169,27 @@ async function openExhibitionList(width, height) {
   await page.setViewportSize({ width, height });
   await page.goto(`${baseUrl}/exhibitions/`, { waitUntil: "networkidle" });
   await page.locator(".exhibition-entry").first().waitFor();
-  if ((await page.locator(".exhibition-entry").count()) !== 2) {
-    throw new Error("Exhibition list does not show both exhibitions");
+  if ((await page.locator(".exhibition-entry").count()) !== 3) {
+    throw new Error("Exhibition list does not show all three exhibitions");
   }
-  if ((await page.locator(".entry-count").first().textContent()) !== "52 works") {
+  if ((await page.locator(".entry-count").first().textContent()) !== "68 works") {
+    throw new Error("Attraction exhibition work count is not JSON-driven");
+  }
+  if ((await page.locator(".entry-count").nth(1).textContent()) !== "52 works") {
     throw new Error("Exhibition list work count is not JSON-driven");
   }
-  if ((await page.locator(".entry-count").nth(1).textContent()) !== `${familiarData.works.length} works`) {
+  if ((await page.locator(".entry-count").nth(2).textContent()) !== `${familiarData.works.length} works`) {
     throw new Error("Familiar Happiness work count is not JSON-driven");
   }
   const href = await page.locator(".entry-link").first().getAttribute("href");
-  if (withoutIndex(new URL(href, `${baseUrl}/exhibitions/`).pathname) !== "/exhibitions/2025-2-first/") {
-    throw new Error(`Unexpected exhibition href: ${href}`);
+  if (withoutIndex(new URL(href, `${baseUrl}/exhibitions/`).pathname) !== "/exhibitions/2026-2-attraction/") {
+    throw new Error(`Unexpected attraction exhibition href: ${href}`);
   }
-  const familiarHref = await page.locator(".entry-link").nth(1).getAttribute("href");
+  const firstHref = await page.locator(".entry-link").nth(1).getAttribute("href");
+  if (withoutIndex(new URL(firstHref, `${baseUrl}/exhibitions/`).pathname) !== "/exhibitions/2025-2-first/") {
+    throw new Error(`Unexpected exhibition href: ${firstHref}`);
+  }
+  const familiarHref = await page.locator(".entry-link").nth(2).getAttribute("href");
   if (
     withoutIndex(new URL(familiarHref, `${baseUrl}/exhibitions/`).pathname) !==
     "/exhibitions/2025-2-familiar-happiness/"
@@ -158,16 +197,175 @@ async function openExhibitionList(width, height) {
     throw new Error(`Unexpected Familiar Happiness href: ${familiarHref}`);
   }
   const images = page.locator(".entry-images img");
-  if ((await images.count()) !== 2) throw new Error("Exhibition poster set is incomplete");
-  const expectedPosterNames = ["first-poster.png", "familiar-happiness-poster.jpg"];
-  for (let index = 0; index < expectedPosterNames.length; index += 1) {
+  if ((await images.count()) !== 3) throw new Error("Exhibition cover set is incomplete");
+  const expectedCoverNames = [
+    attractionData.cover.publicUrl.split("/").at(-1),
+    "first-poster.png",
+    "familiar-happiness-poster.jpg",
+  ];
+  for (let index = 0; index < expectedCoverNames.length; index += 1) {
     const poster = images.nth(index);
     const loaded = await poster.evaluate((image) => image.complete && image.naturalWidth > 0);
     const source = await poster.getAttribute("src");
     const objectFit = await poster.evaluate((image) => getComputedStyle(image).objectFit);
-    if (!loaded || !source.endsWith(expectedPosterNames[index]) || objectFit !== "contain") {
-      throw new Error(`Exhibition poster ${index + 1} is not rendered correctly`);
+    if (!loaded || !source.endsWith(expectedCoverNames[index]) || objectFit !== "contain") {
+      throw new Error(`Exhibition cover ${index + 1} is not rendered correctly`);
     }
+  }
+}
+
+async function expectExhibitionIndexLink(detailPath, width, height) {
+  await page.setViewportSize({ width, height });
+  await page.goto(`${baseUrl}${detailPath}`, { waitUntil: "networkidle" });
+
+  const link = page.locator(".exhibition-index-link");
+  await link.waitFor();
+  if ((await link.textContent()).trim() !== "← 전시 목록으로") {
+    throw new Error(`${detailPath} has an unexpected exhibition index link label`);
+  }
+
+  const href = await link.getAttribute("href");
+  if (withoutIndex(new URL(href, `${baseUrl}${detailPath}`).pathname) !== "/exhibitions/") {
+    throw new Error(`${detailPath} has an unexpected exhibition index href: ${href}`);
+  }
+
+  const minimumHeight = await link.evaluate((element) => element.getBoundingClientRect().height);
+  if (minimumHeight < 44) {
+    throw new Error(`${detailPath} exhibition index link is too small at ${width}px`);
+  }
+
+  const activeExhibitionMenu = page.locator('.primary-navigation a[aria-current="page"]');
+  if (
+    (await activeExhibitionMenu.count()) !== 1 ||
+    (await activeExhibitionMenu.textContent()).trim() !== "Exhibition"
+  ) {
+    throw new Error(`${detailPath} lost the active Exhibition navigation state`);
+  }
+
+  await link.focus();
+  const focusStyle = await link.evaluate((element) => ({
+    outlineStyle: getComputedStyle(element).outlineStyle,
+    outlineWidth: getComputedStyle(element).outlineWidth,
+  }));
+  if (focusStyle.outlineStyle === "none" || focusStyle.outlineWidth === "0px") {
+    throw new Error(`${detailPath} exhibition index link has no visible focus state`);
+  }
+
+  await link.click();
+  await page.waitForURL(`${baseUrl}/exhibitions/`);
+  await page.locator(".exhibition-entry").first().waitFor();
+}
+
+async function openAttraction(width, height) {
+  await page.setViewportSize({ width, height });
+  await page.goto(`${baseUrl}/exhibitions/2026-2-attraction/`, { waitUntil: "networkidle" });
+  await page.locator(".attraction-work-card").first().waitFor();
+  if ((await page.locator(".attraction-work-card").count()) !== 68) {
+    throw new Error("Attraction exhibition does not render all 68 works");
+  }
+  if (!(await page.locator("[data-exhibition-state]").isHidden())) {
+    throw new Error("Attraction exhibition still shows its preparing state");
+  }
+  if ((await page.locator("[data-work-count]").textContent()) !== "68") {
+    throw new Error("Attraction exhibition work count is not 68");
+  }
+  if (attractionData.status !== "published" || attractionData.works.length !== 68) {
+    throw new Error("Attraction exhibition JSON is not published with 68 works");
+  }
+  if (!(await page.locator("[data-guestbook-form]").isHidden())) {
+    throw new Error("Guestbook form should remain hidden without Supabase configuration");
+  }
+  if (!(await page.locator("[data-guestbook-availability]").textContent()).includes("준비")) {
+    throw new Error("Guestbook unavailable state is not explained to the visitor");
+  }
+  const pageWidth = await page.evaluate(() => ({
+    client: document.documentElement.clientWidth,
+    scroll: document.documentElement.scrollWidth,
+  }));
+  if (pageWidth.scroll > pageWidth.client) {
+    throw new Error(`Attraction exhibition overflows at ${width}px`);
+  }
+}
+
+async function expectNoAttractionCardOverlap(width) {
+  const overlaps = await page.locator(".attraction-work-card").evaluateAll((cards) => {
+    const rectangles = cards.map((card, index) => ({ index, rect: card.getBoundingClientRect() }));
+    const conflicts = [];
+    for (let left = 0; left < rectangles.length; left += 1) {
+      for (let right = left + 1; right < rectangles.length; right += 1) {
+        const first = rectangles[left];
+        const second = rectangles[right];
+        const overlapWidth = Math.min(first.rect.right, second.rect.right) - Math.max(first.rect.left, second.rect.left);
+        const overlapHeight = Math.min(first.rect.bottom, second.rect.bottom) - Math.max(first.rect.top, second.rect.top);
+        if (overlapWidth > 1 && overlapHeight > 1) conflicts.push([first.index + 1, second.index + 1]);
+      }
+    }
+    return conflicts;
+  });
+  if (overlaps.length) {
+    throw new Error(`Attraction cards overlap at ${width}px: ${JSON.stringify(overlaps.slice(0, 5))}`);
+  }
+}
+
+async function expectMobileAttractionImageFrame(work) {
+  await page.goto(`${baseUrl}/exhibitions/2026-2-attraction/#work=${work.id}`, {
+    waitUntil: "networkidle",
+  });
+  const frame = await page.locator(".attraction-detail-image-wrap").evaluate((wrapper) => {
+    const image = wrapper.querySelector("img");
+    const placeholder = wrapper.querySelector("[data-detail-placeholder]");
+    const wrapperRect = wrapper.getBoundingClientRect();
+    const imageRect = image.getBoundingClientRect();
+    return {
+      wrapperHeight: wrapperRect.height,
+      imageHeight: imageRect.height,
+      imageWidth: imageRect.width,
+      viewportWidth: document.documentElement.clientWidth,
+      viewportHeight: window.innerHeight,
+      placeholderDisplay: getComputedStyle(placeholder).display,
+      overflow: document.documentElement.scrollWidth > document.documentElement.clientWidth,
+    };
+  });
+  if (frame.placeholderDisplay !== "none") {
+    throw new Error(`${work.title} detail placeholder remains visible behind the loaded image`);
+  }
+  if (Math.abs(frame.wrapperHeight - frame.imageHeight) > 1) {
+    throw new Error(
+      `${work.title} mobile image frame exceeds the image: ${frame.wrapperHeight}px vs ${frame.imageHeight}px`
+    );
+  }
+  if (frame.imageWidth > frame.viewportWidth || frame.imageHeight > frame.viewportHeight * 0.7 + 1) {
+    throw new Error(`${work.title} mobile detail image exceeds its viewport limits`);
+  }
+  if (frame.overflow) {
+    throw new Error(`${work.title} mobile detail view overflows horizontally`);
+  }
+}
+
+async function expectAttractionDetail(work, expectedPosition) {
+  const fallback = (value, replacement = "기록 없음") => value?.trim() || replacement;
+  const values = await page.locator("[data-detail-view]").evaluate((detail) => ({
+    hidden: detail.hidden,
+    title: detail.querySelector("[data-detail-title]").textContent,
+    artist: detail.querySelector("[data-detail-artist]").textContent,
+    statement: detail.querySelector("[data-detail-statement]").textContent,
+    camera: detail.querySelector("[data-detail-camera]").textContent,
+    settings: detail.querySelector("[data-detail-settings]").textContent,
+    date: detail.querySelector("[data-detail-date]").textContent,
+    position: detail.querySelector("[data-detail-position]").textContent,
+  }));
+  const expected = {
+    hidden: false,
+    title: fallback(work.title, "제목 없음"),
+    artist: work.artist,
+    statement: fallback(work.statement, "작가의 말이 기록되지 않았습니다."),
+    camera: fallback(work.camera),
+    settings: fallback(work.settings),
+    date: fallback(work.shotDate),
+    position: `${expectedPosition} / 68`,
+  };
+  if (JSON.stringify(values) !== JSON.stringify(expected)) {
+    throw new Error(`Attraction detail mismatch for ${work.id}`);
   }
 }
 
@@ -216,10 +414,19 @@ await page.screenshot({
   fullPage: false,
   animations: "disabled",
 });
-await page.locator(".entry-link").first().click();
+await page.locator(".entry-link").nth(1).click();
 await page.locator(".work-card").first().waitFor();
 if (withoutIndex(new URL(page.url()).pathname) !== "/exhibitions/2025-2-first/") {
   throw new Error("Exhibition list did not navigate to the first exhibition");
+}
+
+for (const detailPath of [
+  "/exhibitions/2025-2-first/",
+  "/exhibitions/2025-2-familiar-happiness/",
+  "/exhibitions/2026-2-attraction/",
+]) {
+  await expectExhibitionIndexLink(detailPath, 1440, 1000);
+  await expectExhibitionIndexLink(detailPath, 390, 844);
 }
 
 await openGallery(1440, 1000);
@@ -289,6 +496,79 @@ await page.screenshot({
   fullPage: true,
   animations: "disabled",
 });
+await openAttraction(1440, 1000);
+await page.screenshot({
+  path: "/private/tmp/bamboo-attraction-desktop.png",
+  fullPage: false,
+  animations: "disabled",
+});
+await openAttraction(390, 844);
+await expectNoAttractionCardOverlap(390);
+await expectMobileAttractionImageFrame(attractionData.works[4]);
+await expectMobileAttractionImageFrame(attractionData.works[18]);
+await expectMobileAttractionImageFrame(attractionData.works[39]);
+await openAttraction(390, 844);
+await page.screenshot({
+  path: "/private/tmp/bamboo-attraction-mobile.png",
+  fullPage: true,
+  animations: "disabled",
+});
+await page.locator(".attraction-work-card a").first().click();
+await expectAttractionDetail(attractionData.works[0], 1);
+const attractionMobileLayout = await page
+  .locator(".attraction-detail-layout")
+  .evaluate((layout) => {
+    const image = layout.querySelector(".attraction-detail-image-wrap").getBoundingClientRect();
+    const caption = layout.querySelector(".attraction-detail-caption").getBoundingClientRect();
+    return { imageBottom: image.bottom, captionTop: caption.top };
+  });
+if (attractionMobileLayout.captionTop < attractionMobileLayout.imageBottom) {
+  throw new Error("Attraction mobile detail caption does not stack below the image");
+}
+await openAttraction(1440, 1000);
+for (let index = 0; index < 68; index += 1) {
+  const image = page.locator(".attraction-work-card img").nth(index);
+  await image.scrollIntoViewIfNeeded();
+  const loaded = await image.evaluate((element) => element.complete && element.naturalWidth > 0);
+  if (!loaded) throw new Error(`Attraction work image ${index + 1} failed to load`);
+  const pixelStats = await image.evaluate((element) => {
+    const canvas = document.createElement("canvas");
+    canvas.width = 16;
+    canvas.height = 16;
+    const context = canvas.getContext("2d");
+    context.drawImage(element, 0, 0, canvas.width, canvas.height);
+    const pixels = context.getImageData(0, 0, canvas.width, canvas.height).data;
+    let total = 0;
+    let minimum = 255;
+    let maximum = 0;
+    let count = 0;
+    for (let offset = 0; offset < pixels.length; offset += 4) {
+      const luminance =
+        0.2126 * pixels[offset] +
+        0.7152 * pixels[offset + 1] +
+        0.0722 * pixels[offset + 2];
+      total += luminance;
+      minimum = Math.min(minimum, luminance);
+      maximum = Math.max(maximum, luminance);
+      count += 1;
+    }
+    return { average: total / count, range: maximum - minimum };
+  });
+  if (pixelStats.average <= 1 && pixelStats.range <= 1) {
+    throw new Error(`Attraction work image ${index + 1} renders as solid black`);
+  }
+}
+await expectNoAttractionCardOverlap(1440);
+await page.locator(".attraction-work-card a").first().click();
+await expectAttractionDetail(attractionData.works[0], 1);
+await page.keyboard.press("ArrowRight");
+await expectAttractionDetail(attractionData.works[1], 2);
+await page.keyboard.press("ArrowLeft");
+await expectAttractionDetail(attractionData.works[0], 1);
+await page.keyboard.press("Escape");
+if (await page.locator("[data-gallery-view]").isHidden()) {
+  throw new Error("Attraction Escape navigation did not return to the gallery");
+}
 await openGallery(390, 844);
 const menuToggle = page.locator(".menu-toggle");
 if ((await menuToggle.getAttribute("aria-label")) !== "메뉴 열기") {
@@ -328,4 +608,4 @@ await new Promise((resolve, reject) => {
   server.close((error) => (error ? reject(error) : resolve()));
 });
 if (browserErrors.length) throw new Error(`Browser errors: ${browserErrors.join(" | ")}`);
-console.log("Exhibition checks passed: posters, 52 works, images, details, history, keyboard, responsive layout.");
+console.log("Exhibition checks passed: archive, back links, published attraction works, guestbook fallback, galleries, details, history, keyboard, responsive layout.");

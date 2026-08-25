@@ -137,7 +137,7 @@ function showGallery({ focusHeading = false } = {}) {
   galleryView.hidden = false;
   detailView.hidden = true;
   footer.hidden = false;
-  document.title = "처음 | BAMBOO Exhibition";
+  document.title = "처음 | 세종대학교 사진동아리 밤부 사진전";
   if (focusHeading) {
     document.querySelector("#album-title").setAttribute("tabindex", "-1");
     document.querySelector("#album-title").focus({ preventScroll: true });
