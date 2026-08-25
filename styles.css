@@ -243,17 +243,28 @@ button {
 }
 
 .hero-photo {
+  position: relative;
   overflow: hidden;
   margin: 0;
   background: #e9eae7;
 }
 
-.hero-photo img {
+.hero-photo .hero-slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
   object-fit: cover;
-  transition: transform 800ms var(--ease), filter 300ms ease;
+  transform: scale(1.012);
+  transition: opacity 800ms ease, transform 1000ms var(--ease), filter 300ms ease;
 }
 
-.hero-photo:hover img {
+.hero-photo .hero-slide.is-active {
+  z-index: 1;
+  opacity: 1;
+  transform: scale(1);
+}
+
+.hero-photo:hover .hero-slide.is-active {
   transform: scale(1.018);
   filter: contrast(1.02);
 }

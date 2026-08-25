@@ -38,6 +38,32 @@ for (const [name, width, height] of [
   );
   if (failedImages.length) throw new Error(`Failed images: ${failedImages.join(", ")}`);
 
+  const heroSlots = page.locator("[data-hero-slide]");
+  if ((await heroSlots.count()) !== 6) throw new Error("Home hero must keep six slideshow slots");
+
+  if (name === "desktop") {
+    const initialSlides = await heroSlots.locator(".hero-slide.is-active").evaluateAll((images) =>
+      images.map((image) => image.getAttribute("src"))
+    );
+    const initialRects = await heroSlots.evaluateAll((slots) =>
+      slots.map((slot) => ({ width: slot.getBoundingClientRect().width, height: slot.getBoundingClientRect().height }))
+    );
+
+    await page.waitForTimeout(4300);
+
+    const nextSlides = await heroSlots.locator(".hero-slide.is-active").evaluateAll((images) =>
+      images.map((image) => image.getAttribute("src"))
+    );
+    const nextRects = await heroSlots.evaluateAll((slots) =>
+      slots.map((slot) => ({ width: slot.getBoundingClientRect().width, height: slot.getBoundingClientRect().height }))
+    );
+    const changedSlides = nextSlides.filter((src, index) => src !== initialSlides[index]).length;
+    if (changedSlides !== 1) throw new Error(`Expected one sequential hero slide change, received ${changedSlides}`);
+    if (JSON.stringify(initialRects) !== JSON.stringify(nextRects)) {
+      throw new Error("Hero slideshow changed the grid slot dimensions");
+    }
+  }
+
   if (name === "mobile") {
     const toggle = page.locator(".menu-toggle");
     await toggle.click();
@@ -51,7 +77,22 @@ for (const [name, width, height] of [
   }
 }
 
+const reducedMotionPage = await browser.newPage({ viewport: { width: 390, height: 844 } });
+await reducedMotionPage.emulateMedia({ reducedMotion: "reduce" });
+await reducedMotionPage.goto("http://127.0.0.1:4173", { waitUntil: "networkidle" });
+const reducedInitialSlides = await reducedMotionPage.locator(".hero-slide.is-active").evaluateAll((images) =>
+  images.map((image) => image.getAttribute("src"))
+);
+await reducedMotionPage.waitForTimeout(4300);
+const reducedFinalSlides = await reducedMotionPage.locator(".hero-slide.is-active").evaluateAll((images) =>
+  images.map((image) => image.getAttribute("src"))
+);
+if (JSON.stringify(reducedInitialSlides) !== JSON.stringify(reducedFinalSlides)) {
+  throw new Error("Hero slideshow did not stop for reduced motion");
+}
+await reducedMotionPage.close();
+
 await browser.close();
 
 if (errors.length) throw new Error(`Browser errors: ${errors.join(" | ")}`);
-console.log("Desktop and mobile checks passed; all images loaded; mobile menu passed.");
+console.log("Desktop and mobile checks passed; hero slideshow, reduced motion, images, and mobile menu passed.");
