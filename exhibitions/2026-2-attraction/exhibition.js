@@ -2,6 +2,7 @@ const DATA_URL = "../../data/exhibitions/2026-2-attraction.json";
 const STATIC_PUBLIC_ROOT = "../../public";
 const GUESTBOOK_URL = "../../api/guestbook/";
 const EXHIBITION_ID = "2026-2-attraction";
+const IMAGE_VERSION = "20260825-srgb";
 const SUBMIT_COOLDOWN_MS = 30_000;
 const SUBMIT_TIME_KEY = `bamboo-guestbook-last-submit:${EXHIBITION_ID}`;
 
@@ -56,7 +57,8 @@ function setMenu(open) {
 }
 
 function assetUrl(publicUrl) {
-  return `${STATIC_PUBLIC_ROOT}${publicUrl}`;
+  const separator = publicUrl.includes("?") ? "&" : "?";
+  return `${STATIC_PUBLIC_ROOT}${publicUrl}${separator}v=${IMAGE_VERSION}`;
 }
 
 function displayText(value, fallback = "기록 없음") {

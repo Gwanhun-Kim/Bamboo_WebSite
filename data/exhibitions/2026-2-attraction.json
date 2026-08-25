@@ -190,7 +190,7 @@
         "extension": ".jpg",
         "width": 1800,
         "height": 2400,
-        "fileSizeBytes": 72869
+        "fileSizeBytes": 629866
       },
       "notes": [
         "카메라 정보 없음"
@@ -228,7 +228,7 @@
         "extension": ".jpg",
         "width": 1800,
         "height": 2400,
-        "fileSizeBytes": 70703
+        "fileSizeBytes": 772372
       },
       "notes": [
         "촬영값 없음"
@@ -522,9 +522,9 @@
         "path": "public/exhibitions/2026-2-attraction/images/14-gim-min-ji.jpg",
         "publicUrl": "/exhibitions/2026-2-attraction/images/14-gim-min-ji.jpg",
         "extension": ".jpg",
-        "width": 2400,
-        "height": 1800,
-        "fileSizeBytes": 72609
+        "width": 1800,
+        "height": 2400,
+        "fileSizeBytes": 702687
       },
       "notes": [],
       "needsReview": false
@@ -632,7 +632,7 @@
         "extension": ".jpg",
         "width": 1800,
         "height": 2400,
-        "fileSizeBytes": 70849
+        "fileSizeBytes": 742910
       },
       "notes": [],
       "needsReview": false
@@ -814,9 +814,9 @@
         "path": "public/exhibitions/2026-2-attraction/images/22-gim-jeong-hoe.jpg",
         "publicUrl": "/exhibitions/2026-2-attraction/images/22-gim-jeong-hoe.jpg",
         "extension": ".jpg",
-        "width": 2400,
-        "height": 1800,
-        "fileSizeBytes": 72733
+        "width": 1800,
+        "height": 2400,
+        "fileSizeBytes": 778787
       },
       "notes": [],
       "needsReview": false
@@ -1180,7 +1180,7 @@
         "extension": ".jpg",
         "width": 1593,
         "height": 2400,
-        "fileSizeBytes": 67691
+        "fileSizeBytes": 582069
       },
       "notes": [
         "촬영값 없음"
@@ -1330,7 +1330,7 @@
         "extension": ".jpg",
         "width": 2400,
         "height": 1350,
-        "fileSizeBytes": 55817
+        "fileSizeBytes": 715831
       },
       "notes": [],
       "needsReview": false
@@ -1555,9 +1555,9 @@
         "path": "public/exhibitions/2026-2-attraction/images/42-sin-seong-jun.jpg",
         "publicUrl": "/exhibitions/2026-2-attraction/images/42-sin-seong-jun.jpg",
         "extension": ".jpg",
-        "width": 2400,
-        "height": 1800,
-        "fileSizeBytes": 72305
+        "width": 1800,
+        "height": 2400,
+        "fileSizeBytes": 1469867
       },
       "notes": [],
       "needsReview": false
@@ -2033,7 +2033,7 @@
         "extension": ".jpg",
         "width": 1800,
         "height": 2400,
-        "fileSizeBytes": 72613
+        "fileSizeBytes": 968383
       },
       "notes": [
         "촬영값 없음"
@@ -2181,7 +2181,7 @@
         "extension": ".jpg",
         "width": 1800,
         "height": 2400,
-        "fileSizeBytes": 73055
+        "fileSizeBytes": 966295
       },
       "notes": [],
       "needsReview": false
@@ -2403,7 +2403,7 @@
         "extension": ".jpg",
         "width": 1800,
         "height": 2400,
-        "fileSizeBytes": 72549
+        "fileSizeBytes": 1020754
       },
       "notes": [],
       "needsReview": false

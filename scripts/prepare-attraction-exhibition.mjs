@@ -328,7 +328,17 @@ const exhibition = {
 
 await writeFile(outputDataPath, `${JSON.stringify(exhibition, null, 2)}\n`, "utf8");
 
-const totalOutputBytes = works.reduce(
+// sips can emit all-black JPEGs for some HDR/MPO and wide-gamut phone photos.
+// Validate every generated asset and repair only those failures as normalized
+// sRGB JPEGs before reporting the completed exhibition data.
+const { stdout: repairOutput } = await execFile("python3", [
+  path.join(projectRoot, "scripts/fix-attraction-images.py"),
+  sourceRoot,
+]);
+const repairResult = JSON.parse(repairOutput);
+const finalizedExhibition = JSON.parse(await readFile(outputDataPath, "utf8"));
+
+const totalOutputBytes = finalizedExhibition.works.reduce(
   (total, work) => total + work.webAsset.fileSizeBytes,
   0
 );
@@ -339,6 +349,7 @@ console.log(
       texts: textFiles.length,
       works: works.length,
       outputMegabytes: Number((totalOutputBytes / 1024 / 1024).toFixed(2)),
+      repairedBlackImages: repairResult.repaired.map((entry) => entry.fileName),
       needsReview: review,
     },
     null,

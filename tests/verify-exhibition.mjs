@@ -492,6 +492,32 @@ for (let index = 0; index < 68; index += 1) {
   await image.scrollIntoViewIfNeeded();
   const loaded = await image.evaluate((element) => element.complete && element.naturalWidth > 0);
   if (!loaded) throw new Error(`Attraction work image ${index + 1} failed to load`);
+  const pixelStats = await image.evaluate((element) => {
+    const canvas = document.createElement("canvas");
+    canvas.width = 16;
+    canvas.height = 16;
+    const context = canvas.getContext("2d");
+    context.drawImage(element, 0, 0, canvas.width, canvas.height);
+    const pixels = context.getImageData(0, 0, canvas.width, canvas.height).data;
+    let total = 0;
+    let minimum = 255;
+    let maximum = 0;
+    let count = 0;
+    for (let offset = 0; offset < pixels.length; offset += 4) {
+      const luminance =
+        0.2126 * pixels[offset] +
+        0.7152 * pixels[offset + 1] +
+        0.0722 * pixels[offset + 2];
+      total += luminance;
+      minimum = Math.min(minimum, luminance);
+      maximum = Math.max(maximum, luminance);
+      count += 1;
+    }
+    return { average: total / count, range: maximum - minimum };
+  });
+  if (pixelStats.average <= 1 && pixelStats.range <= 1) {
+    throw new Error(`Attraction work image ${index + 1} renders as solid black`);
+  }
 }
 await expectNoAttractionCardOverlap(1440);
 await page.locator(".attraction-work-card a").first().click();
