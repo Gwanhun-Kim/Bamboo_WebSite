@@ -3,11 +3,9 @@ const exhibitions = [
   {
     title: "끌림",
     meta: "열아홉번째 사진전",
-    description:
-      "열아홉번째 사진전 <끌림>은 현재 준비 중입니다. 작품 공개가 완료되면 이 페이지에서 전시를 감상할 수 있습니다.",
+    description: "세종대학교 사진동아리 밤부의 열아홉번째 사진전 <끌림>에 출품된 작품 기록",
     href: "2026-2-attraction/",
     dataUrl: "../data/exhibitions/2026-2-attraction.json",
-    status: "preparing",
     period: "2026년 2학기",
   },
   {
@@ -63,7 +61,7 @@ function createExhibitionEntry(config, data) {
   article.className = "exhibition-entry";
   images.className = "entry-images";
   images.setAttribute("aria-label", `${config.title} 전시 대표 작품`);
-  if (config.status === "preparing" && data.works.length === 0) {
+  if (data.status === "preparing" && data.works.length === 0) {
     const cover = document.createElement("div");
     const periodLabel = document.createElement("span");
     const coverTitle = document.createElement("strong");
@@ -77,20 +75,23 @@ function createExhibitionEntry(config, data) {
     statusLabel.textContent = "전시 준비 중";
     cover.append(periodLabel, coverTitle, statusLabel);
     images.append(cover);
-  } else if (config.coverImage) {
+  } else if (config.coverImage || data.cover?.publicUrl) {
     const figure = document.createElement("figure");
     const image = document.createElement("img");
+    const coverImage = config.coverImage || data.cover.publicUrl;
+    const coverWork = data.works.find((work) => work.id === data.cover?.workId);
+    const sourceImage = coverWork?.source?.imageFiles?.[0] ?? {};
     images.classList.add("single-image");
-    image.src = config.coverImage;
+    image.src = coverImage.startsWith("/") ? assetUrl(coverImage) : coverImage;
     image.alt = `${config.title} 전시 기록 대표 이미지`;
     image.loading = "lazy";
     image.decoding = "async";
-    image.width = config.coverWidth;
-    image.height = config.coverHeight;
+    image.width = config.coverWidth || sourceImage.width || coverWork?.webAsset?.width;
+    image.height = config.coverHeight || sourceImage.height || coverWork?.webAsset?.height;
     figure.append(image);
     images.append(figure);
   } else {
-    config.representativeIndexes.forEach((index) => {
+    (config.representativeIndexes || []).forEach((index) => {
       const work = data.works[index];
       const publicUrl = work?.webAsset?.publicUrl;
       if (!work || !publicUrl) return;
@@ -114,7 +115,7 @@ function createExhibitionEntry(config, data) {
   title.className = "entry-title";
   title.textContent = config.title;
   description.className = "entry-description";
-  description.textContent = config.description;
+  description.textContent = data.description || config.description;
   count.className = "entry-count";
   count.textContent = data.works.length ? `${data.works.length} works` : "전시 준비 중";
   link.className = "entry-link";

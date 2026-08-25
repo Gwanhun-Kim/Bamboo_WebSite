@@ -17,6 +17,7 @@ const albumGrid = document.querySelector("[data-album-grid]");
 const workCount = document.querySelector("[data-work-count]");
 const heroState = document.querySelector("[data-hero-state]");
 const coverState = document.querySelector("[data-cover-state]");
+const attractionCover = document.querySelector(".attraction-cover");
 const exhibitionDescription = document.querySelector("[data-exhibition-description]");
 const backToGallery = document.querySelector("[data-back-to-gallery]");
 const previousWork = document.querySelector("[data-previous-work]");
@@ -104,6 +105,10 @@ function createWorkCard(work, index) {
     image.alt = `${shownArtist}의 작품 ${shownTitle}`;
     image.loading = "lazy";
     image.decoding = "async";
+    if (work.webAsset.width && work.webAsset.height) {
+      image.width = work.webAsset.width;
+      image.height = work.webAsset.height;
+    }
     image.addEventListener(
       "error",
       () => {
@@ -127,7 +132,7 @@ function createWorkCard(work, index) {
   return article;
 }
 
-function renderGallery() {
+function renderGallery(data) {
   const fragment = document.createDocumentFragment();
   works.forEach((work, index) => fragment.append(createWorkCard(work, index)));
   albumGrid.replaceChildren(fragment);
@@ -136,7 +141,9 @@ function renderGallery() {
   galleryStatus.hidden = true;
   workCount.textContent = String(works.length);
   heroState.textContent = `${works.length} works`;
-  coverState.textContent = "작품 공개 중";
+  coverState.textContent = `${works.length} works`;
+  attractionCover.setAttribute("aria-label", "끌림 전시 표지");
+  exhibitionDescription.textContent = displayText(data.description, exhibitionDescription.textContent);
 }
 
 function showPreparingState(data) {
@@ -184,6 +191,10 @@ function showDetail(index) {
   if (work.webAsset?.publicUrl) {
     detailFields.image.src = assetUrl(work.webAsset.publicUrl);
     detailFields.image.alt = `${shownArtist}의 작품 ${shownTitle}`;
+    if (work.webAsset.width && work.webAsset.height) {
+      detailFields.image.width = work.webAsset.width;
+      detailFields.image.height = work.webAsset.height;
+    }
     detailFields.image.hidden = false;
     detailFields.placeholder.hidden = true;
   } else {
@@ -197,7 +208,7 @@ function showDetail(index) {
   detailFields.title.textContent = shownTitle;
   detailFields.artist.textContent = shownArtist;
   detailFields.statement.textContent = displayText(
-    work.statement,
+    work.statement || work.description,
     "작가의 말이 기록되지 않았습니다."
   );
   detailFields.camera.textContent = displayText(work.camera);
@@ -238,7 +249,7 @@ async function loadExhibition() {
       return;
     }
     works = data.works;
-    renderGallery();
+    renderGallery(data);
     syncViewWithHash();
   } catch (error) {
     exhibitionState.hidden = true;

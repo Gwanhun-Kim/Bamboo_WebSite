@@ -48,6 +48,12 @@ for (const work of data.works) {
 for (const work of familiarData.works) {
   await access(path.join(projectRoot, "public", work.webAsset.publicUrl));
 }
+if (attractionData.status !== "published" || attractionData.works.length !== 68) {
+  throw new Error("Attraction exhibition must be published with exactly 68 works");
+}
+for (const work of attractionData.works) {
+  await access(path.join(projectRoot, "public", work.webAsset.publicUrl));
+}
 
 const allowedFiles = new Map([
   ["/", "index.html"],
@@ -90,33 +96,6 @@ const server = createServer(async (request, response) => {
   if (pathname === "/api/guestbook" || pathname === "/api/guestbook/") {
     response.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
     response.end(JSON.stringify({ enabled: false, code: "guestbook_not_configured" }));
-    return;
-  }
-  if (
-    pathname === "/data/exhibitions/2026-2-attraction.json" &&
-    request.headers.referer?.includes("futureGallery=1")
-  ) {
-    const previewData = {
-      ...attractionData,
-      status: "published",
-      works: [
-        {
-          id: "attraction-preview-work",
-          title: "미리보기 작품",
-          artist: "BAMBOO",
-          statement: "작품 데이터가 추가되면 활성화되는 갤러리 검증용 기록입니다.",
-          camera: "기록 없음",
-          settings: {},
-          location: "",
-          date: "2026",
-          webAsset: {
-            publicUrl: "/exhibitions/2025-2-first/images/01-nayeon-kang.jpg",
-          },
-        },
-      ],
-    };
-    response.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
-    response.end(JSON.stringify(previewData));
     return;
   }
   let relativePath = allowedFiles.get(pathname);
@@ -193,8 +172,8 @@ async function openExhibitionList(width, height) {
   if ((await page.locator(".exhibition-entry").count()) !== 3) {
     throw new Error("Exhibition list does not show all three exhibitions");
   }
-  if ((await page.locator(".entry-count").first().textContent()) !== "전시 준비 중") {
-    throw new Error("Upcoming exhibition does not show its preparing state");
+  if ((await page.locator(".entry-count").first().textContent()) !== "68 works") {
+    throw new Error("Attraction exhibition work count is not JSON-driven");
   }
   if ((await page.locator(".entry-count").nth(1).textContent()) !== "52 works") {
     throw new Error("Exhibition list work count is not JSON-driven");
@@ -218,15 +197,19 @@ async function openExhibitionList(width, height) {
     throw new Error(`Unexpected Familiar Happiness href: ${familiarHref}`);
   }
   const images = page.locator(".entry-images img");
-  if ((await images.count()) !== 2) throw new Error("Exhibition poster set is incomplete");
-  const expectedPosterNames = ["first-poster.png", "familiar-happiness-poster.jpg"];
-  for (let index = 0; index < expectedPosterNames.length; index += 1) {
+  if ((await images.count()) !== 3) throw new Error("Exhibition cover set is incomplete");
+  const expectedCoverNames = [
+    attractionData.cover.publicUrl.split("/").at(-1),
+    "first-poster.png",
+    "familiar-happiness-poster.jpg",
+  ];
+  for (let index = 0; index < expectedCoverNames.length; index += 1) {
     const poster = images.nth(index);
     const loaded = await poster.evaluate((image) => image.complete && image.naturalWidth > 0);
     const source = await poster.getAttribute("src");
     const objectFit = await poster.evaluate((image) => getComputedStyle(image).objectFit);
-    if (!loaded || !source.endsWith(expectedPosterNames[index]) || objectFit !== "contain") {
-      throw new Error(`Exhibition poster ${index + 1} is not rendered correctly`);
+    if (!loaded || !source.endsWith(expectedCoverNames[index]) || objectFit !== "contain") {
+      throw new Error(`Exhibition cover ${index + 1} is not rendered correctly`);
     }
   }
 }
@@ -276,18 +259,18 @@ async function expectExhibitionIndexLink(detailPath, width, height) {
 async function openAttraction(width, height) {
   await page.setViewportSize({ width, height });
   await page.goto(`${baseUrl}/exhibitions/2026-2-attraction/`, { waitUntil: "networkidle" });
-  await page.locator("[data-exhibition-state]").waitFor();
-  if ((await page.locator(".attraction-work-card").count()) !== 0) {
-    throw new Error("Upcoming exhibition renders repeated empty work placeholders");
+  await page.locator(".attraction-work-card").first().waitFor();
+  if ((await page.locator(".attraction-work-card").count()) !== 68) {
+    throw new Error("Attraction exhibition does not render all 68 works");
   }
-  if (await page.locator("[data-exhibition-state]").isHidden()) {
-    throw new Error("Upcoming exhibition preparing state is hidden");
+  if (!(await page.locator("[data-exhibition-state]").isHidden())) {
+    throw new Error("Attraction exhibition still shows its preparing state");
   }
-  if ((await page.locator("[data-work-count]").textContent()) !== "0") {
-    throw new Error("Upcoming exhibition work count is not zero");
+  if ((await page.locator("[data-work-count]").textContent()) !== "68") {
+    throw new Error("Attraction exhibition work count is not 68");
   }
-  if (!attractionData.status || attractionData.status !== "preparing") {
-    throw new Error("Upcoming exhibition JSON status is not preparing");
+  if (attractionData.status !== "published" || attractionData.works.length !== 68) {
+    throw new Error("Attraction exhibition JSON is not published with 68 works");
   }
   if (!(await page.locator("[data-guestbook-form]").isHidden())) {
     throw new Error("Guestbook form should remain hidden without Supabase configuration");
@@ -300,25 +283,54 @@ async function openAttraction(width, height) {
     scroll: document.documentElement.scrollWidth,
   }));
   if (pageWidth.scroll > pageWidth.client) {
-    throw new Error(`Upcoming exhibition overflows at ${width}px`);
+    throw new Error(`Attraction exhibition overflows at ${width}px`);
   }
 }
 
-async function openFutureAttractionGallery() {
-  await page.setViewportSize({ width: 1440, height: 1000 });
-  await page.goto(`${baseUrl}/exhibitions/2026-2-attraction/?futureGallery=1`, {
-    waitUntil: "networkidle",
+async function expectNoAttractionCardOverlap(width) {
+  const overlaps = await page.locator(".attraction-work-card").evaluateAll((cards) => {
+    const rectangles = cards.map((card, index) => ({ index, rect: card.getBoundingClientRect() }));
+    const conflicts = [];
+    for (let left = 0; left < rectangles.length; left += 1) {
+      for (let right = left + 1; right < rectangles.length; right += 1) {
+        const first = rectangles[left];
+        const second = rectangles[right];
+        const overlapWidth = Math.min(first.rect.right, second.rect.right) - Math.max(first.rect.left, second.rect.left);
+        const overlapHeight = Math.min(first.rect.bottom, second.rect.bottom) - Math.max(first.rect.top, second.rect.top);
+        if (overlapWidth > 1 && overlapHeight > 1) conflicts.push([first.index + 1, second.index + 1]);
+      }
+    }
+    return conflicts;
   });
-  await page.locator(".attraction-work-card").waitFor();
-  if ((await page.locator(".attraction-work-card").count()) !== 1) {
-    throw new Error("Upcoming exhibition does not activate its gallery when works are added");
+  if (overlaps.length) {
+    throw new Error(`Attraction cards overlap at ${width}px: ${JSON.stringify(overlaps.slice(0, 5))}`);
   }
-  if (!(await page.locator("[data-exhibition-state]").isHidden())) {
-    throw new Error("Preparing notice remains visible after works are added");
-  }
-  await page.locator(".attraction-work-card a").click();
-  if (await page.locator("[data-detail-view]").isHidden()) {
-    throw new Error("Upcoming exhibition work detail did not open");
+}
+
+async function expectAttractionDetail(work, expectedPosition) {
+  const fallback = (value, replacement = "기록 없음") => value?.trim() || replacement;
+  const values = await page.locator("[data-detail-view]").evaluate((detail) => ({
+    hidden: detail.hidden,
+    title: detail.querySelector("[data-detail-title]").textContent,
+    artist: detail.querySelector("[data-detail-artist]").textContent,
+    statement: detail.querySelector("[data-detail-statement]").textContent,
+    camera: detail.querySelector("[data-detail-camera]").textContent,
+    settings: detail.querySelector("[data-detail-settings]").textContent,
+    date: detail.querySelector("[data-detail-date]").textContent,
+    position: detail.querySelector("[data-detail-position]").textContent,
+  }));
+  const expected = {
+    hidden: false,
+    title: fallback(work.title, "제목 없음"),
+    artist: work.artist,
+    statement: fallback(work.statement, "작가의 말이 기록되지 않았습니다."),
+    camera: fallback(work.camera),
+    settings: fallback(work.settings),
+    date: fallback(work.shotDate),
+    position: `${expectedPosition} / 68`,
+  };
+  if (JSON.stringify(values) !== JSON.stringify(expected)) {
+    throw new Error(`Attraction detail mismatch for ${work.id}`);
   }
 }
 
@@ -456,12 +468,42 @@ await page.screenshot({
   animations: "disabled",
 });
 await openAttraction(390, 844);
+await expectNoAttractionCardOverlap(390);
 await page.screenshot({
   path: "/private/tmp/bamboo-attraction-mobile.png",
   fullPage: true,
   animations: "disabled",
 });
-await openFutureAttractionGallery();
+await page.locator(".attraction-work-card a").first().click();
+await expectAttractionDetail(attractionData.works[0], 1);
+const attractionMobileLayout = await page
+  .locator(".attraction-detail-layout")
+  .evaluate((layout) => {
+    const image = layout.querySelector(".attraction-detail-image-wrap").getBoundingClientRect();
+    const caption = layout.querySelector(".attraction-detail-caption").getBoundingClientRect();
+    return { imageBottom: image.bottom, captionTop: caption.top };
+  });
+if (attractionMobileLayout.captionTop < attractionMobileLayout.imageBottom) {
+  throw new Error("Attraction mobile detail caption does not stack below the image");
+}
+await openAttraction(1440, 1000);
+for (let index = 0; index < 68; index += 1) {
+  const image = page.locator(".attraction-work-card img").nth(index);
+  await image.scrollIntoViewIfNeeded();
+  const loaded = await image.evaluate((element) => element.complete && element.naturalWidth > 0);
+  if (!loaded) throw new Error(`Attraction work image ${index + 1} failed to load`);
+}
+await expectNoAttractionCardOverlap(1440);
+await page.locator(".attraction-work-card a").first().click();
+await expectAttractionDetail(attractionData.works[0], 1);
+await page.keyboard.press("ArrowRight");
+await expectAttractionDetail(attractionData.works[1], 2);
+await page.keyboard.press("ArrowLeft");
+await expectAttractionDetail(attractionData.works[0], 1);
+await page.keyboard.press("Escape");
+if (await page.locator("[data-gallery-view]").isHidden()) {
+  throw new Error("Attraction Escape navigation did not return to the gallery");
+}
 await openGallery(390, 844);
 const menuToggle = page.locator(".menu-toggle");
 if ((await menuToggle.getAttribute("aria-label")) !== "메뉴 열기") {
@@ -501,4 +543,4 @@ await new Promise((resolve, reject) => {
   server.close((error) => (error ? reject(error) : resolve()));
 });
 if (browserErrors.length) throw new Error(`Browser errors: ${browserErrors.join(" | ")}`);
-console.log("Exhibition checks passed: archive, back links, upcoming state, guestbook fallback, galleries, details, history, keyboard, responsive layout.");
+console.log("Exhibition checks passed: archive, back links, published attraction works, guestbook fallback, galleries, details, history, keyboard, responsive layout.");
