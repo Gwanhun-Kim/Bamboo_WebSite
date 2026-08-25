@@ -38,6 +38,66 @@ for (const [name, width, height] of [
   );
   if (failedImages.length) throw new Error(`Failed images: ${failedImages.join(", ")}`);
 
+  const heroSlots = page.locator("[data-hero-slide]");
+  if ((await heroSlots.count()) !== 4) throw new Error("Home hero must use four slideshow slots");
+
+  if ((await page.getByText("밤부의 기록과 새로운 만남", { exact: true }).count()) !== 0) {
+    throw new Error("Removed home overview title is still visible");
+  }
+  if ((await page.getByText("Explore BAMBOO", { exact: true }).count()) !== 0) {
+    throw new Error("Orphaned Explore BAMBOO label is still visible");
+  }
+
+  if (name === "desktop") {
+    const initialSlides = await heroSlots.locator(".hero-slide.is-active").evaluateAll((images) =>
+      images.map((image) => image.getAttribute("src"))
+    );
+    const initialRects = await heroSlots.evaluateAll((slots) =>
+      slots.map((slot) => ({ width: slot.getBoundingClientRect().width, height: slot.getBoundingClientRect().height }))
+    );
+
+    const slideDirection = await page.evaluate(() =>
+      new Promise((resolve) => {
+        const gallery = document.querySelector(".hero-gallery");
+        const observer = new MutationObserver(() => {
+          const leaving = gallery.querySelector(".hero-slide.is-leaving");
+          if (!leaving) return;
+          const incoming = leaving.parentElement.querySelector(".hero-slide.is-active");
+          observer.disconnect();
+          resolve({
+            leavingTransform: getComputedStyle(leaving).transform,
+            incomingTransform: getComputedStyle(incoming).transform,
+          });
+        });
+        observer.observe(gallery, { attributes: true, subtree: true, attributeFilter: ["class"] });
+        setTimeout(() => {
+          observer.disconnect();
+          resolve(null);
+        }, 5000);
+      })
+    );
+    if (!slideDirection) throw new Error("Hero did not begin a horizontal slide transition");
+
+    await page.waitForTimeout(1000);
+
+    const nextSlides = await heroSlots.locator(".hero-slide.is-active").evaluateAll((images) =>
+      images.map((image) => image.getAttribute("src"))
+    );
+    const nextRects = await heroSlots.evaluateAll((slots) =>
+      slots.map((slot) => ({ width: slot.getBoundingClientRect().width, height: slot.getBoundingClientRect().height }))
+    );
+    const changedSlides = nextSlides.filter((src, index) => src !== initialSlides[index]).length;
+    if (changedSlides !== 1) throw new Error(`Expected one sequential hero slide change, received ${changedSlides}`);
+    if (JSON.stringify(initialRects) !== JSON.stringify(nextRects)) {
+      throw new Error("Hero slideshow changed the grid slot dimensions");
+    }
+
+    const galleryColumns = await page.locator(".hero-gallery").evaluate((gallery) =>
+      getComputedStyle(gallery).gridTemplateColumns.split(" ").length
+    );
+    if (galleryColumns !== 2) throw new Error(`Expected two desktop hero columns, received ${galleryColumns}`);
+  }
+
   if (name === "mobile") {
     const toggle = page.locator(".menu-toggle");
     await toggle.click();
@@ -51,7 +111,22 @@ for (const [name, width, height] of [
   }
 }
 
+const reducedMotionPage = await browser.newPage({ viewport: { width: 390, height: 844 } });
+await reducedMotionPage.emulateMedia({ reducedMotion: "reduce" });
+await reducedMotionPage.goto("http://127.0.0.1:4173", { waitUntil: "networkidle" });
+const reducedInitialSlides = await reducedMotionPage.locator(".hero-slide.is-active").evaluateAll((images) =>
+  images.map((image) => image.getAttribute("src"))
+);
+await reducedMotionPage.waitForTimeout(4300);
+const reducedFinalSlides = await reducedMotionPage.locator(".hero-slide.is-active").evaluateAll((images) =>
+  images.map((image) => image.getAttribute("src"))
+);
+if (JSON.stringify(reducedInitialSlides) !== JSON.stringify(reducedFinalSlides)) {
+  throw new Error("Hero slideshow did not stop for reduced motion");
+}
+await reducedMotionPage.close();
+
 await browser.close();
 
 if (errors.length) throw new Error(`Browser errors: ${errors.join(" | ")}`);
-console.log("Desktop and mobile checks passed; all images loaded; mobile menu passed.");
+console.log("Desktop and mobile checks passed; hero slideshow, reduced motion, images, and mobile menu passed.");
