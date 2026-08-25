@@ -6,7 +6,9 @@
 .guestbook-list-wrap[hidden],
 .guestbook-empty[hidden],
 .attraction-exhibition-state[hidden],
-.attraction-gallery-status[hidden] {
+.attraction-gallery-status[hidden],
+.attraction-detail-image-wrap img[hidden],
+.attraction-detail-placeholder[hidden] {
   display: none;
 }
 
@@ -609,7 +611,19 @@
     gap: 42px;
   }
 
-  .attraction-detail-image-wrap,
+  .attraction-detail-image-wrap {
+    min-height: 0;
+    background: transparent;
+  }
+
+  .attraction-detail-image-wrap img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 70dvh;
+    object-fit: contain;
+  }
+
   .attraction-detail-placeholder {
     min-height: 70vw;
   }

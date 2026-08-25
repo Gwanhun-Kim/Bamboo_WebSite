@@ -307,6 +307,41 @@ async function expectNoAttractionCardOverlap(width) {
   }
 }
 
+async function expectMobileAttractionImageFrame(work) {
+  await page.goto(`${baseUrl}/exhibitions/2026-2-attraction/#work=${work.id}`, {
+    waitUntil: "networkidle",
+  });
+  const frame = await page.locator(".attraction-detail-image-wrap").evaluate((wrapper) => {
+    const image = wrapper.querySelector("img");
+    const placeholder = wrapper.querySelector("[data-detail-placeholder]");
+    const wrapperRect = wrapper.getBoundingClientRect();
+    const imageRect = image.getBoundingClientRect();
+    return {
+      wrapperHeight: wrapperRect.height,
+      imageHeight: imageRect.height,
+      imageWidth: imageRect.width,
+      viewportWidth: document.documentElement.clientWidth,
+      viewportHeight: window.innerHeight,
+      placeholderDisplay: getComputedStyle(placeholder).display,
+      overflow: document.documentElement.scrollWidth > document.documentElement.clientWidth,
+    };
+  });
+  if (frame.placeholderDisplay !== "none") {
+    throw new Error(`${work.title} detail placeholder remains visible behind the loaded image`);
+  }
+  if (Math.abs(frame.wrapperHeight - frame.imageHeight) > 1) {
+    throw new Error(
+      `${work.title} mobile image frame exceeds the image: ${frame.wrapperHeight}px vs ${frame.imageHeight}px`
+    );
+  }
+  if (frame.imageWidth > frame.viewportWidth || frame.imageHeight > frame.viewportHeight * 0.7 + 1) {
+    throw new Error(`${work.title} mobile detail image exceeds its viewport limits`);
+  }
+  if (frame.overflow) {
+    throw new Error(`${work.title} mobile detail view overflows horizontally`);
+  }
+}
+
 async function expectAttractionDetail(work, expectedPosition) {
   const fallback = (value, replacement = "기록 없음") => value?.trim() || replacement;
   const values = await page.locator("[data-detail-view]").evaluate((detail) => ({
@@ -469,6 +504,10 @@ await page.screenshot({
 });
 await openAttraction(390, 844);
 await expectNoAttractionCardOverlap(390);
+await expectMobileAttractionImageFrame(attractionData.works[4]);
+await expectMobileAttractionImageFrame(attractionData.works[18]);
+await expectMobileAttractionImageFrame(attractionData.works[39]);
+await openAttraction(390, 844);
 await page.screenshot({
   path: "/private/tmp/bamboo-attraction-mobile.png",
   fullPage: true,
