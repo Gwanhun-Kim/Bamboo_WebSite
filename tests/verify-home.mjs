@@ -47,6 +47,12 @@ for (const [name, width, height] of [
   if ((await page.getByText("Explore BAMBOO", { exact: true }).count()) !== 0) {
     throw new Error("Orphaned Explore BAMBOO label is still visible");
   }
+  if ((await page.locator('.hero-links a[href="recruitment/"]', { hasText: "12.5기 모집 종료" }).count()) !== 1) {
+    throw new Error("Home recruitment shortcut does not show the closed status");
+  }
+  if ((await page.getByText("12.5기 모집 종료 · 다음 학기 모집 예정", { exact: true }).count()) !== 1) {
+    throw new Error("Home recruitment summary does not show the next-semester notice");
+  }
 
   if (name === "desktop") {
     const initialSlides = await heroSlots.locator(".hero-slide.is-active").evaluateAll((images) =>
@@ -96,6 +102,27 @@ for (const [name, width, height] of [
       getComputedStyle(gallery).gridTemplateColumns.split(" ").length
     );
     if (galleryColumns !== 2) throw new Error(`Expected two desktop hero columns, received ${galleryColumns}`);
+  }
+
+  await page.goto("http://127.0.0.1:4173/recruitment/", { waitUntil: "networkidle" });
+  if ((await page.getByRole("heading", { name: /BAMBOO 12\.5기 신입부원 모집 종료/ }).count()) !== 1) {
+    throw new Error("Recruitment page does not show the closed heading");
+  }
+  if ((await page.locator('a[href*="docs.google.com/forms"]').count()) !== 0) {
+    throw new Error("Recruitment page still exposes a Google Form link");
+  }
+  if ((await page.getByText("지원하기", { exact: true }).count()) !== 0) {
+    throw new Error("Recruitment page still exposes an application CTA");
+  }
+  const instagramLink = page.locator('a[href="https://www.instagram.com/sejong_bamboo/"]').first();
+  if ((await instagramLink.getAttribute("target")) !== "_blank") {
+    throw new Error("Recruitment Instagram link must open in a new tab");
+  }
+  if ((await page.locator('a[href="mailto:sejongbamboo@gmail.com"]').count()) < 1) {
+    throw new Error("Recruitment email link is missing");
+  }
+  if (await page.evaluate(() => document.documentElement.scrollWidth > window.innerWidth)) {
+    throw new Error(`Recruitment page overflows horizontally at ${width}px`);
   }
 
   if (name === "mobile") {

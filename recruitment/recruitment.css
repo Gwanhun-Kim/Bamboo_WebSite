@@ -285,9 +285,17 @@
   border-top: 1px solid var(--green);
 }
 
+.information-action strong {
+  display: block;
+  margin-bottom: 13px;
+  font-size: 15px;
+  font-weight: 590;
+  letter-spacing: -0.02em;
+}
+
 .information-action p {
   max-width: 300px;
-  margin: 0 0 29px;
+  margin: 0;
   color: var(--muted);
   font-size: 14px;
   line-height: 1.7;

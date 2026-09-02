@@ -60,10 +60,10 @@ const pages = [
   {
     file: "recruitment/index.html",
     url: "https://www.sejongbamboo.site/recruitment/",
-    title: "12.5기 신입부원 모집 | 세종대학교 사진동아리 밤부",
+    title: "12.5기 모집 종료 | 세종대학교 사진동아리 밤부",
     shareUrl: "https://sejongbamboo.site/recruitment/",
-    shareTitle: "12.5기 신입부원 모집 | 세종대학교 사진동아리 밤부",
-    shareDescription: "세종대학교 사진동아리 밤부 12.5기 신입부원 모집 안내",
+    shareTitle: "12.5기 모집 종료 | 세종대학교 사진동아리 밤부",
+    shareDescription: "세종대학교 사진동아리 밤부 12.5기 신입부원 모집 종료 및 다음 학기 모집 안내",
   },
 ];
 
