@@ -107,6 +107,27 @@ function getJpegDimensions(buffer) {
   return null;
 }
 
+function getPngDimensions(buffer) {
+  if (buffer.subarray(0, 8).toString("hex") !== "89504e470d0a1a0a") return null;
+  return { width: buffer.readUInt32BE(16), height: buffer.readUInt32BE(20) };
+}
+
+const faviconAssets = [
+  ["assets/brand/favicon-16x16.png", 16],
+  ["assets/brand/favicon-32x32.png", 32],
+  ["assets/brand/apple-touch-icon.png", 180],
+];
+for (const [file, size] of faviconAssets) {
+  const dimensions = getPngDimensions(await readFile(path.join(projectRoot, file)));
+  if (dimensions?.width !== size || dimensions?.height !== size) {
+    throw new Error(`${file} must be a ${size}x${size} PNG`);
+  }
+}
+const faviconIco = await readFile(path.join(projectRoot, "assets/brand/favicon.ico"));
+if (faviconIco.subarray(0, 4).toString("hex") !== "00000100") {
+  throw new Error("assets/brand/favicon.ico is not a valid ICO resource");
+}
+
 const shareImage = await readFile(path.join(projectRoot, "assets/brand/bamboo-logo-og.jpg"));
 const shareImageDimensions = getJpegDimensions(shareImage);
 if (shareImageDimensions?.width !== 1200 || shareImageDimensions?.height !== 630) {
@@ -166,6 +187,21 @@ for (const page of pages) {
     throw new Error(`${page.file} unexpectedly contains noindex`);
   }
 
+  const faviconTags = [
+    '<link rel="icon" href="/assets/brand/favicon.ico" sizes="any" />',
+    '<link rel="icon" type="image/png" href="/assets/brand/favicon-32x32.png" sizes="32x32" />',
+    '<link rel="icon" type="image/png" href="/assets/brand/favicon-16x16.png" sizes="16x16" />',
+    '<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png" />',
+  ];
+  for (const tag of faviconTags) {
+    if (html.split(tag).length !== 2) {
+      throw new Error(`${page.file} must contain exactly one expected favicon tag: ${tag}`);
+    }
+  }
+  if (html.includes("data:image/svg+xml")) {
+    throw new Error(`${page.file} still references the old inline B favicon`);
+  }
+
   const expectedMeta = [
     ["property", "og:title", page.shareTitle],
     ["property", "og:description", page.shareDescription],
@@ -207,4 +243,4 @@ for (const page of pages) {
   }
 }
 
-console.log("SEO checks passed: robots, sitemap, canonical links, titles, share previews, descriptions, and indexability.");
+console.log("SEO checks passed: favicon assets, robots, sitemap, canonical links, titles, share previews, descriptions, and indexability.");
