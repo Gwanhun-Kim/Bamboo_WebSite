@@ -42,18 +42,34 @@ for (const [key, expectedValue] of Object.entries(expectedJihyo)) {
     throw new Error(`이지효 ${key} does not match the requested value`);
   }
 }
-for (const work of data.works) {
-  await access(path.join(projectRoot, "public", work.webAsset.publicUrl));
+async function verifyResponsiveAssets(exhibitionData) {
+  for (const work of exhibitionData.works) {
+    await access(path.join(projectRoot, "public", work.webAsset.publicUrl));
+    const thumbnail = work.webAsset.thumbnail;
+    if (!thumbnail?.publicUrl || thumbnail.srcSet?.length !== 2) {
+      throw new Error(`${work.id} is missing responsive gallery assets`);
+    }
+    if (!thumbnail.sizes || work.webAsset.optimizationVersion !== "exhibition-images-v1") {
+      throw new Error(`${work.id} is missing responsive image metadata`);
+    }
+    for (const source of thumbnail.srcSet) {
+      await access(path.join(projectRoot, "public", source.publicUrl));
+      if (!source.width || !source.height || !source.fileSizeBytes) {
+        throw new Error(`${work.id} has incomplete thumbnail dimensions or size`);
+      }
+    }
+  }
 }
-for (const work of familiarData.works) {
-  await access(path.join(projectRoot, "public", work.webAsset.publicUrl));
-}
+
+await verifyResponsiveAssets(data);
+await verifyResponsiveAssets(familiarData);
 if (attractionData.status !== "published" || attractionData.works.length !== 68) {
   throw new Error("Attraction exhibition must be published with exactly 68 works");
 }
 for (const work of attractionData.works) {
   await access(path.join(projectRoot, "public", work.webAsset.publicUrl));
 }
+await verifyResponsiveAssets(attractionData);
 
 const allowedFiles = new Map([
   ["/", "index.html"],
@@ -89,6 +105,7 @@ const mimeTypes = {
   ".js": "text/javascript; charset=utf-8",
   ".json": "application/json; charset=utf-8",
   ".png": "image/png",
+  ".webp": "image/webp",
 };
 
 const server = createServer(async (request, response) => {
@@ -109,6 +126,9 @@ const server = createServer(async (request, response) => {
     relativePath = pathname.slice(1);
   }
   if (pathname.startsWith("/assets/exhibition-posters/")) {
+    relativePath = pathname.slice(1);
+  }
+  if (pathname.startsWith("/assets/brand/")) {
     relativePath = pathname.slice(1);
   }
   if (pathname.startsWith("/public/exhibitions/2025-2-first/images/")) {
@@ -287,6 +307,28 @@ async function openAttraction(width, height) {
   }
 }
 
+async function expectResponsiveGalleryImage(selector) {
+  const image = page.locator(`${selector} img`).first();
+  await image.waitFor();
+  await image.evaluate((element) => element.decode());
+  const sourceState = await image.evaluate((element) => ({
+    currentSrc: element.currentSrc,
+    srcset: element.srcset,
+    sizes: element.sizes,
+    width: element.width,
+    height: element.height,
+  }));
+  if (!sourceState.currentSrc.includes("/images/thumbnails/")) {
+    throw new Error(`${selector} does not request a gallery thumbnail`);
+  }
+  if (!sourceState.srcset.includes("-480.webp") || !sourceState.srcset.includes("-800.webp")) {
+    throw new Error(`${selector} is missing its 480w or 800w source`);
+  }
+  if (!sourceState.sizes || !sourceState.width || !sourceState.height) {
+    throw new Error(`${selector} is missing sizes or intrinsic dimensions`);
+  }
+}
+
 async function expectNoAttractionCardOverlap(width) {
   const overlaps = await page.locator(".attraction-work-card").evaluateAll((cards) => {
     const rectangles = cards.map((card, index) => ({ index, rect: card.getBoundingClientRect() }));
@@ -344,6 +386,10 @@ async function expectMobileAttractionImageFrame(work) {
 
 async function expectAttractionDetail(work, expectedPosition) {
   const fallback = (value, replacement = "기록 없음") => value?.trim() || replacement;
+  await page.waitForFunction(
+    (position) => document.querySelector("[data-detail-position]")?.textContent === position,
+    `${expectedPosition} / 68`
+  );
   const values = await page.locator("[data-detail-view]").evaluate((detail) => ({
     hidden: detail.hidden,
     title: detail.querySelector("[data-detail-title]").textContent,
@@ -371,6 +417,10 @@ async function expectAttractionDetail(work, expectedPosition) {
 
 async function expectDetail(work, expectedPosition) {
   const fallback = (value, replacement = "기록 없음") => value?.trim() || replacement;
+  await page.waitForFunction(
+    (position) => document.querySelector("[data-detail-position]")?.textContent === position,
+    `${expectedPosition} / 52`
+  );
   const values = await page.locator("[data-detail-view]").evaluate((detail) => ({
     hidden: detail.hidden,
     title: detail.querySelector("[data-detail-title]").textContent,
@@ -429,7 +479,18 @@ for (const detailPath of [
   await expectExhibitionIndexLink(detailPath, 390, 844);
 }
 
+await page.setViewportSize({ width: 1440, height: 1000 });
+await page.goto(`${baseUrl}/exhibitions/2025-2-familiar-happiness/`, {
+  waitUntil: "networkidle",
+});
+await page.locator(".familiar-work-card").first().waitFor();
+if ((await page.locator(".familiar-work-card").count()) !== 64) {
+  throw new Error("Familiar Happiness exhibition does not render all 64 works");
+}
+await expectResponsiveGalleryImage(".familiar-work-card");
+
 await openGallery(1440, 1000);
+await expectResponsiveGalleryImage(".work-card");
 const heroPoster = page.locator(".exhibition-hero-poster img");
 if (
   !(await heroPoster.evaluate((image) => image.complete && image.naturalWidth > 0)) ||
@@ -497,6 +558,7 @@ await page.screenshot({
   animations: "disabled",
 });
 await openAttraction(1440, 1000);
+await expectResponsiveGalleryImage(".attraction-work-card");
 await page.screenshot({
   path: "/private/tmp/bamboo-attraction-desktop.png",
   fullPage: false,
@@ -570,6 +632,7 @@ if (await page.locator("[data-gallery-view]").isHidden()) {
   throw new Error("Attraction Escape navigation did not return to the gallery");
 }
 await openGallery(390, 844);
+await expectResponsiveGalleryImage(".work-card");
 const menuToggle = page.locator(".menu-toggle");
 if ((await menuToggle.getAttribute("aria-label")) !== "메뉴 열기") {
   throw new Error("Mobile menu does not expose the expected accessible label");

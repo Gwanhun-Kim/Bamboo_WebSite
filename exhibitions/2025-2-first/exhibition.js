@@ -41,6 +41,21 @@ function assetUrl(publicUrl) {
   return `${STATIC_PUBLIC_ROOT}${publicUrl}`;
 }
 
+function setGalleryImageSource(image, work) {
+  const thumbnail = work.webAsset?.thumbnail;
+  if (!thumbnail?.publicUrl) {
+    image.src = assetUrl(work.webAsset.publicUrl);
+    return;
+  }
+  image.src = assetUrl(thumbnail.publicUrl);
+  image.srcset = thumbnail.srcSet
+    .map((source) => `${assetUrl(source.publicUrl)} ${source.width}w`)
+    .join(", ");
+  image.sizes = thumbnail.sizes;
+  image.width = thumbnail.width;
+  image.height = thumbnail.height;
+}
+
 function displayText(value, fallback = "기록 없음") {
   return typeof value === "string" && value.trim() ? value.trim() : fallback;
 }
@@ -82,12 +97,12 @@ function createWorkCard(work) {
     },
     { once: true }
   );
-  image.src = assetUrl(work.webAsset.publicUrl);
   image.alt = `${work.artist}의 작품 ${shownTitle}`;
   image.loading = "lazy";
   image.decoding = "async";
-  if (sourceImage.width) image.width = sourceImage.width;
-  if (sourceImage.height) image.height = sourceImage.height;
+  setGalleryImageSource(image, work);
+  if (!image.width && sourceImage.width) image.width = sourceImage.width;
+  if (!image.height && sourceImage.height) image.height = sourceImage.height;
   caption.className = "work-caption";
   title.textContent = shownTitle;
   artist.textContent = work.artist;
@@ -161,8 +176,10 @@ function showDetail(index) {
 
   detailFields.image.src = assetUrl(work.webAsset.publicUrl);
   detailFields.image.alt = `${work.artist}의 작품 ${shownTitle}`;
-  if (sourceImage.width) detailFields.image.width = sourceImage.width;
-  if (sourceImage.height) detailFields.image.height = sourceImage.height;
+  detailFields.image.decoding = "async";
+  detailFields.image.fetchPriority = "high";
+  detailFields.image.width = work.webAsset.width || sourceImage.width;
+  detailFields.image.height = work.webAsset.height || sourceImage.height;
   detailFields.title.textContent = shownTitle;
   detailFields.artist.textContent = work.artist;
   detailFields.statement.textContent = displayText(

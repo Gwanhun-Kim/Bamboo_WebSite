@@ -35,6 +35,21 @@ function assetUrl(publicUrl) {
   return `${STATIC_PUBLIC_ROOT}${publicUrl}`;
 }
 
+function setGalleryImageSource(image, work) {
+  const thumbnail = work.webAsset?.thumbnail;
+  if (!thumbnail?.publicUrl) {
+    image.src = assetUrl(work.webAsset.publicUrl);
+    return;
+  }
+  image.src = assetUrl(thumbnail.publicUrl);
+  image.srcset = thumbnail.srcSet
+    .map((source) => `${assetUrl(source.publicUrl)} ${source.width}w`)
+    .join(", ");
+  image.sizes = thumbnail.sizes;
+  image.width = thumbnail.width;
+  image.height = thumbnail.height;
+}
+
 function setMenu(open) {
   menuButton.setAttribute("aria-expanded", String(open));
   menuButton.setAttribute("aria-label", open ? "메뉴 닫기" : "메뉴 열기");
@@ -81,10 +96,10 @@ function createWorkCard(work, index) {
   imageWrap.className = "familiar-work-image";
   if (work.webAsset?.publicUrl) {
     const image = document.createElement("img");
-    image.src = assetUrl(work.webAsset.publicUrl);
     image.alt = `${work.artist}의 작품 ${shownTitle}`;
     image.loading = "lazy";
     image.decoding = "async";
+    setGalleryImageSource(image, work);
     image.addEventListener(
       "error",
       () => {
@@ -152,6 +167,10 @@ function showDetail(index) {
   if (work.webAsset?.publicUrl) {
     detailFields.image.src = assetUrl(work.webAsset.publicUrl);
     detailFields.image.alt = `${shownArtist}의 작품 ${shownTitle}`;
+    detailFields.image.decoding = "async";
+    detailFields.image.fetchPriority = "high";
+    detailFields.image.width = work.webAsset.width;
+    detailFields.image.height = work.webAsset.height;
     detailFields.image.hidden = false;
     detailFields.placeholder.hidden = true;
   } else {
