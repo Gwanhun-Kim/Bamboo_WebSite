@@ -42,9 +42,32 @@
         "path": "public/exhibitions/2026-2-attraction/images/01-gang-na-yeon.jpg",
         "publicUrl": "/exhibitions/2026-2-attraction/images/01-gang-na-yeon.jpg",
         "extension": ".jpg",
-        "width": 2400,
-        "height": 1800,
-        "fileSizeBytes": 2386945
+        "width": 1800,
+        "height": 2400,
+        "fileSizeBytes": 2386945,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/01-gang-na-yeon.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/01-gang-na-yeon-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 279454,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/01-gang-na-yeon-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 103764
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/01-gang-na-yeon-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 279454
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -80,7 +103,30 @@
         "extension": ".jpg",
         "width": 2400,
         "height": 1800,
-        "fileSizeBytes": 1045055
+        "fileSizeBytes": 1045055,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/02-gang-yu-min.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/02-gang-yu-min-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 28360,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/02-gang-yu-min-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 12042
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/02-gang-yu-min-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 28360
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [
         "촬영값 없음"
@@ -116,9 +162,32 @@
         "path": "public/exhibitions/2026-2-attraction/images/03-gang-eun-ji.jpg",
         "publicUrl": "/exhibitions/2026-2-attraction/images/03-gang-eun-ji.jpg",
         "extension": ".jpg",
-        "width": 2400,
-        "height": 1600,
-        "fileSizeBytes": 1025726
+        "width": 1600,
+        "height": 2400,
+        "fileSizeBytes": 1025726,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/03-gang-eun-ji.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/03-gang-eun-ji-800.webp",
+          "width": 800,
+          "height": 1200,
+          "fileSizeBytes": 88798,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/03-gang-eun-ji-480.webp",
+              "width": 480,
+              "height": 720,
+              "fileSizeBytes": 38490
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/03-gang-eun-ji-800.webp",
+              "width": 800,
+              "height": 1200,
+              "fileSizeBytes": 88798
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -154,7 +223,30 @@
         "extension": ".jpg",
         "width": 2048,
         "height": 1365,
-        "fileSizeBytes": 450206
+        "fileSizeBytes": 450206,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/04-gong-won-myeong.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/04-gong-won-myeong-800.webp",
+          "width": 800,
+          "height": 533,
+          "fileSizeBytes": 32984,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/04-gong-won-myeong-480.webp",
+              "width": 480,
+              "height": 320,
+              "fileSizeBytes": 17228
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/04-gong-won-myeong-800.webp",
+              "width": 800,
+              "height": 533,
+              "fileSizeBytes": 32984
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -190,7 +282,30 @@
         "extension": ".jpg",
         "width": 1800,
         "height": 2400,
-        "fileSizeBytes": 629866
+        "fileSizeBytes": 629866,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/05-gwon-min-gyeong.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/05-gwon-min-gyeong-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 102360,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/05-gwon-min-gyeong-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 47790
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/05-gwon-min-gyeong-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 102360
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [
         "카메라 정보 없음"
@@ -228,7 +343,30 @@
         "extension": ".jpg",
         "width": 1800,
         "height": 2400,
-        "fileSizeBytes": 772372
+        "fileSizeBytes": 772372,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/06-gwon-hye-jeong.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/06-gwon-hye-jeong-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 118462,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/06-gwon-hye-jeong-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 53088
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/06-gwon-hye-jeong-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 118462
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [
         "촬영값 없음"
@@ -266,7 +404,30 @@
         "extension": ".jpg",
         "width": 1384,
         "height": 1962,
-        "fileSizeBytes": 1064619
+        "fileSizeBytes": 1064619,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/07-geum-hui-won.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/07-geum-hui-won-800.webp",
+          "width": 800,
+          "height": 1134,
+          "fileSizeBytes": 85560,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/07-geum-hui-won-480.webp",
+              "width": 480,
+              "height": 680,
+              "fileSizeBytes": 24530
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/07-geum-hui-won-800.webp",
+              "width": 800,
+              "height": 1134,
+              "fileSizeBytes": 85560
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -302,7 +463,30 @@
         "extension": ".jpg",
         "width": 1080,
         "height": 1920,
-        "fileSizeBytes": 1561158
+        "fileSizeBytes": 1561158,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/08-gi-na-yeong.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/08-gi-na-yeong-800.webp",
+          "width": 800,
+          "height": 1422,
+          "fileSizeBytes": 247862,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/08-gi-na-yeong-480.webp",
+              "width": 480,
+              "height": 853,
+              "fileSizeBytes": 125186
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/08-gi-na-yeong-800.webp",
+              "width": 800,
+              "height": 1422,
+              "fileSizeBytes": 247862
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [
         "촬영값 없음"
@@ -340,7 +524,30 @@
         "extension": ".jpg",
         "width": 2400,
         "height": 1600,
-        "fileSizeBytes": 1342529
+        "fileSizeBytes": 1342529,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/09-gim-geon-jung.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/09-gim-geon-jung-800.webp",
+          "width": 800,
+          "height": 533,
+          "fileSizeBytes": 56668,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/09-gim-geon-jung-480.webp",
+              "width": 480,
+              "height": 320,
+              "fileSizeBytes": 22358
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/09-gim-geon-jung-800.webp",
+              "width": 800,
+              "height": 533,
+              "fileSizeBytes": 56668
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -376,7 +583,30 @@
         "extension": ".jpg",
         "width": 2400,
         "height": 1591,
-        "fileSizeBytes": 2460365
+        "fileSizeBytes": 2460365,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/10-gim-gwan-hun.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/10-gim-gwan-hun-800.webp",
+          "width": 800,
+          "height": 530,
+          "fileSizeBytes": 169596,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/10-gim-gwan-hun-480.webp",
+              "width": 480,
+              "height": 318,
+              "fileSizeBytes": 65744
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/10-gim-gwan-hun-800.webp",
+              "width": 800,
+              "height": 530,
+              "fileSizeBytes": 169596
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -412,7 +642,30 @@
         "extension": ".jpg",
         "width": 720,
         "height": 960,
-        "fileSizeBytes": 190117
+        "fileSizeBytes": 190117,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/11-gim-na-eun.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/11-gim-na-eun-800.webp",
+          "width": 720,
+          "height": 960,
+          "fileSizeBytes": 85830,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/11-gim-na-eun-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 38252
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/11-gim-na-eun-800.webp",
+              "width": 720,
+              "height": 960,
+              "fileSizeBytes": 85830
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [
         "촬영값 없음"
@@ -450,7 +703,30 @@
         "extension": ".jpg",
         "width": 2400,
         "height": 1799,
-        "fileSizeBytes": 1271914
+        "fileSizeBytes": 1271914,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/12-gim-da-yeon.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/12-gim-da-yeon-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 58418,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/12-gim-da-yeon-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 27394
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/12-gim-da-yeon-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 58418
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [
         "촬영값 없음"
@@ -486,9 +762,32 @@
         "path": "public/exhibitions/2026-2-attraction/images/13-gim-min-seo.jpg",
         "publicUrl": "/exhibitions/2026-2-attraction/images/13-gim-min-seo.jpg",
         "extension": ".jpg",
-        "width": 2400,
-        "height": 1600,
-        "fileSizeBytes": 2086695
+        "width": 1600,
+        "height": 2400,
+        "fileSizeBytes": 2086695,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/13-gim-min-seo.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/13-gim-min-seo-800.webp",
+          "width": 800,
+          "height": 1200,
+          "fileSizeBytes": 291706,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/13-gim-min-seo-480.webp",
+              "width": 480,
+              "height": 720,
+              "fileSizeBytes": 118746
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/13-gim-min-seo-800.webp",
+              "width": 800,
+              "height": 1200,
+              "fileSizeBytes": 291706
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -524,7 +823,30 @@
         "extension": ".jpg",
         "width": 1800,
         "height": 2400,
-        "fileSizeBytes": 702687
+        "fileSizeBytes": 702687,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/14-gim-min-ji.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/14-gim-min-ji-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 109920,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/14-gim-min-ji-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 57174
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/14-gim-min-ji-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 109920
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -560,7 +882,30 @@
         "extension": ".jpg",
         "width": 1600,
         "height": 2400,
-        "fileSizeBytes": 1257474
+        "fileSizeBytes": 1257474,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/15-gim-sang-wan.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/15-gim-sang-wan-800.webp",
+          "width": 800,
+          "height": 1200,
+          "fileSizeBytes": 141148,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/15-gim-sang-wan-480.webp",
+              "width": 480,
+              "height": 720,
+              "fileSizeBytes": 59816
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/15-gim-sang-wan-800.webp",
+              "width": 800,
+              "height": 1200,
+              "fileSizeBytes": 141148
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -594,9 +939,32 @@
         "path": "public/exhibitions/2026-2-attraction/images/16-gim-yeong-chan.jpg",
         "publicUrl": "/exhibitions/2026-2-attraction/images/16-gim-yeong-chan.jpg",
         "extension": ".jpg",
-        "width": 2400,
-        "height": 1600,
-        "fileSizeBytes": 828553
+        "width": 1600,
+        "height": 2400,
+        "fileSizeBytes": 828553,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/16-gim-yeong-chan.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/16-gim-yeong-chan-800.webp",
+          "width": 800,
+          "height": 1200,
+          "fileSizeBytes": 77712,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/16-gim-yeong-chan-480.webp",
+              "width": 480,
+              "height": 720,
+              "fileSizeBytes": 41658
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/16-gim-yeong-chan-800.webp",
+              "width": 800,
+              "height": 1200,
+              "fileSizeBytes": 77712
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -632,7 +1000,30 @@
         "extension": ".jpg",
         "width": 1800,
         "height": 2400,
-        "fileSizeBytes": 742910
+        "fileSizeBytes": 742910,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/17-gim-yong-hwan.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/17-gim-yong-hwan-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 92654,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/17-gim-yong-hwan-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 43456
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/17-gim-yong-hwan-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 92654
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -666,9 +1057,32 @@
         "path": "public/exhibitions/2026-2-attraction/images/18-gim-yun-a.jpg",
         "publicUrl": "/exhibitions/2026-2-attraction/images/18-gim-yun-a.jpg",
         "extension": ".jpg",
-        "width": 2400,
-        "height": 1800,
-        "fileSizeBytes": 1332742
+        "width": 1800,
+        "height": 2400,
+        "fileSizeBytes": 1332742,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/18-gim-yun-a.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/18-gim-yun-a-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 99158,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/18-gim-yun-a-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 45226
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/18-gim-yun-a-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 99158
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [
         "촬영값 없음"
@@ -706,7 +1120,30 @@
         "extension": ".jpg",
         "width": 2400,
         "height": 1600,
-        "fileSizeBytes": 1573318
+        "fileSizeBytes": 1573318,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/19-gim-yun-hwan.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/19-gim-yun-hwan-800.webp",
+          "width": 800,
+          "height": 533,
+          "fileSizeBytes": 78968,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/19-gim-yun-hwan-480.webp",
+              "width": 480,
+              "height": 320,
+              "fileSizeBytes": 30972
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/19-gim-yun-hwan-800.webp",
+              "width": 800,
+              "height": 533,
+              "fileSizeBytes": 78968
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -742,7 +1179,30 @@
         "extension": ".jpg",
         "width": 1080,
         "height": 1456,
-        "fileSizeBytes": 865203
+        "fileSizeBytes": 865203,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/20-gim-in-ae.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/20-gim-in-ae-800.webp",
+          "width": 800,
+          "height": 1079,
+          "fileSizeBytes": 252484,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/20-gim-in-ae-480.webp",
+              "width": 480,
+              "height": 647,
+              "fileSizeBytes": 98758
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/20-gim-in-ae-800.webp",
+              "width": 800,
+              "height": 1079,
+              "fileSizeBytes": 252484
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [
         "촬영값 없음"
@@ -780,7 +1240,30 @@
         "extension": ".jpg",
         "width": 1600,
         "height": 2400,
-        "fileSizeBytes": 2011937
+        "fileSizeBytes": 2011937,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/21-gim-jae-hwan.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/21-gim-jae-hwan-800.webp",
+          "width": 800,
+          "height": 1200,
+          "fileSizeBytes": 279230,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/21-gim-jae-hwan-480.webp",
+              "width": 480,
+              "height": 720,
+              "fileSizeBytes": 120504
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/21-gim-jae-hwan-800.webp",
+              "width": 800,
+              "height": 1200,
+              "fileSizeBytes": 279230
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -816,7 +1299,30 @@
         "extension": ".jpg",
         "width": 1800,
         "height": 2400,
-        "fileSizeBytes": 778787
+        "fileSizeBytes": 778787,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/22-gim-jeong-hoe.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/22-gim-jeong-hoe-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 130716,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/22-gim-jeong-hoe-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 65422
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/22-gim-jeong-hoe-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 130716
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -852,7 +1358,30 @@
         "extension": ".jpg",
         "width": 1600,
         "height": 2400,
-        "fileSizeBytes": 1001200
+        "fileSizeBytes": 1001200,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/23-gim-jong-su.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/23-gim-jong-su-800.webp",
+          "width": 800,
+          "height": 1200,
+          "fileSizeBytes": 73552,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/23-gim-jong-su-480.webp",
+              "width": 480,
+              "height": 720,
+              "fileSizeBytes": 37302
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/23-gim-jong-su-800.webp",
+              "width": 800,
+              "height": 1200,
+              "fileSizeBytes": 73552
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -888,7 +1417,30 @@
         "extension": ".jpg",
         "width": 1349,
         "height": 2400,
-        "fileSizeBytes": 550397
+        "fileSizeBytes": 550397,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/24-gim-ji-yeong.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/24-gim-ji-yeong-800.webp",
+          "width": 800,
+          "height": 1423,
+          "fileSizeBytes": 57690,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/24-gim-ji-yeong-480.webp",
+              "width": 480,
+              "height": 854,
+              "fileSizeBytes": 28968
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/24-gim-ji-yeong-800.webp",
+              "width": 800,
+              "height": 1423,
+              "fileSizeBytes": 57690
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -924,7 +1476,30 @@
         "extension": ".jpg",
         "width": 2400,
         "height": 1600,
-        "fileSizeBytes": 828953
+        "fileSizeBytes": 828953,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/25-gim-ji-yul.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/25-gim-ji-yul-800.webp",
+          "width": 800,
+          "height": 533,
+          "fileSizeBytes": 48480,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/25-gim-ji-yul-480.webp",
+              "width": 480,
+              "height": 320,
+              "fileSizeBytes": 24180
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/25-gim-ji-yul-800.webp",
+              "width": 800,
+              "height": 533,
+              "fileSizeBytes": 48480
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -960,7 +1535,30 @@
         "extension": ".jpg",
         "width": 1086,
         "height": 1448,
-        "fileSizeBytes": 494524
+        "fileSizeBytes": 494524,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/26-gim-chae-hui.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/26-gim-chae-hui-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 118088,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/26-gim-chae-hui-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 46308
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/26-gim-chae-hui-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 118088
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -996,7 +1594,30 @@
         "extension": ".jpg",
         "width": 1798,
         "height": 2400,
-        "fileSizeBytes": 2540294
+        "fileSizeBytes": 2540294,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/27-gim-tae-ho.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/27-gim-tae-ho-800.webp",
+          "width": 800,
+          "height": 1068,
+          "fileSizeBytes": 312644,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/27-gim-tae-ho-480.webp",
+              "width": 480,
+              "height": 641,
+              "fileSizeBytes": 114882
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/27-gim-tae-ho-800.webp",
+              "width": 800,
+              "height": 1068,
+              "fileSizeBytes": 312644
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -1032,7 +1653,30 @@
         "extension": ".jpg",
         "width": 1080,
         "height": 1440,
-        "fileSizeBytes": 588625
+        "fileSizeBytes": 588625,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/28-gim-hyeon-a.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/28-gim-hyeon-a-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 184594,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/28-gim-hyeon-a-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 86080
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/28-gim-hyeon-a-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 184594
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [
         "촬영값 없음"
@@ -1070,7 +1714,30 @@
         "extension": ".jpg",
         "width": 1800,
         "height": 2400,
-        "fileSizeBytes": 1827085
+        "fileSizeBytes": 1827085,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/29-nam-tae-min.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/29-nam-tae-min-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 162038,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/29-nam-tae-min-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 63954
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/29-nam-tae-min-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 162038
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -1106,7 +1773,30 @@
         "extension": ".jpg",
         "width": 1600,
         "height": 1200,
-        "fileSizeBytes": 294246
+        "fileSizeBytes": 294246,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/30-mun-seo-yun.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/30-mun-seo-yun-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 43756,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/30-mun-seo-yun-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 19226
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/30-mun-seo-yun-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 43756
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -1142,7 +1832,30 @@
         "extension": ".jpg",
         "width": 932,
         "height": 1440,
-        "fileSizeBytes": 822365
+        "fileSizeBytes": 822365,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/31-mun-seon-a.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/31-mun-seon-a-800.webp",
+          "width": 800,
+          "height": 1236,
+          "fileSizeBytes": 280436,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/31-mun-seon-a-480.webp",
+              "width": 480,
+              "height": 742,
+              "fileSizeBytes": 117472
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/31-mun-seon-a-800.webp",
+              "width": 800,
+              "height": 1236,
+              "fileSizeBytes": 280436
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [
         "촬영값 없음"
@@ -1180,7 +1893,30 @@
         "extension": ".jpg",
         "width": 1593,
         "height": 2400,
-        "fileSizeBytes": 582069
+        "fileSizeBytes": 582069,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/32-mun-ji-hyeon.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/32-mun-ji-hyeon-800.webp",
+          "width": 800,
+          "height": 1205,
+          "fileSizeBytes": 113020,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/32-mun-ji-hyeon-480.webp",
+              "width": 480,
+              "height": 723,
+              "fileSizeBytes": 52082
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/32-mun-ji-hyeon-800.webp",
+              "width": 800,
+              "height": 1205,
+              "fileSizeBytes": 113020
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [
         "촬영값 없음"
@@ -1218,7 +1954,30 @@
         "extension": ".jpg",
         "width": 2400,
         "height": 1800,
-        "fileSizeBytes": 1843715
+        "fileSizeBytes": 1843715,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/33-bak-seo-hyeon.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/33-bak-seo-hyeon-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 127444,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/33-bak-seo-hyeon-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 56718
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/33-bak-seo-hyeon-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 127444
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [
         "촬영값 없음"
@@ -1256,7 +2015,30 @@
         "extension": ".jpg",
         "width": 2400,
         "height": 1603,
-        "fileSizeBytes": 804956
+        "fileSizeBytes": 804956,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/34-bak-ji-won.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/34-bak-ji-won-800.webp",
+          "width": 800,
+          "height": 534,
+          "fileSizeBytes": 35436,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/34-bak-ji-won-480.webp",
+              "width": 480,
+              "height": 321,
+              "fileSizeBytes": 16046
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/34-bak-ji-won-800.webp",
+              "width": 800,
+              "height": 534,
+              "fileSizeBytes": 35436
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -1292,7 +2074,30 @@
         "extension": ".jpg",
         "width": 1050,
         "height": 1400,
-        "fileSizeBytes": 377191
+        "fileSizeBytes": 377191,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/35-bak-hyeon-a.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/35-bak-hyeon-a-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 61438,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/35-bak-hyeon-a-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 24316
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/35-bak-hyeon-a-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 61438
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [
         "촬영값 없음"
@@ -1330,7 +2135,30 @@
         "extension": ".jpg",
         "width": 2400,
         "height": 1350,
-        "fileSizeBytes": 715831
+        "fileSizeBytes": 715831,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/36-bak-hyeon-ji.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/36-bak-hyeon-ji-800.webp",
+          "width": 800,
+          "height": 450,
+          "fileSizeBytes": 67106,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/36-bak-hyeon-ji-480.webp",
+              "width": 480,
+              "height": 270,
+              "fileSizeBytes": 25442
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/36-bak-hyeon-ji-800.webp",
+              "width": 800,
+              "height": 450,
+              "fileSizeBytes": 67106
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -1366,7 +2194,30 @@
         "extension": ".jpg",
         "width": 1716,
         "height": 2288,
-        "fileSizeBytes": 850032
+        "fileSizeBytes": 850032,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/37-bak-hye-rin.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/37-bak-hye-rin-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 61408,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/37-bak-hye-rin-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 28170
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/37-bak-hye-rin-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 61408
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [
         "촬영값 없음"
@@ -1404,7 +2255,30 @@
         "extension": ".jpg",
         "width": 2400,
         "height": 1799,
-        "fileSizeBytes": 1838177
+        "fileSizeBytes": 1838177,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/38-bang-ju-yeon.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/38-bang-ju-yeon-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 119610,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/38-bang-ju-yeon-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 49832
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/38-bang-ju-yeon-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 119610
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [
         "촬영값 없음"
@@ -1442,7 +2316,30 @@
         "extension": ".jpg",
         "width": 1080,
         "height": 1440,
-        "fileSizeBytes": 393466
+        "fileSizeBytes": 393466,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/39-seo-jeong-u.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/39-seo-jeong-u-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 136744,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/39-seo-jeong-u-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 56490
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/39-seo-jeong-u-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 136744
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -1478,7 +2375,30 @@
         "extension": ".jpg",
         "width": 1535,
         "height": 1151,
-        "fileSizeBytes": 777315
+        "fileSizeBytes": 777315,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/40-son-seung-a.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/40-son-seung-a-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 90108,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/40-son-seung-a-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 37896
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/40-son-seung-a-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 90108
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [
         "촬영값 없음"
@@ -1516,7 +2436,30 @@
         "extension": ".jpg",
         "width": 1012,
         "height": 1350,
-        "fileSizeBytes": 1145066
+        "fileSizeBytes": 1145066,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/41-son-hwa-rang.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/41-son-hwa-rang-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 129012,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/41-son-hwa-rang-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 54694
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/41-son-hwa-rang-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 129012
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [
         "작가의 말 없음",
@@ -1557,7 +2500,30 @@
         "extension": ".jpg",
         "width": 1800,
         "height": 2400,
-        "fileSizeBytes": 1469867
+        "fileSizeBytes": 1469867,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/42-sin-seong-jun.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/42-sin-seong-jun-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 220620,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/42-sin-seong-jun-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 76718
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/42-sin-seong-jun-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 220620
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -1593,7 +2559,30 @@
         "extension": ".jpg",
         "width": 1599,
         "height": 2400,
-        "fileSizeBytes": 1437854
+        "fileSizeBytes": 1437854,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/43-sin-jae-min.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/43-sin-jae-min-800.webp",
+          "width": 800,
+          "height": 1201,
+          "fileSizeBytes": 151054,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/43-sin-jae-min-480.webp",
+              "width": 480,
+              "height": 720,
+              "fileSizeBytes": 59342
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/43-sin-jae-min-800.webp",
+              "width": 800,
+              "height": 1201,
+              "fileSizeBytes": 151054
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -1629,7 +2618,30 @@
         "extension": ".jpg",
         "width": 941,
         "height": 1672,
-        "fileSizeBytes": 179484
+        "fileSizeBytes": 179484,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/44-an-jeong-hyeon.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/44-an-jeong-hyeon-800.webp",
+          "width": 800,
+          "height": 1421,
+          "fileSizeBytes": 49958,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/44-an-jeong-hyeon-480.webp",
+              "width": 480,
+              "height": 853,
+              "fileSizeBytes": 18736
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/44-an-jeong-hyeon-800.webp",
+              "width": 800,
+              "height": 1421,
+              "fileSizeBytes": 49958
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [
         "촬영일 없음"
@@ -1667,7 +2679,30 @@
         "extension": ".jpg",
         "width": 2400,
         "height": 1800,
-        "fileSizeBytes": 914832
+        "fileSizeBytes": 914832,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/45-o-min-u.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/45-o-min-u-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 30350,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/45-o-min-u-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 13256
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/45-o-min-u-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 30350
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -1703,7 +2738,30 @@
         "extension": ".jpg",
         "width": 2400,
         "height": 1591,
-        "fileSizeBytes": 1735158
+        "fileSizeBytes": 1735158,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/46-won-je-yeon.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/46-won-je-yeon-800.webp",
+          "width": 800,
+          "height": 530,
+          "fileSizeBytes": 36950,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/46-won-je-yeon-480.webp",
+              "width": 480,
+              "height": 318,
+              "fileSizeBytes": 16646
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/46-won-je-yeon-800.webp",
+              "width": 800,
+              "height": 530,
+              "fileSizeBytes": 36950
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -1739,7 +2797,30 @@
         "extension": ".jpg",
         "width": 2400,
         "height": 1350,
-        "fileSizeBytes": 831775
+        "fileSizeBytes": 831775,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/47-yu-seong-min.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/47-yu-seong-min-800.webp",
+          "width": 800,
+          "height": 450,
+          "fileSizeBytes": 9104,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/47-yu-seong-min-480.webp",
+              "width": 480,
+              "height": 270,
+              "fileSizeBytes": 4664
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/47-yu-seong-min-800.webp",
+              "width": 800,
+              "height": 450,
+              "fileSizeBytes": 9104
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -1775,7 +2856,30 @@
         "extension": ".jpg",
         "width": 1596,
         "height": 2400,
-        "fileSizeBytes": 2191124
+        "fileSizeBytes": 2191124,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/48-yun-seong-jun.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/48-yun-seong-jun-800.webp",
+          "width": 800,
+          "height": 1203,
+          "fileSizeBytes": 305788,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/48-yun-seong-jun-480.webp",
+              "width": 480,
+              "height": 722,
+              "fileSizeBytes": 113104
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/48-yun-seong-jun-800.webp",
+              "width": 800,
+              "height": 1203,
+              "fileSizeBytes": 305788
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -1811,7 +2915,30 @@
         "extension": ".jpg",
         "width": 2400,
         "height": 1800,
-        "fileSizeBytes": 1796381
+        "fileSizeBytes": 1796381,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/49-yun-su-gyeong.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/49-yun-su-gyeong-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 115598,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/49-yun-su-gyeong-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 46800
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/49-yun-su-gyeong-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 115598
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [
         "촬영값 없음"
@@ -1849,7 +2976,30 @@
         "extension": ".jpg",
         "width": 2400,
         "height": 1600,
-        "fileSizeBytes": 737188
+        "fileSizeBytes": 737188,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/50-yun-yeo-bin.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/50-yun-yeo-bin-800.webp",
+          "width": 800,
+          "height": 533,
+          "fileSizeBytes": 24266,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/50-yun-yeo-bin-480.webp",
+              "width": 480,
+              "height": 320,
+              "fileSizeBytes": 9784
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/50-yun-yeo-bin-800.webp",
+              "width": 800,
+              "height": 533,
+              "fileSizeBytes": 24266
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [
         "촬영값 없음"
@@ -1887,7 +3037,30 @@
         "extension": ".jpg",
         "width": 2400,
         "height": 1594,
-        "fileSizeBytes": 1209940
+        "fileSizeBytes": 1209940,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/51-yun-yeong-ae.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/51-yun-yeong-ae-800.webp",
+          "width": 800,
+          "height": 531,
+          "fileSizeBytes": 66196,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/51-yun-yeong-ae-480.webp",
+              "width": 480,
+              "height": 319,
+              "fileSizeBytes": 29304
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/51-yun-yeong-ae-800.webp",
+              "width": 800,
+              "height": 531,
+              "fileSizeBytes": 66196
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [
         "촬영값 없음"
@@ -1925,7 +3098,30 @@
         "extension": ".jpg",
         "width": 1600,
         "height": 2400,
-        "fileSizeBytes": 1921093
+        "fileSizeBytes": 1921093,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/52-i-gyu-yeong.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/52-i-gyu-yeong-800.webp",
+          "width": 800,
+          "height": 1200,
+          "fileSizeBytes": 260592,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/52-i-gyu-yeong-480.webp",
+              "width": 480,
+              "height": 720,
+              "fileSizeBytes": 105118
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/52-i-gyu-yeong-800.webp",
+              "width": 800,
+              "height": 1200,
+              "fileSizeBytes": 260592
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -1961,7 +3157,30 @@
         "extension": ".jpg",
         "width": 1800,
         "height": 2400,
-        "fileSizeBytes": 1944028
+        "fileSizeBytes": 1944028,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/53-i-min-u.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/53-i-min-u-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 159350,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/53-i-min-u-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 66692
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/53-i-min-u-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 159350
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -1997,7 +3216,30 @@
         "extension": ".jpg",
         "width": 1920,
         "height": 2400,
-        "fileSizeBytes": 1524967
+        "fileSizeBytes": 1524967,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/54-i-seung-hun.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/54-i-seung-hun-800.webp",
+          "width": 800,
+          "height": 1000,
+          "fileSizeBytes": 64132,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/54-i-seung-hun-480.webp",
+              "width": 480,
+              "height": 600,
+              "fileSizeBytes": 29528
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/54-i-seung-hun-800.webp",
+              "width": 800,
+              "height": 1000,
+              "fileSizeBytes": 64132
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -2033,7 +3275,30 @@
         "extension": ".jpg",
         "width": 1800,
         "height": 2400,
-        "fileSizeBytes": 968383
+        "fileSizeBytes": 968383,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/55-i-han-byeol.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/55-i-han-byeol-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 160210,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/55-i-han-byeol-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 64448
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/55-i-han-byeol-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 160210
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [
         "촬영값 없음"
@@ -2071,7 +3336,30 @@
         "extension": ".jpg",
         "width": 1799,
         "height": 2400,
-        "fileSizeBytes": 1095488
+        "fileSizeBytes": 1095488,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/56-i-hyeon-man.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/56-i-hyeon-man-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 109736,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/56-i-hyeon-man-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 45326
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/56-i-hyeon-man-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 109736
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -2107,7 +3395,30 @@
         "extension": ".jpg",
         "width": 1812,
         "height": 2400,
-        "fileSizeBytes": 1250830
+        "fileSizeBytes": 1250830,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/57-im-chan-yeong.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/57-im-chan-yeong-800.webp",
+          "width": 800,
+          "height": 1060,
+          "fileSizeBytes": 79590,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/57-im-chan-yeong-480.webp",
+              "width": 480,
+              "height": 636,
+              "fileSizeBytes": 39264
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/57-im-chan-yeong-800.webp",
+              "width": 800,
+              "height": 1060,
+              "fileSizeBytes": 79590
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -2141,9 +3452,32 @@
         "path": "public/exhibitions/2026-2-attraction/images/58-jang-yun-seong.jpg",
         "publicUrl": "/exhibitions/2026-2-attraction/images/58-jang-yun-seong.jpg",
         "extension": ".jpg",
-        "width": 2400,
-        "height": 1600,
-        "fileSizeBytes": 766059
+        "width": 1600,
+        "height": 2400,
+        "fileSizeBytes": 766059,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/58-jang-yun-seong.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/58-jang-yun-seong-800.webp",
+          "width": 800,
+          "height": 1200,
+          "fileSizeBytes": 87414,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/58-jang-yun-seong-480.webp",
+              "width": 480,
+              "height": 720,
+              "fileSizeBytes": 46546
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/58-jang-yun-seong-800.webp",
+              "width": 800,
+              "height": 1200,
+              "fileSizeBytes": 87414
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [
         "촬영값 없음"
@@ -2181,7 +3515,30 @@
         "extension": ".jpg",
         "width": 1800,
         "height": 2400,
-        "fileSizeBytes": 966295
+        "fileSizeBytes": 966295,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/59-jeong-yun-seo.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/59-jeong-yun-seo-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 156736,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/59-jeong-yun-seo-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 57680
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/59-jeong-yun-seo-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 156736
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -2217,7 +3574,30 @@
         "extension": ".jpg",
         "width": 1800,
         "height": 2400,
-        "fileSizeBytes": 1682128
+        "fileSizeBytes": 1682128,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/60-jeong-ji-won.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/60-jeong-ji-won-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 175178,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/60-jeong-ji-won-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 77234
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/60-jeong-ji-won-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 175178
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [
         "촬영값 없음"
@@ -2255,7 +3635,30 @@
         "extension": ".jpg",
         "width": 2400,
         "height": 1800,
-        "fileSizeBytes": 2548064
+        "fileSizeBytes": 2548064,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/61-jeong-jin-yun.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/61-jeong-jin-yun-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 159414,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/61-jeong-jin-yun-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 55716
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/61-jeong-jin-yun-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 159414
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -2289,9 +3692,32 @@
         "path": "public/exhibitions/2026-2-attraction/images/62-jo-so-eun.jpg",
         "publicUrl": "/exhibitions/2026-2-attraction/images/62-jo-so-eun.jpg",
         "extension": ".jpg",
-        "width": 2400,
-        "height": 1600,
-        "fileSizeBytes": 1180888
+        "width": 1600,
+        "height": 2400,
+        "fileSizeBytes": 1180888,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/62-jo-so-eun.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/62-jo-so-eun-800.webp",
+          "width": 800,
+          "height": 1200,
+          "fileSizeBytes": 147406,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/62-jo-so-eun-480.webp",
+              "width": 480,
+              "height": 720,
+              "fileSizeBytes": 69498
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/62-jo-so-eun-800.webp",
+              "width": 800,
+              "height": 1200,
+              "fileSizeBytes": 147406
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [
         "촬영값 없음"
@@ -2329,7 +3755,30 @@
         "extension": ".jpg",
         "width": 1600,
         "height": 1200,
-        "fileSizeBytes": 793544
+        "fileSizeBytes": 793544,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/63-jo-ha-yeon.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/63-jo-ha-yeon-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 55838,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/63-jo-ha-yeon-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 29112
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/63-jo-ha-yeon-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 55838
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [
         "촬영값 없음"
@@ -2365,9 +3814,32 @@
         "path": "public/exhibitions/2026-2-attraction/images/64-jin-yu-bin.jpg",
         "publicUrl": "/exhibitions/2026-2-attraction/images/64-jin-yu-bin.jpg",
         "extension": ".jpg",
-        "width": 2400,
-        "height": 1800,
-        "fileSizeBytes": 1682842
+        "width": 1800,
+        "height": 2400,
+        "fileSizeBytes": 1682842,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/64-jin-yu-bin.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/64-jin-yu-bin-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 172078,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/64-jin-yu-bin-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 72364
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/64-jin-yu-bin-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 172078
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -2403,7 +3875,30 @@
         "extension": ".jpg",
         "width": 1800,
         "height": 2400,
-        "fileSizeBytes": 1020754
+        "fileSizeBytes": 1020754,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/65-choe-seo-a.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/65-choe-seo-a-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 210122,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/65-choe-seo-a-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 89666
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/65-choe-seo-a-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 210122
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -2439,7 +3934,30 @@
         "extension": ".jpg",
         "width": 1359,
         "height": 904,
-        "fileSizeBytes": 293169
+        "fileSizeBytes": 293169,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/66-choe-yu-ri.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/66-choe-yu-ri-800.webp",
+          "width": 800,
+          "height": 532,
+          "fileSizeBytes": 38256,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/66-choe-yu-ri-480.webp",
+              "width": 480,
+              "height": 319,
+              "fileSizeBytes": 20462
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/66-choe-yu-ri-800.webp",
+              "width": 800,
+              "height": 532,
+              "fileSizeBytes": 38256
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -2475,7 +3993,30 @@
         "extension": ".jpg",
         "width": 1056,
         "height": 1409,
-        "fileSizeBytes": 522791
+        "fileSizeBytes": 522791,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/67-choe-tae-yeong.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/67-choe-tae-yeong-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 66698,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/67-choe-tae-yeong-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 25142
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/67-choe-tae-yeong-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 66698
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [],
       "needsReview": false
@@ -2511,7 +4052,30 @@
         "extension": ".jpg",
         "width": 972,
         "height": 1401,
-        "fileSizeBytes": 271886
+        "fileSizeBytes": 271886,
+        "originalPublicUrl": "/exhibitions/2026-2-attraction/images/68-hwang-jae-yun.jpg",
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/68-hwang-jae-yun-800.webp",
+          "width": 800,
+          "height": 1153,
+          "fileSizeBytes": 125252,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/68-hwang-jae-yun-480.webp",
+              "width": 480,
+              "height": 692,
+              "fileSizeBytes": 62856
+            },
+            {
+              "publicUrl": "/exhibitions/2026-2-attraction/images/thumbnails/68-hwang-jae-yun-800.webp",
+              "width": 800,
+              "height": 1153,
+              "fileSizeBytes": 125252
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": [
         "카메라 정보 없음",

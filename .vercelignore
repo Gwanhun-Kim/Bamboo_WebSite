@@ -17,3 +17,7 @@
 # Keep unused source/reference assets out of the deployment bundle.
 assets/activity-cards/
 data/**/*.md
+
+# Optimized display copies replace these legacy full-resolution public files.
+public/exhibitions/2025-2-first/images/*.jpg
+public/exhibitions/2025-2-familiar-happiness/images/*.jpg

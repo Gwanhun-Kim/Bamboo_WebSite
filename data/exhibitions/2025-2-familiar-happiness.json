@@ -27,10 +27,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "01-강나연-봄밤.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/01-강나연-봄밤.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/01-강나연-봄밤.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/01-강나연-봄밤.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/01-강나연-봄밤.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 2262407
+        "fileSizeBytes": 813876,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/01-강나연-봄밤.jpg",
+        "width": 1536,
+        "height": 2048,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/01-강나연-봄밤-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 200160,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/01-강나연-봄밤-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 86868
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/01-강나연-봄밤-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 200160
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -54,10 +79,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "02-강동곤-햇살이-머무는-동네.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/02-강동곤-햇살이-머무는-동네.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/02-강동곤-햇살이-머무는-동네.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/02-강동곤-햇살이-머무는-동네.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/02-강동곤-햇살이-머무는-동네.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 892411
+        "fileSizeBytes": 349544,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/02-강동곤-햇살이-머무는-동네.jpg",
+        "width": 1080,
+        "height": 1440,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/02-강동곤-햇살이-머무는-동네-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 123336,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/02-강동곤-햇살이-머무는-동네-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 58508
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/02-강동곤-햇살이-머무는-동네-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 123336
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -83,10 +133,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "03-강신혁-한강에서-바라보는-노을.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/03-강신혁-한강에서-바라보는-노을.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/03-강신혁-한강에서-바라보는-노을.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/03-강신혁-한강에서-바라보는-노을.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/03-강신혁-한강에서-바라보는-노을.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 14380901
+        "fileSizeBytes": 998130,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/03-강신혁-한강에서-바라보는-노을.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/03-강신혁-한강에서-바라보는-노을-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 140452,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/03-강신혁-한강에서-바라보는-노을-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 56888
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/03-강신혁-한강에서-바라보는-노을-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 140452
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -110,10 +185,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "04-강은지-우리는-기지개-출근합니다.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/04-강은지-우리는-기지개-출근합니다.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/04-강은지-우리는-기지개-출근합니다.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/04-강은지-우리는-기지개-출근합니다.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/04-강은지-우리는-기지개-출근합니다.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 8233410
+        "fileSizeBytes": 644426,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/04-강은지-우리는-기지개-출근합니다.jpg",
+        "width": 2400,
+        "height": 1800,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/04-강은지-우리는-기지개-출근합니다-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 61102,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/04-강은지-우리는-기지개-출근합니다-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 28676
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/04-강은지-우리는-기지개-출근합니다-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 61102
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -139,10 +239,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "05-공원명-익숙함에-스미는-따뜻함.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/05-공원명-익숙함에-스미는-따뜻함.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/05-공원명-익숙함에-스미는-따뜻함.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/05-공원명-익숙함에-스미는-따뜻함.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/05-공원명-익숙함에-스미는-따뜻함.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 3328634
+        "fileSizeBytes": 366884,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/05-공원명-익숙함에-스미는-따뜻함.jpg",
+        "width": 1813,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/05-공원명-익숙함에-스미는-따뜻함-800.webp",
+          "width": 800,
+          "height": 1059,
+          "fileSizeBytes": 32432,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/05-공원명-익숙함에-스미는-따뜻함-480.webp",
+              "width": 480,
+              "height": 635,
+              "fileSizeBytes": 13924
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/05-공원명-익숙함에-스미는-따뜻함-800.webp",
+              "width": 800,
+              "height": 1059,
+              "fileSizeBytes": 32432
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -166,10 +291,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "06-권세린-낯선.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/06-권세린-낯선.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/06-권세린-낯선.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/06-권세린-낯선.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/06-권세린-낯선.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 5780330
+        "fileSizeBytes": 1140021,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/06-권세린-낯선.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/06-권세린-낯선-800.webp",
+          "width": 800,
+          "height": 1066,
+          "fileSizeBytes": 190714,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/06-권세린-낯선-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 71528
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/06-권세린-낯선-800.webp",
+              "width": 800,
+              "height": 1066,
+              "fileSizeBytes": 190714
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -193,10 +343,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "07-권인준-동심.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/07-권인준-동심.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/07-권인준-동심.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/07-권인준-동심.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/07-권인준-동심.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 6405627
+        "fileSizeBytes": 1098780,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/07-권인준-동심.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/07-권인준-동심-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 142348,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/07-권인준-동심-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 50364
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/07-권인준-동심-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 142348
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -220,10 +395,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "08-김관훈-비눗방울.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/08-김관훈-비눗방울.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/08-김관훈-비눗방울.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/08-김관훈-비눗방울.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/08-김관훈-비눗방울.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 5084920
+        "fileSizeBytes": 1361172,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/08-김관훈-비눗방울.jpg",
+        "width": 2400,
+        "height": 1800,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/08-김관훈-비눗방울-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 134396,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/08-김관훈-비눗방울-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 51686
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/08-김관훈-비눗방울-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 134396
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -249,10 +449,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "09-김다연-기억의-무늬.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/09-김다연-기억의-무늬.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/09-김다연-기억의-무늬.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/09-김다연-기억의-무늬.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/09-김다연-기억의-무늬.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 6074522
+        "fileSizeBytes": 683358,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/09-김다연-기억의-무늬.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/09-김다연-기억의-무늬-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 89814,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/09-김다연-기억의-무늬-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 39356
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/09-김다연-기억의-무늬-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 89814
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -276,10 +501,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "10-김보현-밤의-정취.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/10-김보현-밤의-정취.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/10-김보현-밤의-정취.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/10-김보현-밤의-정취.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/10-김보현-밤의-정취.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 488722
+        "fileSizeBytes": 148767,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/10-김보현-밤의-정취.jpg",
+        "width": 1154,
+        "height": 1538,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/10-김보현-밤의-정취-800.webp",
+          "width": 800,
+          "height": 1066,
+          "fileSizeBytes": 32740,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/10-김보현-밤의-정취-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 17764
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/10-김보현-밤의-정취-800.webp",
+              "width": 800,
+              "height": 1066,
+              "fileSizeBytes": 32740
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -303,10 +553,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "11-김시현-등교길.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/11-김시현-등교길.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/11-김시현-등교길.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/11-김시현-등교길.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/11-김시현-등교길.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 1547832
+        "fileSizeBytes": 563482,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/11-김시현-등교길.jpg",
+        "width": 1020,
+        "height": 1440,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/11-김시현-등교길-800.webp",
+          "width": 800,
+          "height": 1129,
+          "fileSizeBytes": 283260,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/11-김시현-등교길-480.webp",
+              "width": 480,
+              "height": 678,
+              "fileSizeBytes": 114204
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/11-김시현-등교길-800.webp",
+              "width": 800,
+              "height": 1129,
+              "fileSizeBytes": 283260
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -330,10 +605,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "12-김용환-고요함-속의-산책.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/12-김용환-고요함-속의-산책.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/12-김용환-고요함-속의-산책.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/12-김용환-고요함-속의-산책.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/12-김용환-고요함-속의-산책.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 8746111
+        "fileSizeBytes": 1155084,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/12-김용환-고요함-속의-산책.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/12-김용환-고요함-속의-산책-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 172704,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/12-김용환-고요함-속의-산책-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 77102
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/12-김용환-고요함-속의-산책-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 172704
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -357,10 +657,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "13-김유빈-작기에-소중한-것들.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/13-김유빈-작기에-소중한-것들.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/13-김유빈-작기에-소중한-것들.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/13-김유빈-작기에-소중한-것들.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/13-김유빈-작기에-소중한-것들.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 5735242
+        "fileSizeBytes": 1461277,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/13-김유빈-작기에-소중한-것들.jpg",
+        "width": 1920,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/13-김유빈-작기에-소중한-것들-800.webp",
+          "width": 800,
+          "height": 1000,
+          "fileSizeBytes": 224208,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/13-김유빈-작기에-소중한-것들-480.webp",
+              "width": 480,
+              "height": 600,
+              "fileSizeBytes": 83210
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/13-김유빈-작기에-소중한-것들-800.webp",
+              "width": 800,
+              "height": 1000,
+              "fileSizeBytes": 224208
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -384,10 +709,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "14-김은효-7호선의-아침-인사.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/14-김은효-7호선의-아침-인사.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/14-김은효-7호선의-아침-인사.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/14-김은효-7호선의-아침-인사.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/14-김은효-7호선의-아침-인사.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 297348
+        "fileSizeBytes": 91751,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/14-김은효-7호선의-아침-인사.jpg",
+        "width": 973,
+        "height": 1298,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/14-김은효-7호선의-아침-인사-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 15222,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/14-김은효-7호선의-아침-인사-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 7272
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/14-김은효-7호선의-아침-인사-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 15222
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -411,10 +761,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "15-김종수-일상의-소중함.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/15-김종수-일상의-소중함.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/15-김종수-일상의-소중함.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/15-김종수-일상의-소중함.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/15-김종수-일상의-소중함.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 3789214
+        "fileSizeBytes": 626987,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/15-김종수-일상의-소중함.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/15-김종수-일상의-소중함-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 94616,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/15-김종수-일상의-소중함-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 48228
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/15-김종수-일상의-소중함-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 94616
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -438,10 +813,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "16-김채희-다시-피는-계절.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/16-김채희-다시-피는-계절.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/16-김채희-다시-피는-계절.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/16-김채희-다시-피는-계절.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/16-김채희-다시-피는-계절.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 247656
+        "fileSizeBytes": 69436,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/16-김채희-다시-피는-계절.jpg",
+        "width": 541,
+        "height": 721,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/16-김채희-다시-피는-계절-800.webp",
+          "width": 541,
+          "height": 721,
+          "fileSizeBytes": 35974,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/16-김채희-다시-피는-계절-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 28804
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/16-김채희-다시-피는-계절-800.webp",
+              "width": 541,
+              "height": 721,
+              "fileSizeBytes": 35974
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -465,10 +865,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "17-김현서-숨바꼭질.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/17-김현서-숨바꼭질.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/17-김현서-숨바꼭질.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/17-김현서-숨바꼭질.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/17-김현서-숨바꼭질.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 3855875
+        "fileSizeBytes": 600866,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/17-김현서-숨바꼭질.jpg",
+        "width": 1920,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/17-김현서-숨바꼭질-800.webp",
+          "width": 800,
+          "height": 1000,
+          "fileSizeBytes": 32810,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/17-김현서-숨바꼭질-480.webp",
+              "width": 480,
+              "height": 600,
+              "fileSizeBytes": 17332
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/17-김현서-숨바꼭질-800.webp",
+              "width": 800,
+              "height": 1000,
+              "fileSizeBytes": 32810
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -492,10 +917,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "18-김현아-엄마와-걷던-길.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/18-김현아-엄마와-걷던-길.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/18-김현아-엄마와-걷던-길.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/18-김현아-엄마와-걷던-길.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/18-김현아-엄마와-걷던-길.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 5921765
+        "fileSizeBytes": 1081774,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/18-김현아-엄마와-걷던-길.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/18-김현아-엄마와-걷던-길-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 204206,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/18-김현아-엄마와-걷던-길-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 92284
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/18-김현아-엄마와-걷던-길-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 204206
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -521,10 +971,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "19-김희선-호수-속-숲.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/19-김희선-호수-속-숲.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/19-김희선-호수-속-숲.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/19-김희선-호수-속-숲.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/19-김희선-호수-속-숲.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 8880141
+        "fileSizeBytes": 490807,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/19-김희선-호수-속-숲.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/19-김희선-호수-속-숲-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 51562,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/19-김희선-호수-속-숲-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 20704
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/19-김희선-호수-속-숲-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 51562
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -548,10 +1023,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "20-나윤서-해수욕장.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/20-나윤서-해수욕장.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/20-나윤서-해수욕장.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/20-나윤서-해수욕장.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/20-나윤서-해수욕장.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 8433882
+        "fileSizeBytes": 527532,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/20-나윤서-해수욕장.jpg",
+        "width": 2400,
+        "height": 1800,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/20-나윤서-해수욕장-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 31186,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/20-나윤서-해수욕장-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 13592
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/20-나윤서-해수욕장-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 31186
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -575,10 +1075,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "21-남태민-세상의-끝에서-찾은-익숙함.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/21-남태민-세상의-끝에서-찾은-익숙함.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/21-남태민-세상의-끝에서-찾은-익숙함.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/21-남태민-세상의-끝에서-찾은-익숙함.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/21-남태민-세상의-끝에서-찾은-익숙함.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 3951842
+        "fileSizeBytes": 560076,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/21-남태민-세상의-끝에서-찾은-익숙함.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/21-남태민-세상의-끝에서-찾은-익숙함-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 53548,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/21-남태민-세상의-끝에서-찾은-익숙함-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 21964
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/21-남태민-세상의-끝에서-찾은-익숙함-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 53548
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -604,10 +1129,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "22-박성철-도쿄에서의-퇴근길.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/22-박성철-도쿄에서의-퇴근길.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/22-박성철-도쿄에서의-퇴근길.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/22-박성철-도쿄에서의-퇴근길.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/22-박성철-도쿄에서의-퇴근길.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 2606446
+        "fileSizeBytes": 731740,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/22-박성철-도쿄에서의-퇴근길.jpg",
+        "width": 1590,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/22-박성철-도쿄에서의-퇴근길-800.webp",
+          "width": 800,
+          "height": 1207,
+          "fileSizeBytes": 48202,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/22-박성철-도쿄에서의-퇴근길-480.webp",
+              "width": 480,
+              "height": 724,
+              "fileSizeBytes": 19390
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/22-박성철-도쿄에서의-퇴근길-800.webp",
+              "width": 800,
+              "height": 1207,
+              "fileSizeBytes": 48202
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -633,10 +1183,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "23-박태양-휴게소에-오면.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/23-박태양-휴게소에-오면.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/23-박태양-휴게소에-오면.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/23-박태양-휴게소에-오면.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/23-박태양-휴게소에-오면.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 9303315
+        "fileSizeBytes": 1377247,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/23-박태양-휴게소에-오면.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/23-박태양-휴게소에-오면-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 170602,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/23-박태양-휴게소에-오면-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 58752
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/23-박태양-휴게소에-오면-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 170602
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -660,10 +1235,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "24-박혜린-파랑의-안쪽.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/24-박혜린-파랑의-안쪽.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/24-박혜린-파랑의-안쪽.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/24-박혜린-파랑의-안쪽.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/24-박혜린-파랑의-안쪽.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 8262456
+        "fileSizeBytes": 933915,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/24-박혜린-파랑의-안쪽.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/24-박혜린-파랑의-안쪽-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 141054,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/24-박혜린-파랑의-안쪽-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 60868
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/24-박혜린-파랑의-안쪽-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 141054
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -687,10 +1287,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "25-배소현-서울의-노을.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/25-배소현-서울의-노을.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/25-배소현-서울의-노을.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/25-배소현-서울의-노을.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/25-배소현-서울의-노을.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 6796883
+        "fileSizeBytes": 891098,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/25-배소현-서울의-노을.jpg",
+        "width": 2400,
+        "height": 1800,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/25-배소현-서울의-노을-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 44498,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/25-배소현-서울의-노을-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 19232
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/25-배소현-서울의-노을-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 44498
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -714,10 +1339,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "26-백승찬-나른한-햇살.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/26-백승찬-나른한-햇살.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/26-백승찬-나른한-햇살.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/26-백승찬-나른한-햇살.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/26-백승찬-나른한-햇살.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 16330117
+        "fileSizeBytes": 1432529,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/26-백승찬-나른한-햇살.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/26-백승찬-나른한-햇살-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 275308,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/26-백승찬-나른한-햇살-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 102800
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/26-백승찬-나른한-햇살-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 275308
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -741,10 +1391,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "27-서우석-사라지는-계절의-언어.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/27-서우석-사라지는-계절의-언어.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/27-서우석-사라지는-계절의-언어.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/27-서우석-사라지는-계절의-언어.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/27-서우석-사라지는-계절의-언어.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 731746
+        "fileSizeBytes": 163751,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/27-서우석-사라지는-계절의-언어.jpg",
+        "width": 1080,
+        "height": 1440,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/27-서우석-사라지는-계절의-언어-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 40968,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/27-서우석-사라지는-계절의-언어-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 23222
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/27-서우석-사라지는-계절의-언어-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 40968
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -768,10 +1443,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "28-서유진-유난히-반짝이던-날.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/28-서유진-유난히-반짝이던-날.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/28-서유진-유난히-반짝이던-날.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/28-서유진-유난히-반짝이던-날.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/28-서유진-유난히-반짝이던-날.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 2056112
+        "fileSizeBytes": 873922,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/28-서유진-유난히-반짝이던-날.jpg",
+        "width": 2343,
+        "height": 1757,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/28-서유진-유난히-반짝이던-날-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 107712,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/28-서유진-유난히-반짝이던-날-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 46780
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/28-서유진-유난히-반짝이던-날-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 107712
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -797,10 +1497,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "29-손명지-햇빛은-어느틈에.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/29-손명지-햇빛은-어느틈에.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/29-손명지-햇빛은-어느틈에.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/29-손명지-햇빛은-어느틈에.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/29-손명지-햇빛은-어느틈에.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 9279693
+        "fileSizeBytes": 1578023,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/29-손명지-햇빛은-어느틈에.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/29-손명지-햇빛은-어느틈에-800.webp",
+          "width": 800,
+          "height": 1066,
+          "fileSizeBytes": 269890,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/29-손명지-햇빛은-어느틈에-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 95012
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/29-손명지-햇빛은-어느틈에-800.webp",
+              "width": 800,
+              "height": 1066,
+              "fileSizeBytes": 269890
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -824,10 +1549,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "30-손승아-은근한-무게.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/30-손승아-은근한-무게.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/30-손승아-은근한-무게.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/30-손승아-은근한-무게.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/30-손승아-은근한-무게.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 5816919
+        "fileSizeBytes": 969406,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/30-손승아-은근한-무게.jpg",
+        "width": 2400,
+        "height": 1800,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/30-손승아-은근한-무게-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 86594,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/30-손승아-은근한-무게-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 34778
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/30-손승아-은근한-무게-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 86594
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -851,10 +1601,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "31-손화랑-6주차-수업.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/31-손화랑-6주차-수업.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/31-손화랑-6주차-수업.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/31-손화랑-6주차-수업.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/31-손화랑-6주차-수업.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 1498893
+        "fileSizeBytes": 682306,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/31-손화랑-6주차-수업.jpg",
+        "width": 2048,
+        "height": 1536,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/31-손화랑-6주차-수업-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 67600,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/31-손화랑-6주차-수업-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 23370
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/31-손화랑-6주차-수업-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 67600
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -878,10 +1653,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "32-송용석-멈춰-선-그곳의-여름.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/32-송용석-멈춰-선-그곳의-여름.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/32-송용석-멈춰-선-그곳의-여름.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/32-송용석-멈춰-선-그곳의-여름.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/32-송용석-멈춰-선-그곳의-여름.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 6382778
+        "fileSizeBytes": 705268,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/32-송용석-멈춰-선-그곳의-여름.jpg",
+        "width": 2400,
+        "height": 1800,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/32-송용석-멈춰-선-그곳의-여름-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 48794,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/32-송용석-멈춰-선-그곳의-여름-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 16762
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/32-송용석-멈춰-선-그곳의-여름-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 48794
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -905,10 +1705,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "33-신성준-언제나-그-자리에.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/33-신성준-언제나-그-자리에.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/33-신성준-언제나-그-자리에.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/33-신성준-언제나-그-자리에.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/33-신성준-언제나-그-자리에.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 1215014
+        "fileSizeBytes": 472809,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/33-신성준-언제나-그-자리에.jpg",
+        "width": 1080,
+        "height": 1440,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/33-신성준-언제나-그-자리에-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 202246,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/33-신성준-언제나-그-자리에-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 92184
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/33-신성준-언제나-그-자리에-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 202246
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -932,10 +1757,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "34-안세훈-밤산책.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/34-안세훈-밤산책.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/34-안세훈-밤산책.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/34-안세훈-밤산책.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/34-안세훈-밤산책.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 1473607
+        "fileSizeBytes": 324976,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/34-안세훈-밤산책.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/34-안세훈-밤산책-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 39684,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/34-안세훈-밤산책-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 18824
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/34-안세훈-밤산책-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 39684
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -961,10 +1811,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "35-안정현-파도에-지워진-발자국.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/35-안정현-파도에-지워진-발자국.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/35-안정현-파도에-지워진-발자국.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/35-안정현-파도에-지워진-발자국.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/35-안정현-파도에-지워진-발자국.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 2366258
+        "fileSizeBytes": 818568,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/35-안정현-파도에-지워진-발자국.jpg",
+        "width": 1620,
+        "height": 2160,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/35-안정현-파도에-지워진-발자국-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 124480,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/35-안정현-파도에-지워진-발자국-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 49506
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/35-안정현-파도에-지워진-발자국-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 124480
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -988,10 +1863,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "36-안효원-쉬어갑니다.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/36-안효원-쉬어갑니다.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/36-안효원-쉬어갑니다.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/36-안효원-쉬어갑니다.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/36-안효원-쉬어갑니다.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 661195
+        "fileSizeBytes": 210544,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/36-안효원-쉬어갑니다.jpg",
+        "width": 1072,
+        "height": 1429,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/36-안효원-쉬어갑니다-800.webp",
+          "width": 800,
+          "height": 1066,
+          "fileSizeBytes": 41552,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/36-안효원-쉬어갑니다-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 21252
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/36-안효원-쉬어갑니다-800.webp",
+              "width": 800,
+              "height": 1066,
+              "fileSizeBytes": 41552
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -1015,10 +1915,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "37-양지민-때-탄-CDP.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/37-양지민-때-탄-CDP.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/37-양지민-때-탄-CDP.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/37-양지민-때-탄-CDP.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/37-양지민-때-탄-CDP.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 3991170
+        "fileSizeBytes": 475041,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/37-양지민-때-탄-CDP.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/37-양지민-때-탄-CDP-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 52260,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/37-양지민-때-탄-CDP-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 25458
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/37-양지민-때-탄-CDP-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 52260
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -1044,10 +1969,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "38-연도흠-흰-눈은-그-순간을-기록하고-품는다.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/38-연도흠-흰-눈은-그-순간을-기록하고-품는다.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/38-연도흠-흰-눈은-그-순간을-기록하고-품는다.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/38-연도흠-흰-눈은-그-순간을-기록하고-품는다.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/38-연도흠-흰-눈은-그-순간을-기록하고-품는다.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 4983961
+        "fileSizeBytes": 1426901,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/38-연도흠-흰-눈은-그-순간을-기록하고-품는다.jpg",
+        "width": 1799,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/38-연도흠-흰-눈은-그-순간을-기록하고-품는다-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 279122,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/38-연도흠-흰-눈은-그-순간을-기록하고-품는다-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 104594
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/38-연도흠-흰-눈은-그-순간을-기록하고-품는다-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 279122
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -1071,10 +2021,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "39-오민서-고요함-속의-산책.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/39-오민서-고요함-속의-산책.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/39-오민서-고요함-속의-산책.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/39-오민서-고요함-속의-산책.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/39-오민서-고요함-속의-산책.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 966053
+        "fileSizeBytes": 296640,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/39-오민서-고요함-속의-산책.jpg",
+        "width": 960,
+        "height": 1280,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/39-오민서-고요함-속의-산책-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 133662,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/39-오민서-고요함-속의-산책-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 59500
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/39-오민서-고요함-속의-산책-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 133662
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -1098,10 +2073,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "40-유성종-노을.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/40-유성종-노을.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/40-유성종-노을.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/40-유성종-노을.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/40-유성종-노을.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 8376295
+        "fileSizeBytes": 1292905,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/40-유성종-노을.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/40-유성종-노을-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 202896,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/40-유성종-노을-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 83874
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/40-유성종-노을-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 202896
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -1125,10 +2125,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "41-윤여빈-Yellow-Flower.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/41-윤여빈-Yellow-Flower.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/41-윤여빈-Yellow-Flower.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/41-윤여빈-Yellow-Flower.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/41-윤여빈-Yellow-Flower.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 3230056
+        "fileSizeBytes": 939951,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/41-윤여빈-Yellow-Flower.jpg",
+        "width": 2400,
+        "height": 1799,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/41-윤여빈-Yellow-Flower-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 116604,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/41-윤여빈-Yellow-Flower-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 57632
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/41-윤여빈-Yellow-Flower-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 116604
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -1154,10 +2179,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "42-윤영애-오늘도-내-일상엔-아름다움이-있었다.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/42-윤영애-오늘도-내-일상엔-아름다움이-있었다.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/42-윤영애-오늘도-내-일상엔-아름다움이-있었다.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/42-윤영애-오늘도-내-일상엔-아름다움이-있었다.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/42-윤영애-오늘도-내-일상엔-아름다움이-있었다.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 1317817
+        "fileSizeBytes": 304184,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/42-윤영애-오늘도-내-일상엔-아름다움이-있었다.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/42-윤영애-오늘도-내-일상엔-아름다움이-있었다-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 22960,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/42-윤영애-오늘도-내-일상엔-아름다움이-있었다-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 12030
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/42-윤영애-오늘도-내-일상엔-아름다움이-있었다-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 22960
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -1181,10 +2231,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "43-이규영-한여름의-복도식-아파트.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/43-이규영-한여름의-복도식-아파트.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/43-이규영-한여름의-복도식-아파트.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/43-이규영-한여름의-복도식-아파트.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/43-이규영-한여름의-복도식-아파트.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 4540432
+        "fileSizeBytes": 966650,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/43-이규영-한여름의-복도식-아파트.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/43-이규영-한여름의-복도식-아파트-800.webp",
+          "width": 800,
+          "height": 1066,
+          "fileSizeBytes": 192578,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/43-이규영-한여름의-복도식-아파트-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 87946
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/43-이규영-한여름의-복도식-아파트-800.webp",
+              "width": 800,
+              "height": 1066,
+              "fileSizeBytes": 192578
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -1208,10 +2283,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "44-이예솔-나를-위한-길.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/44-이예솔-나를-위한-길.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/44-이예솔-나를-위한-길.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/44-이예솔-나를-위한-길.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/44-이예솔-나를-위한-길.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 4794167
+        "fileSizeBytes": 1218748,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/44-이예솔-나를-위한-길.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/44-이예솔-나를-위한-길-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 218214,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/44-이예솔-나를-위한-길-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 97364
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/44-이예솔-나를-위한-길-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 218214
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -1235,10 +2335,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "45-이정욱-익숙한-그러나-소중한-평화.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/45-이정욱-익숙한-그러나-소중한-평화.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/45-이정욱-익숙한-그러나-소중한-평화.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/45-이정욱-익숙한-그러나-소중한-평화.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/45-이정욱-익숙한-그러나-소중한-평화.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 760881
+        "fileSizeBytes": 189920,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/45-이정욱-익숙한-그러나-소중한-평화.jpg",
+        "width": 960,
+        "height": 720,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/45-이정욱-익숙한-그러나-소중한-평화-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 90432,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/45-이정욱-익숙한-그러나-소중한-평화-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 40248
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/45-이정욱-익숙한-그러나-소중한-평화-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 90432
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -1262,10 +2387,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "46-이지효-순간.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/46-이지효-순간.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/46-이지효-순간.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/46-이지효-순간.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/46-이지효-순간.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 4561172
+        "fileSizeBytes": 1082251,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/46-이지효-순간.jpg",
+        "width": 2400,
+        "height": 1800,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/46-이지효-순간-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 102914,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/46-이지효-순간-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 35204
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/46-이지효-순간-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 102914
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -1289,10 +2439,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "47-이현만-낯선-풍경-속-익숙한-행복.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/47-이현만-낯선-풍경-속-익숙한-행복.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/47-이현만-낯선-풍경-속-익숙한-행복.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/47-이현만-낯선-풍경-속-익숙한-행복.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/47-이현만-낯선-풍경-속-익숙한-행복.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 4353730
+        "fileSizeBytes": 623435,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/47-이현만-낯선-풍경-속-익숙한-행복.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/47-이현만-낯선-풍경-속-익숙한-행복-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 71570,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/47-이현만-낯선-풍경-속-익숙한-행복-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 29662
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/47-이현만-낯선-풍경-속-익숙한-행복-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 71570
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -1316,10 +2491,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "48-이혜규-섬섬옥수.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/48-이혜규-섬섬옥수.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/48-이혜규-섬섬옥수.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/48-이혜규-섬섬옥수.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/48-이혜규-섬섬옥수.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 4560493
+        "fileSizeBytes": 390383,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/48-이혜규-섬섬옥수.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/48-이혜규-섬섬옥수-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 38462,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/48-이혜규-섬섬옥수-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 19828
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/48-이혜규-섬섬옥수-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 38462
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -1343,10 +2543,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "49-임예설-추억한-일상.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/49-임예설-추억한-일상.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/49-임예설-추억한-일상.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/49-임예설-추억한-일상.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/49-임예설-추억한-일상.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 1807882
+        "fileSizeBytes": 554179,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/49-임예설-추억한-일상.jpg",
+        "width": 2400,
+        "height": 1800,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/49-임예설-추억한-일상-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 38758,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/49-임예설-추억한-일상-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 17928
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/49-임예설-추억한-일상-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 38758
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -1370,10 +2595,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "50-임정희-Unseen.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/50-임정희-Unseen.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/50-임정희-Unseen.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/50-임정희-Unseen.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/50-임정희-Unseen.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 736849
+        "fileSizeBytes": 227451,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/50-임정희-Unseen.jpg",
+        "width": 1536,
+        "height": 2048,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/50-임정희-Unseen-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 73136,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/50-임정희-Unseen-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 33106
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/50-임정희-Unseen-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 73136
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -1397,10 +2647,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "51-임찬영-고요함-속의-산책.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/51-임찬영-고요함-속의-산책.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/51-임찬영-고요함-속의-산책.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/51-임찬영-고요함-속의-산책.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/51-임찬영-고요함-속의-산책.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 5372500
+        "fileSizeBytes": 1119158,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/51-임찬영-고요함-속의-산책.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/51-임찬영-고요함-속의-산책-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 164520,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/51-임찬영-고요함-속의-산책-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 58022
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/51-임찬영-고요함-속의-산책-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 164520
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -1424,10 +2699,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "52-전나윤-녹엽1.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/52-전나윤-녹엽1.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/52-전나윤-녹엽1.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/52-전나윤-녹엽1.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/52-전나윤-녹엽1.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 2162272
+        "fileSizeBytes": 798536,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/52-전나윤-녹엽1.jpg",
+        "width": 1252,
+        "height": 1669,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/52-전나윤-녹엽1-800.webp",
+          "width": 800,
+          "height": 1066,
+          "fileSizeBytes": 223540,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/52-전나윤-녹엽1-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 85002
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/52-전나윤-녹엽1-800.webp",
+              "width": 800,
+              "height": 1066,
+              "fileSizeBytes": 223540
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -1451,10 +2751,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "53-정단효-나뭇잎-사이로.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/53-정단효-나뭇잎-사이로.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/53-정단효-나뭇잎-사이로.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/53-정단효-나뭇잎-사이로.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/53-정단효-나뭇잎-사이로.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 6056702
+        "fileSizeBytes": 1176242,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/53-정단효-나뭇잎-사이로.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/53-정단효-나뭇잎-사이로-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 108074,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/53-정단효-나뭇잎-사이로-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 22286
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/53-정단효-나뭇잎-사이로-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 108074
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -1478,10 +2803,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "54-정유진-늦은-오후-잠깐의-여유.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/54-정유진-늦은-오후-잠깐의-여유.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/54-정유진-늦은-오후-잠깐의-여유.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/54-정유진-늦은-오후-잠깐의-여유.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/54-정유진-늦은-오후-잠깐의-여유.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 4267809
+        "fileSizeBytes": 953528,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/54-정유진-늦은-오후-잠깐의-여유.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/54-정유진-늦은-오후-잠깐의-여유-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 139816,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/54-정유진-늦은-오후-잠깐의-여유-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 55670
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/54-정유진-늦은-오후-잠깐의-여유-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 139816
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -1505,10 +2855,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "55-정윤서-함께-걷는-풍경.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/55-정윤서-함께-걷는-풍경.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/55-정윤서-함께-걷는-풍경.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/55-정윤서-함께-걷는-풍경.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/55-정윤서-함께-걷는-풍경.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 6539732
+        "fileSizeBytes": 1296136,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/55-정윤서-함께-걷는-풍경.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/55-정윤서-함께-걷는-풍경-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 245906,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/55-정윤서-함께-걷는-풍경-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 93750
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/55-정윤서-함께-걷는-풍경-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 245906
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -1532,10 +2907,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "56-정진윤-스쳐간-구름.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/56-정진윤-스쳐간-구름.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/56-정진윤-스쳐간-구름.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/56-정진윤-스쳐간-구름.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/56-정진윤-스쳐간-구름.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 2245639
+        "fileSizeBytes": 359846,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/56-정진윤-스쳐간-구름.jpg",
+        "width": 1799,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/56-정진윤-스쳐간-구름-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 20438,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/56-정진윤-스쳐간-구름-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 10294
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/56-정진윤-스쳐간-구름-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 20438
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -1561,10 +2961,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "57-조한나-그러나-카메라는-늘-주위에-있었다.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/57-조한나-그러나-카메라는-늘-주위에-있었다.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/57-조한나-그러나-카메라는-늘-주위에-있었다.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/57-조한나-그러나-카메라는-늘-주위에-있었다.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/57-조한나-그러나-카메라는-늘-주위에-있었다.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 4231385
+        "fileSizeBytes": 517735,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/57-조한나-그러나-카메라는-늘-주위에-있었다.jpg",
+        "width": 2400,
+        "height": 1800,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/57-조한나-그러나-카메라는-늘-주위에-있었다-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 13868,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/57-조한나-그러나-카메라는-늘-주위에-있었다-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 7678
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/57-조한나-그러나-카메라는-늘-주위에-있었다-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 13868
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -1588,10 +3013,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "58-주종섭-파도는-쉼-없이.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/58-주종섭-파도는-쉼-없이.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/58-주종섭-파도는-쉼-없이.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/58-주종섭-파도는-쉼-없이.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/58-주종섭-파도는-쉼-없이.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 919790
+        "fileSizeBytes": 349172,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/58-주종섭-파도는-쉼-없이.jpg",
+        "width": 1440,
+        "height": 1080,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/58-주종섭-파도는-쉼-없이-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 70296,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/58-주종섭-파도는-쉼-없이-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 25058
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/58-주종섭-파도는-쉼-없이-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 70296
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -1615,10 +3065,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "59-진유빈-스며든-행복.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/59-진유빈-스며든-행복.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/59-진유빈-스며든-행복.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/59-진유빈-스며든-행복.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/59-진유빈-스며든-행복.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 3393437
+        "fileSizeBytes": 1276696,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/59-진유빈-스며든-행복.jpg",
+        "width": 2400,
+        "height": 1800,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/59-진유빈-스며든-행복-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 134694,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/59-진유빈-스며든-행복-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 51110
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/59-진유빈-스며든-행복-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 134694
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -1642,10 +3117,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "60-최고원-우리-신발-똑같다.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/60-최고원-우리-신발-똑같다.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/60-최고원-우리-신발-똑같다.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/60-최고원-우리-신발-똑같다.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/60-최고원-우리-신발-똑같다.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 7313933
+        "fileSizeBytes": 762055,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/60-최고원-우리-신발-똑같다.jpg",
+        "width": 2400,
+        "height": 1800,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/60-최고원-우리-신발-똑같다-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 59098,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/60-최고원-우리-신발-똑같다-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 26380
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/60-최고원-우리-신발-똑같다-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 59098
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -1669,10 +3169,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "61-최서아-친구와-걷는-한강-공원.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/61-최서아-친구와-걷는-한강-공원.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/61-최서아-친구와-걷는-한강-공원.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/61-최서아-친구와-걷는-한강-공원.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/61-최서아-친구와-걷는-한강-공원.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 3235344
+        "fileSizeBytes": 545049,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/61-최서아-친구와-걷는-한강-공원.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/61-최서아-친구와-걷는-한강-공원-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 55220,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/61-최서아-친구와-걷는-한강-공원-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 23272
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/61-최서아-친구와-걷는-한강-공원-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 55220
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -1696,10 +3221,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "62-최아란-시선.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/62-최아란-시선.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/62-최아란-시선.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/62-최아란-시선.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/62-최아란-시선.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 23009729
+        "fileSizeBytes": 2048022,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/62-최아란-시선.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/62-최아란-시선-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 358156,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/62-최아란-시선-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 132332
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/62-최아란-시선-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 358156
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -1723,10 +3273,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "63-최지민-익숙한-듯-낯선.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/63-최지민-익숙한-듯-낯선.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/63-최지민-익숙한-듯-낯선.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/63-최지민-익숙한-듯-낯선.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/63-최지민-익숙한-듯-낯선.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 611504
+        "fileSizeBytes": 186058,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/63-최지민-익숙한-듯-낯선.jpg",
+        "width": 1098,
+        "height": 1466,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/63-최지민-익숙한-듯-낯선-800.webp",
+          "width": 800,
+          "height": 1068,
+          "fileSizeBytes": 46722,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/63-최지민-익숙한-듯-낯선-480.webp",
+              "width": 480,
+              "height": 641,
+              "fileSizeBytes": 23298
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/63-최지민-익숙한-듯-낯선-800.webp",
+              "width": 800,
+              "height": 1068,
+              "fileSizeBytes": 46722
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     },
     {
@@ -1750,10 +3325,35 @@
       "webAsset": {
         "status": "ready",
         "fileName": "64-한성민-맹수의-습격.jpg",
-        "path": "public/exhibitions/2025-2-familiar-happiness/images/64-한성민-맹수의-습격.jpg",
-        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/64-한성민-맹수의-습격.jpg",
+        "path": "public/exhibitions/2025-2-familiar-happiness/images/display/64-한성민-맹수의-습격.jpg",
+        "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/display/64-한성민-맹수의-습격.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 4338778
+        "fileSizeBytes": 1375632,
+        "originalPublicUrl": "/exhibitions/2025-2-familiar-happiness/images/64-한성민-맹수의-습격.jpg",
+        "width": 1799,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/64-한성민-맹수의-습격-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 294224,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/64-한성민-맹수의-습격-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 113958
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-familiar-happiness/images/thumbnails/64-한성민-맹수의-습격-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 294224
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       }
     }
   ]

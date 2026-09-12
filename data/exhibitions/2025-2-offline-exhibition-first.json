@@ -51,10 +51,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "01-nayeon-kang.jpg",
-        "path": "public/exhibitions/2025-2-first/images/01-nayeon-kang.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/01-nayeon-kang.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/01-nayeon-kang.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/01-nayeon-kang.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 4250540
+        "fileSizeBytes": 826110,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/01-nayeon-kang.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/01-nayeon-kang-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 101896,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/01-nayeon-kang-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 40704
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/01-nayeon-kang-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 101896
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -83,10 +108,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "02-eunji-kang.jpg",
-        "path": "public/exhibitions/2025-2-first/images/02-eunji-kang.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/02-eunji-kang.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/02-eunji-kang.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/02-eunji-kang.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 2882402
+        "fileSizeBytes": 511433,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/02-eunji-kang.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/02-eunji-kang-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 52394,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/02-eunji-kang-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 22364
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/02-eunji-kang-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 52394
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -115,10 +165,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "03-wonmyeong-gong.jpg",
-        "path": "public/exhibitions/2025-2-first/images/03-wonmyeong-gong.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/03-wonmyeong-gong.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/03-wonmyeong-gong.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/03-wonmyeong-gong.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 3132169
+        "fileSizeBytes": 660040,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/03-wonmyeong-gong.jpg",
+        "width": 1811,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/03-wonmyeong-gong-800.webp",
+          "width": 800,
+          "height": 1060,
+          "fileSizeBytes": 74706,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/03-wonmyeong-gong-480.webp",
+              "width": 480,
+              "height": 636,
+              "fileSizeBytes": 29018
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/03-wonmyeong-gong-800.webp",
+              "width": 800,
+              "height": 1060,
+              "fileSizeBytes": 74706
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -147,10 +222,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "04-serin-kwon.jpg",
-        "path": "public/exhibitions/2025-2-first/images/04-serin-kwon.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/04-serin-kwon.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/04-serin-kwon.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/04-serin-kwon.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 3527250
+        "fileSizeBytes": 451541,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/04-serin-kwon.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/04-serin-kwon-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 51972,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/04-serin-kwon-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 20688
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/04-serin-kwon-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 51972
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -179,10 +279,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "05-injoon-kwon.jpg",
-        "path": "public/exhibitions/2025-2-first/images/05-injoon-kwon.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/05-injoon-kwon.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/05-injoon-kwon.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/05-injoon-kwon.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 3225055
+        "fileSizeBytes": 665232,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/05-injoon-kwon.jpg",
+        "width": 2400,
+        "height": 1800,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/05-injoon-kwon-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 40066,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/05-injoon-kwon-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 17872
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/05-injoon-kwon-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 40066
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -211,10 +336,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "06-nayeong-ki.jpg",
-        "path": "public/exhibitions/2025-2-first/images/06-nayeong-ki.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/06-nayeong-ki.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/06-nayeong-ki.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/06-nayeong-ki.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 1560633
+        "fileSizeBytes": 572019,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/06-nayeong-ki.jpg",
+        "width": 2400,
+        "height": 1800,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/06-nayeong-ki-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 47870,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/06-nayeong-ki-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 23256
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/06-nayeong-ki-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 47870
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -243,10 +393,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "07-geonjung-kim.jpg",
-        "path": "public/exhibitions/2025-2-first/images/07-geonjung-kim.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/07-geonjung-kim.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/07-geonjung-kim.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/07-geonjung-kim.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 32632109
+        "fileSizeBytes": 1184551,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/07-geonjung-kim.jpg",
+        "width": 2400,
+        "height": 1800,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/07-geonjung-kim-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 109892,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/07-geonjung-kim-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 45382
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/07-geonjung-kim-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 109892
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -275,10 +450,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "08-gwanhun-kim.jpg",
-        "path": "public/exhibitions/2025-2-first/images/08-gwanhun-kim.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/08-gwanhun-kim.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/08-gwanhun-kim.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/08-gwanhun-kim.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 705898
+        "fileSizeBytes": 562042,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/08-gwanhun-kim.jpg",
+        "width": 1535,
+        "height": 2047,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/08-gwanhun-kim-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 73626,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/08-gwanhun-kim-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 38452
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/08-gwanhun-kim-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 73626
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -307,10 +507,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "09-naeun-kim.jpg",
-        "path": "public/exhibitions/2025-2-first/images/09-naeun-kim.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/09-naeun-kim.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/09-naeun-kim.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/09-naeun-kim.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 949205
+        "fileSizeBytes": 399878,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/09-naeun-kim.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/09-naeun-kim-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 56288,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/09-naeun-kim-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 29856
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/09-naeun-kim-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 56288
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -339,10 +564,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "10-sangwan-kim.jpg",
-        "path": "public/exhibitions/2025-2-first/images/10-sangwan-kim.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/10-sangwan-kim.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/10-sangwan-kim.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/10-sangwan-kim.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 1227146
+        "fileSizeBytes": 631382,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/10-sangwan-kim.jpg",
+        "width": 1403,
+        "height": 1871,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/10-sangwan-kim-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 120416,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/10-sangwan-kim-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 44300
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/10-sangwan-kim-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 120416
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -371,10 +621,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "11-sihyun-kim.jpg",
-        "path": "public/exhibitions/2025-2-first/images/11-sihyun-kim.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/11-sihyun-kim.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/11-sihyun-kim.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/11-sihyun-kim.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 3134004
+        "fileSizeBytes": 514539,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/11-sihyun-kim.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/11-sihyun-kim-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 62856,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/11-sihyun-kim-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 26144
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/11-sihyun-kim-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 62856
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -403,10 +678,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "12-yubin-kim.jpg",
-        "path": "public/exhibitions/2025-2-first/images/12-yubin-kim.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/12-yubin-kim.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/12-yubin-kim.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/12-yubin-kim.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 2481566
+        "fileSizeBytes": 1086528,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/12-yubin-kim.jpg",
+        "width": 2400,
+        "height": 1800,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/12-yubin-kim-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 93790,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/12-yubin-kim-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 33014
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/12-yubin-kim-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 93790
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -435,10 +735,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "13-yuna-kim.jpg",
-        "path": "public/exhibitions/2025-2-first/images/13-yuna-kim.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/13-yuna-kim.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/13-yuna-kim.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/13-yuna-kim.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 279303
+        "fileSizeBytes": 188091,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/13-yuna-kim.jpg",
+        "width": 1080,
+        "height": 810,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/13-yuna-kim-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 60648,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/13-yuna-kim-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 32520
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/13-yuna-kim-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 60648
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -467,10 +792,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "14-eunhyo-kim.jpg",
-        "path": "public/exhibitions/2025-2-first/images/14-eunhyo-kim.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/14-eunhyo-kim.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/14-eunhyo-kim.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/14-eunhyo-kim.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 2431385
+        "fileSizeBytes": 1113553,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/14-eunhyo-kim.jpg",
+        "width": 2400,
+        "height": 1801,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/14-eunhyo-kim-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 135306,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/14-eunhyo-kim-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 52810
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/14-eunhyo-kim-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 135306
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -499,10 +849,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "15-jeonghoe-kim.jpg",
-        "path": "public/exhibitions/2025-2-first/images/15-jeonghoe-kim.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/15-jeonghoe-kim.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/15-jeonghoe-kim.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/15-jeonghoe-kim.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 8408454
+        "fileSizeBytes": 1548909,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/15-jeonghoe-kim.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/15-jeonghoe-kim-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 262362,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/15-jeonghoe-kim-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 94434
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/15-jeonghoe-kim-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 262362
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -531,10 +906,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "16-jiyoung-kim.jpg",
-        "path": "public/exhibitions/2025-2-first/images/16-jiyoung-kim.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/16-jiyoung-kim.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/16-jiyoung-kim.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/16-jiyoung-kim.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 484788
+        "fileSizeBytes": 301560,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/16-jiyoung-kim.jpg",
+        "width": 1170,
+        "height": 1560,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/16-jiyoung-kim-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 62092,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/16-jiyoung-kim-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 29026
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/16-jiyoung-kim-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 62092
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -563,10 +963,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "17-chaehui-kim.jpg",
-        "path": "public/exhibitions/2025-2-first/images/17-chaehui-kim.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/17-chaehui-kim.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/17-chaehui-kim.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/17-chaehui-kim.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 678563
+        "fileSizeBytes": 402972,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/17-chaehui-kim.jpg",
+        "width": 1365,
+        "height": 1024,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/17-chaehui-kim-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 105014,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/17-chaehui-kim-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 38962
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/17-chaehui-kim-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 105014
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -595,10 +1020,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "18-taeho-kim.jpg",
-        "path": "public/exhibitions/2025-2-first/images/18-taeho-kim.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/18-taeho-kim.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/18-taeho-kim.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/18-taeho-kim.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 1282231
+        "fileSizeBytes": 542647,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/18-taeho-kim.jpg",
+        "width": 2400,
+        "height": 1801,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/18-taeho-kim-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 33196,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/18-taeho-kim-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 16174
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/18-taeho-kim-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 33196
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -627,10 +1077,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "19-hyuna-kim.jpg",
-        "path": "public/exhibitions/2025-2-first/images/19-hyuna-kim.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/19-hyuna-kim.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/19-hyuna-kim.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/19-hyuna-kim.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 316721
+        "fileSizeBytes": 271606,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/19-hyuna-kim.jpg",
+        "width": 1080,
+        "height": 1440,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/19-hyuna-kim-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 76848,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/19-hyuna-kim-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 33326
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/19-hyuna-kim-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 76848
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -659,10 +1134,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "20-huiseon-kim.jpg",
-        "path": "public/exhibitions/2025-2-first/images/20-huiseon-kim.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/20-huiseon-kim.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/20-huiseon-kim.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/20-huiseon-kim.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 8099770
+        "fileSizeBytes": 1360516,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/20-huiseon-kim.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/20-huiseon-kim-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 208410,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/20-huiseon-kim-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 73628
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/20-huiseon-kim-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 208410
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -691,10 +1191,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "21-yunseo-na.jpg",
-        "path": "public/exhibitions/2025-2-first/images/21-yunseo-na.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/21-yunseo-na.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/21-yunseo-na.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/21-yunseo-na.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 11927563
+        "fileSizeBytes": 1318800,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/21-yunseo-na.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/21-yunseo-na-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 224900,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/21-yunseo-na-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 86960
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/21-yunseo-na-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 224900
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -723,10 +1248,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "22-taemin-nam.jpg",
-        "path": "public/exhibitions/2025-2-first/images/22-taemin-nam.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/22-taemin-nam.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/22-taemin-nam.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/22-taemin-nam.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 2535429
+        "fileSizeBytes": 640803,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/22-taemin-nam.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/22-taemin-nam-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 77684,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/22-taemin-nam-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 33428
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/22-taemin-nam-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 77684
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -755,10 +1305,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "23-seohyun-park.jpg",
-        "path": "public/exhibitions/2025-2-first/images/23-seohyun-park.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/23-seohyun-park.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/23-seohyun-park.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/23-seohyun-park.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 2171639
+        "fileSizeBytes": 1060769,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/23-seohyun-park.jpg",
+        "width": 2400,
+        "height": 1800,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/23-seohyun-park-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 77874,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/23-seohyun-park-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 36504
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/23-seohyun-park-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 77874
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -787,10 +1362,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "24-seyeon-park.jpg",
-        "path": "public/exhibitions/2025-2-first/images/24-seyeon-park.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/24-seyeon-park.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/24-seyeon-park.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/24-seyeon-park.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 4961947
+        "fileSizeBytes": 1624744,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/24-seyeon-park.jpg",
+        "width": 2400,
+        "height": 1800,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/24-seyeon-park-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 163762,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/24-seyeon-park-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 57278
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/24-seyeon-park-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 163762
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -819,10 +1419,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "25-jiwon-park.jpg",
-        "path": "public/exhibitions/2025-2-first/images/25-jiwon-park.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/25-jiwon-park.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/25-jiwon-park.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/25-jiwon-park.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 3413768
+        "fileSizeBytes": 545141,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/25-jiwon-park.jpg",
+        "width": 2400,
+        "height": 1800,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/25-jiwon-park-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 36556,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/25-jiwon-park-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 14904
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/25-jiwon-park-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 36556
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -851,10 +1476,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "26-hyeonji-park.jpg",
-        "path": "public/exhibitions/2025-2-first/images/26-hyeonji-park.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/26-hyeonji-park.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/26-hyeonji-park.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/26-hyeonji-park.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 2508257
+        "fileSizeBytes": 918294,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/26-hyeonji-park.jpg",
+        "width": 2400,
+        "height": 1800,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/26-hyeonji-park-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 80346,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/26-hyeonji-park-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 29764
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/26-hyeonji-park-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 80346
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -883,10 +1533,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "27-hyelin-park.jpg",
-        "path": "public/exhibitions/2025-2-first/images/27-hyelin-park.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/27-hyelin-park.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/27-hyelin-park.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/27-hyelin-park.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 978153
+        "fileSizeBytes": 605914,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/27-hyelin-park.jpg",
+        "width": 1080,
+        "height": 1440,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/27-hyelin-park-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 275166,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/27-hyelin-park-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 102192
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/27-hyelin-park-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 275166
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -915,10 +1590,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "28-seungchan-baek.jpg",
-        "path": "public/exhibitions/2025-2-first/images/28-seungchan-baek.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/28-seungchan-baek.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/28-seungchan-baek.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/28-seungchan-baek.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 2172319
+        "fileSizeBytes": 833430,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/28-seungchan-baek.jpg",
+        "width": 1349,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/28-seungchan-baek-800.webp",
+          "width": 800,
+          "height": 1423,
+          "fileSizeBytes": 238344,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/28-seungchan-baek-480.webp",
+              "width": 480,
+              "height": 854,
+              "fileSizeBytes": 109338
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/28-seungchan-baek-800.webp",
+              "width": 800,
+              "height": 1423,
+              "fileSizeBytes": 238344
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -947,10 +1647,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "29-wooseok-seo.jpg",
-        "path": "public/exhibitions/2025-2-first/images/29-wooseok-seo.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/29-wooseok-seo.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/29-wooseok-seo.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/29-wooseok-seo.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 2478723
+        "fileSizeBytes": 663552,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/29-wooseok-seo.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/29-wooseok-seo-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 103824,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/29-wooseok-seo-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 46904
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/29-wooseok-seo-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 103824
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -979,10 +1704,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "30-seunga-son.jpg",
-        "path": "public/exhibitions/2025-2-first/images/30-seunga-son.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/30-seunga-son.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/30-seunga-son.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/30-seunga-son.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 6643379
+        "fileSizeBytes": 1268824,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/30-seunga-son.jpg",
+        "width": 2400,
+        "height": 1591,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/30-seunga-son-800.webp",
+          "width": 800,
+          "height": 530,
+          "fileSizeBytes": 37492,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/30-seunga-son-480.webp",
+              "width": 480,
+              "height": 318,
+              "fileSizeBytes": 6710
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/30-seunga-son-800.webp",
+              "width": 800,
+              "height": 530,
+              "fileSizeBytes": 37492
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -1011,10 +1761,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "31-yongseok-song.jpg",
-        "path": "public/exhibitions/2025-2-first/images/31-yongseok-song.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/31-yongseok-song.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/31-yongseok-song.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/31-yongseok-song.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 1458740
+        "fileSizeBytes": 669370,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/31-yongseok-song.jpg",
+        "width": 2400,
+        "height": 1800,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/31-yongseok-song-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 53368,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/31-yongseok-song-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 20766
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/31-yongseok-song-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 53368
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -1043,10 +1818,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "32-seongjun-shin.jpg",
-        "path": "public/exhibitions/2025-2-first/images/32-seongjun-shin.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/32-seongjun-shin.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/32-seongjun-shin.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/32-seongjun-shin.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 3165776
+        "fileSizeBytes": 657011,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/32-seongjun-shin.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/32-seongjun-shin-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 74260,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/32-seongjun-shin-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 36646
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/32-seongjun-shin-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 74260
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -1075,10 +1875,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "33-siyeon-an.jpg",
-        "path": "public/exhibitions/2025-2-first/images/33-siyeon-an.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/33-siyeon-an.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/33-siyeon-an.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/33-siyeon-an.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 3536806
+        "fileSizeBytes": 815654,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/33-siyeon-an.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/33-siyeon-an-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 73246,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/33-siyeon-an-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 31834
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/33-siyeon-an-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 73246
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -1107,10 +1932,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "34-jeonghyeon-an.jpg",
-        "path": "public/exhibitions/2025-2-first/images/34-jeonghyeon-an.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/34-jeonghyeon-an.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/34-jeonghyeon-an.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/34-jeonghyeon-an.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 5257774
+        "fileSizeBytes": 1015535,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/34-jeonghyeon-an.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/34-jeonghyeon-an-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 102092,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/34-jeonghyeon-an-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 40006
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/34-jeonghyeon-an-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 102092
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -1139,10 +1989,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "35-doheum-yeon.jpg",
-        "path": "public/exhibitions/2025-2-first/images/35-doheum-yeon.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/35-doheum-yeon.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/35-doheum-yeon.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/35-doheum-yeon.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 1944668
+        "fileSizeBytes": 178849,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/35-doheum-yeon.jpg",
+        "width": 2400,
+        "height": 1800,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/35-doheum-yeon-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 4924,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/35-doheum-yeon-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 2884
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/35-doheum-yeon-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 4924
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -1171,10 +2046,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "36-minseo-oh.jpg",
-        "path": "public/exhibitions/2025-2-first/images/36-minseo-oh.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/36-minseo-oh.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/36-minseo-oh.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/36-minseo-oh.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 12134391
+        "fileSizeBytes": 475678,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/36-minseo-oh.jpg",
+        "width": 1600,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/36-minseo-oh-800.webp",
+          "width": 800,
+          "height": 1200,
+          "fileSizeBytes": 46298,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/36-minseo-oh-480.webp",
+              "width": 480,
+              "height": 720,
+              "fileSizeBytes": 21888
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/36-minseo-oh-800.webp",
+              "width": 800,
+              "height": 1200,
+              "fileSizeBytes": 46298
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -1203,10 +2103,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "37-jeyeon-won.jpg",
-        "path": "public/exhibitions/2025-2-first/images/37-jeyeon-won.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/37-jeyeon-won.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/37-jeyeon-won.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/37-jeyeon-won.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 8919287
+        "fileSizeBytes": 809374,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/37-jeyeon-won.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/37-jeyeon-won-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 129668,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/37-jeyeon-won-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 56546
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/37-jeyeon-won-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 129668
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -1235,10 +2160,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "38-yeobin-yoon.jpg",
-        "path": "public/exhibitions/2025-2-first/images/38-yeobin-yoon.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/38-yeobin-yoon.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/38-yeobin-yoon.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/38-yeobin-yoon.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 4167843
+        "fileSizeBytes": 1374018,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/38-yeobin-yoon.jpg",
+        "width": 1801,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/38-yeobin-yoon-800.webp",
+          "width": 800,
+          "height": 1066,
+          "fileSizeBytes": 271884,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/38-yeobin-yoon-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 107074
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/38-yeobin-yoon-800.webp",
+              "width": 800,
+              "height": 1066,
+              "fileSizeBytes": 271884
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -1267,10 +2217,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "39-gyuyoung-lee.jpg",
-        "path": "public/exhibitions/2025-2-first/images/39-gyuyoung-lee.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/39-gyuyoung-lee.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/39-gyuyoung-lee.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/39-gyuyoung-lee.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 1831160
+        "fileSizeBytes": 411788,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/39-gyuyoung-lee.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/39-gyuyoung-lee-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 44314,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/39-gyuyoung-lee-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 22928
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/39-gyuyoung-lee-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 44314
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -1299,10 +2274,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "40-jeonguk-lee.jpg",
-        "path": "public/exhibitions/2025-2-first/images/40-jeonguk-lee.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/40-jeonguk-lee.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/40-jeonguk-lee.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/40-jeonguk-lee.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 259103
+        "fileSizeBytes": 239348,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/40-jeonguk-lee.jpg",
+        "width": 1080,
+        "height": 1456,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/40-jeonguk-lee-800.webp",
+          "width": 800,
+          "height": 1079,
+          "fileSizeBytes": 58540,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/40-jeonguk-lee-480.webp",
+              "width": 480,
+              "height": 647,
+              "fileSizeBytes": 26424
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/40-jeonguk-lee-800.webp",
+              "width": 800,
+              "height": 1079,
+              "fileSizeBytes": 58540
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -1331,10 +2331,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "41-jihyo-lee.jpg",
-        "path": "public/exhibitions/2025-2-first/images/41-jihyo-lee.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/41-jihyo-lee.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/41-jihyo-lee.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/41-jihyo-lee.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 623839
+        "fileSizeBytes": 586958,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/41-jihyo-lee.jpg",
+        "width": 1799,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/41-jihyo-lee-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 87450,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/41-jihyo-lee-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 40488
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/41-jihyo-lee-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 87450
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -1363,10 +2388,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "42-hyeonman-lee.jpg",
-        "path": "public/exhibitions/2025-2-first/images/42-hyeonman-lee.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/42-hyeonman-lee.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/42-hyeonman-lee.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/42-hyeonman-lee.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 3549634
+        "fileSizeBytes": 823705,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/42-hyeonman-lee.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/42-hyeonman-lee-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 112088,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/42-hyeonman-lee-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 48478
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/42-hyeonman-lee-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 112088
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -1395,10 +2445,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "43-chanyoung-im.jpg",
-        "path": "public/exhibitions/2025-2-first/images/43-chanyoung-im.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/43-chanyoung-im.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/43-chanyoung-im.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/43-chanyoung-im.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 3805928
+        "fileSizeBytes": 566315,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/43-chanyoung-im.jpg",
+        "width": 1808,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/43-chanyoung-im-800.webp",
+          "width": 800,
+          "height": 1062,
+          "fileSizeBytes": 82072,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/43-chanyoung-im-480.webp",
+              "width": 480,
+              "height": 637,
+              "fileSizeBytes": 38598
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/43-chanyoung-im-800.webp",
+              "width": 800,
+              "height": 1062,
+              "fileSizeBytes": 82072
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -1427,10 +2502,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "44-suyeon-jeong.jpg",
-        "path": "public/exhibitions/2025-2-first/images/44-suyeon-jeong.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/44-suyeon-jeong.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/44-suyeon-jeong.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/44-suyeon-jeong.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 11437429
+        "fileSizeBytes": 1042734,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/44-suyeon-jeong.jpg",
+        "width": 1600,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/44-suyeon-jeong-800.webp",
+          "width": 800,
+          "height": 1200,
+          "fileSizeBytes": 188120,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/44-suyeon-jeong-480.webp",
+              "width": 480,
+              "height": 720,
+              "fileSizeBytes": 69294
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/44-suyeon-jeong-800.webp",
+              "width": 800,
+              "height": 1200,
+              "fileSizeBytes": 188120
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -1459,10 +2559,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "45-yujin-jeong.jpg",
-        "path": "public/exhibitions/2025-2-first/images/45-yujin-jeong.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/45-yujin-jeong.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/45-yujin-jeong.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/45-yujin-jeong.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 1674504
+        "fileSizeBytes": 422188,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/45-yujin-jeong.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/45-yujin-jeong-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 41448,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/45-yujin-jeong-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 17888
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/45-yujin-jeong-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 41448
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -1491,10 +2616,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "46-yunseo-jeong.jpg",
-        "path": "public/exhibitions/2025-2-first/images/46-yunseo-jeong.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/46-yunseo-jeong.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/46-yunseo-jeong.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/46-yunseo-jeong.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 1834408
+        "fileSizeBytes": 670253,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/46-yunseo-jeong.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/46-yunseo-jeong-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 62340,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/46-yunseo-jeong-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 27664
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/46-yunseo-jeong-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 62340
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -1523,10 +2673,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "47-jinyun-jeong.jpg",
-        "path": "public/exhibitions/2025-2-first/images/47-jinyun-jeong.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/47-jinyun-jeong.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/47-jinyun-jeong.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/47-jinyun-jeong.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 2451753
+        "fileSizeBytes": 765252,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/47-jinyun-jeong.jpg",
+        "width": 2400,
+        "height": 1800,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/47-jinyun-jeong-800.webp",
+          "width": 800,
+          "height": 600,
+          "fileSizeBytes": 57216,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/47-jinyun-jeong-480.webp",
+              "width": 480,
+              "height": 360,
+              "fileSizeBytes": 23384
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/47-jinyun-jeong-800.webp",
+              "width": 800,
+              "height": 600,
+              "fileSizeBytes": 57216
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -1555,10 +2730,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "48-hanna-jo.jpg",
-        "path": "public/exhibitions/2025-2-first/images/48-hanna-jo.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/48-hanna-jo.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/48-hanna-jo.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/48-hanna-jo.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 4343243
+        "fileSizeBytes": 559436,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/48-hanna-jo.jpg",
+        "width": 1600,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/48-hanna-jo-800.webp",
+          "width": 800,
+          "height": 1200,
+          "fileSizeBytes": 48552,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/48-hanna-jo-480.webp",
+              "width": 480,
+              "height": 720,
+              "fileSizeBytes": 22548
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/48-hanna-jo-800.webp",
+              "width": 800,
+              "height": 1200,
+              "fileSizeBytes": 48552
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -1587,10 +2787,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "49-yubin-jin.jpg",
-        "path": "public/exhibitions/2025-2-first/images/49-yubin-jin.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/49-yubin-jin.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/49-yubin-jin.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/49-yubin-jin.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 2171490
+        "fileSizeBytes": 1176180,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/49-yubin-jin.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/49-yubin-jin-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 209428,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/49-yubin-jin-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 87122
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/49-yubin-jin-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 209428
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -1619,10 +2844,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "50-seoa-choi.jpg",
-        "path": "public/exhibitions/2025-2-first/images/50-seoa-choi.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/50-seoa-choi.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/50-seoa-choi.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/50-seoa-choi.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 2236198
+        "fileSizeBytes": 869196,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/50-seoa-choi.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/50-seoa-choi-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 143060,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/50-seoa-choi-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 67978
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/50-seoa-choi-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 143060
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -1651,10 +2901,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "51-aran-choi.jpg",
-        "path": "public/exhibitions/2025-2-first/images/51-aran-choi.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/51-aran-choi.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/51-aran-choi.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/51-aran-choi.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 258329
+        "fileSizeBytes": 202616,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/51-aran-choi.jpg",
+        "width": 1080,
+        "height": 1440,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/51-aran-choi-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 37242,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/51-aran-choi-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 18316
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/51-aran-choi-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 37242
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     },
@@ -1683,10 +2958,35 @@
         "recommendedExtension": ".jpg",
         "status": "ready",
         "fileName": "52-seongmin-han.jpg",
-        "path": "public/exhibitions/2025-2-first/images/52-seongmin-han.jpg",
-        "publicUrl": "/exhibitions/2025-2-first/images/52-seongmin-han.jpg",
+        "path": "public/exhibitions/2025-2-first/images/display/52-seongmin-han.jpg",
+        "publicUrl": "/exhibitions/2025-2-first/images/display/52-seongmin-han.jpg",
         "extension": ".jpg",
-        "fileSizeBytes": 2430389
+        "fileSizeBytes": 910016,
+        "originalPublicUrl": "/exhibitions/2025-2-first/images/52-seongmin-han.jpg",
+        "width": 1800,
+        "height": 2400,
+        "thumbnail": {
+          "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/52-seongmin-han-800.webp",
+          "width": 800,
+          "height": 1067,
+          "fileSizeBytes": 113988,
+          "srcSet": [
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/52-seongmin-han-480.webp",
+              "width": 480,
+              "height": 640,
+              "fileSizeBytes": 48012
+            },
+            {
+              "publicUrl": "/exhibitions/2025-2-first/images/thumbnails/52-seongmin-han-800.webp",
+              "width": 800,
+              "height": 1067,
+              "fileSizeBytes": 113988
+            }
+          ],
+          "sizes": "(max-width: 760px) calc((100vw - 56px) / 2), (max-width: 1080px) calc((100vw - 96px) / 3), calc((100vw - 176px) / 4)"
+        },
+        "optimizationVersion": "exhibition-images-v1"
       },
       "notes": []
     }
