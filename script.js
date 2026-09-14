@@ -30,26 +30,18 @@ desktopQuery.addEventListener("change", (event) => {
 });
 
 const heroSlides = Object.freeze([
-  { src: "assets/activity-photos/opening-meeting-01.jpg", alt: "2026년 1학기 밤부 개강총회 단체 사진" },
-  { src: "assets/activity-photos/photo-study-02.jpg", alt: "세종대학교 교정에서 진행한 밤부 사진 스터디 촬영 실습" },
-  { src: "assets/activity-photos/small-groups-02.jpg", alt: "함께 식사하며 관심사를 나누는 밤부 소모임 활동" },
-  { src: "assets/activity-photos/closing-meeting-01.jpg", alt: "2026년 1학기 밤부 종강총회" },
-  { src: "assets/activity-photos/mt-02.jpg", alt: "함께 교류하는 2026년 1학기 밤부 MT" },
-  { src: "assets/activity-photos/snack-events-01.jpg", alt: "동아리방에서 함께한 밤부 간식 행사" },
-  { src: "assets/activity-photos/department-outing-01.jpg", alt: "부서별 출사에 참여한 밤부 부원들" },
+  { src: "assets/activity-photos/photo-contest-01.jpg", alt: "밤부 사진 콘테스트 공동 우승작, 벚꽃 사이에 앉은 새" },
+  { src: "public/exhibitions/2025-2-first/images/thumbnails/12-yubin-kim-800.webp", alt: "밤부 열여덟번째 사진전 처음 출품작, 연못 위 정자" },
+  { src: "assets/activity-photos/department-outing-01.jpg", alt: "카메라와 삼각대를 들고 부서별 출사에 참여한 밤부 부원들" },
+  { src: "assets/activity-photos/weekday-outing-01.jpg", alt: "카메라를 들고 정기·요일별 출사에 참여한 밤부 부원들" },
+  { src: "assets/activity-photos/photo-contest-02.jpg", alt: "밤부 사진 콘테스트 공동 우승작, 수면을 헤엄치는 비단잉어" },
+  { src: "public/exhibitions/2025-2-familiar-happiness/images/thumbnails/03-강신혁-한강에서-바라보는-노을-800.webp", alt: "밤부 열일곱번째 사진전 익숙한 행복 출품작, 한강 철교 너머의 노을" },
+  { src: "public/exhibitions/2025-2-first/images/thumbnails/01-nayeon-kang-800.webp", alt: "밤부 열여덟번째 사진전 처음 출품작, 햇살이 드는 실내 정원" },
+  { src: "assets/activity-photos/joint-outing-01.jpg", alt: "카메라를 들고 연합 출사에 함께한 사진동아리 부원들" },
   { src: "assets/activity-photos/department-outing-02.jpg", alt: "공원에서 함께한 밤부 부서별 출사" },
-  { src: "assets/activity-photos/weekday-outing-01.jpg", alt: "정기·요일별 출사에 참여한 밤부 부원들" },
   { src: "assets/activity-photos/weekday-outing-02.jpg", alt: "장미 정원에서 함께한 밤부 정기·요일별 출사" },
-  { src: "assets/activity-photos/joint-outing-01.jpg", alt: "연합 출사에 함께한 사진동아리 부원들" },
   { src: "assets/activity-photos/joint-outing-02.jpg", alt: "꽃밭에서 촬영한 연합 출사 단체 사진" },
-  { src: "assets/activity-photos/photo-study-01.jpg", alt: "카메라 화면을 함께 살펴보는 밤부 사진 스터디" },
-  { src: "assets/activity-photos/photo-study-03.jpg", alt: "동아리방에서 카메라 사용법을 나누는 밤부 사진 스터디" },
-  { src: "assets/activity-photos/photo-study-04.jpg", alt: "사진 편집 경험을 나누는 밤부 사진 스터디" },
-  { src: "assets/activity-photos/small-groups-01.jpg", alt: "필름 카메라를 주제로 모인 밤부 소모임" },
-  { src: "assets/activity-photos/small-groups-03.jpg", alt: "보드게임을 함께 즐기는 밤부 소모임" },
-  { src: "assets/activity-photos/small-groups-04.jpg", alt: "거울 앞에서 함께 촬영한 밤부 소모임" },
-  { src: "assets/activity-photos/mt-01.jpg", alt: "조명 아래에서 함께한 2026년 1학기 밤부 MT" },
-  { src: "assets/activity-photos/recruiting-02.jpg", alt: "교내 야외 부스에서 진행한 밤부 모집 홍보 활동" },
+  { src: "public/exhibitions/2025-2-familiar-happiness/images/thumbnails/08-김관훈-비눗방울-800.webp", alt: "밤부 열일곱번째 사진전 익숙한 행복 출품작, 공원에서 비눗방울을 만드는 풍경" },
 ]);
 
 const heroSlideSlots = [...document.querySelectorAll("[data-hero-slide]")];
