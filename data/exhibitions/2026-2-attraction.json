@@ -1,13 +1,17 @@
 {
   "id": "2026-2-attraction",
   "title": "끌림",
-  "displayTitle": "열아홉번째 사진전 <끌림>",
+  "displayTitle": "열아홉 번째 사진전 <끌림>",
   "year": 2026,
   "semester": "2026-2",
   "period": "2026년 2학기",
   "type": "offline-exhibition",
   "status": "published",
   "description": "세종대학교 사진동아리 밤부의 열아홉번째 사진전 <끌림>에 출품된 작품 기록입니다.",
+  "introduction": "여러분의 마음은, 무엇에 이끌리고 있나요?\n\n일과가 끝나고 문득 마주쳤던 붉고 웅장한 노을,\n멋진 여행지에 가서 남겨본 찰나의 추억,\n늘 보던 일상 속에서 눈길이 머물렀던 순간들까지.\n\n저희의 눈과 마음이 이끌렸던 순간,\n그래서 기꺼이 셔터 버튼을 눌렀던 순간.\n언젠가 다시 한 번 들여다보았을 때,\n유독 시선을 붙잡아두는 사진.\n\n그래서 저희는 가슴 속에, 기억 속에 남아, 여러분에게 기꺼이 보여드리고 싶어지는 사진을 선정했습니다.\n\n이번 주말, 저희가 드리는 다양한 끌림의 전시를 느껴보시길 바랍니다.",
+  "dates": "2026.9.19(토) - 2026.9.20(일)",
+  "venue": "서울 어린이대공원 팔각당 전시실",
+  "preparingMessage": "작품 공개가 완료되면 이 페이지에서 전시를 감상할 수 있습니다.",
   "cover": {
     "publicUrl": "/exhibitions/2026-2-attraction/images/01-gang-na-yeon.jpg",
     "workId": "attraction-2026-2-01-gang-na-yeon"

@@ -11,6 +11,10 @@ const albumGrid = document.querySelector("[data-album-grid]");
 const galleryStatus = document.querySelector("[data-gallery-status]");
 const workCount = document.querySelector("[data-work-count]");
 const heroWorkCount = document.querySelector("[data-hero-work-count]");
+const exhibitionDescription = document.querySelector("[data-exhibition-description]");
+const exhibitionVenue = document.querySelector("[data-exhibition-venue]");
+const exhibitionDates = document.querySelector("[data-exhibition-dates]");
+const exhibitionHours = document.querySelector("[data-exhibition-hours]");
 const backToGallery = document.querySelector("[data-back-to-gallery]");
 const previousWork = document.querySelector("[data-previous-work]");
 const nextWork = document.querySelector("[data-next-work]");
@@ -58,6 +62,29 @@ function setGalleryImageSource(image, work) {
 
 function displayText(value, fallback = "기록 없음") {
   return typeof value === "string" && value.trim() ? value.trim() : fallback;
+}
+
+function renderExhibitionIntroduction(introduction) {
+  if (!exhibitionDescription || typeof introduction !== "string" || !introduction.trim()) return;
+
+  const paragraphs = introduction
+    .trim()
+    .split(/\n\s*\n/)
+    .map((paragraph) => paragraph.trim())
+    .filter(Boolean);
+  const fragment = document.createDocumentFragment();
+  paragraphs.forEach((paragraph) => {
+    const element = document.createElement("p");
+    element.textContent = paragraph;
+    fragment.append(element);
+  });
+  exhibitionDescription.replaceChildren(fragment);
+}
+
+function renderExhibitionVisitInfo(exhibition) {
+  exhibitionVenue.textContent = displayText(exhibition.venue, exhibitionVenue.textContent);
+  exhibitionDates.textContent = displayText(exhibition.dates, exhibitionDates.textContent);
+  exhibitionHours.textContent = displayText(exhibition.hours, exhibitionHours.textContent);
 }
 
 function workHash(id) {
@@ -221,6 +248,8 @@ async function loadExhibition() {
       throw new Error("작품 데이터가 비어 있습니다.");
     }
     works = data.works;
+    renderExhibitionIntroduction(data.exhibition?.introduction);
+    renderExhibitionVisitInfo(data.exhibition || {});
     renderGallery();
     syncViewWithHash();
   } catch (error) {

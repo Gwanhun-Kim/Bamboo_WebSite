@@ -29,9 +29,9 @@
     <link rel="icon" type="image/png" href="/assets/brand/favicon-16x16.png" sizes="16x16" />
     <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png" />
     <link rel="stylesheet" href="../../styles.css?v=20260821" />
-    <link rel="stylesheet" href="exhibition.css?v=20260825-frame" />
+    <link rel="stylesheet" href="exhibition.css?v=20260917-poster" />
     <link rel="stylesheet" href="../exhibition-detail.css?v=20260823" />
-    <script src="exhibition.js?v=20260825-srgb" defer></script>
+    <script src="exhibition.js?v=20260917-poster" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main">본문으로 건너뛰기</a>
@@ -69,23 +69,57 @@
         <section class="attraction-hero page-shell" aria-labelledby="exhibition-title">
           <div class="attraction-hero-copy">
             <a class="exhibition-index-link" href="../">← 전시 목록으로</a>
-            <p class="attraction-meta">열아홉번째 사진전</p>
+            <p class="attraction-meta">열아홉 번째 사진전</p>
             <h1 id="exhibition-title">끌림</h1>
-            <p class="attraction-description" data-exhibition-description>
-              세종대학교 사진동아리 밤부의 열아홉번째 사진전 &lt;끌림&gt;에 출품된 작품
-              기록입니다.
-            </p>
+            <div class="attraction-description" data-exhibition-description>
+              <p class="attraction-description-lead">여러분의 마음은, 무엇에 이끌리고 있나요?</p>
+              <p>일과가 끝나고 문득 마주쳤던 붉고 웅장한 노을,
+멋진 여행지에 가서 남겨본 찰나의 추억,
+늘 보던 일상 속에서 눈길이 머물렀던 순간들까지.</p>
+              <p>저희의 눈과 마음이 이끌렸던 순간,
+그래서 기꺼이 셔터 버튼을 눌렀던 순간.
+언젠가 다시 한 번 들여다보았을 때,
+유독 시선을 붙잡아두는 사진.</p>
+              <p>그래서 저희는 가슴 속에, 기억 속에 남아, 여러분에게 기꺼이 보여드리고 싶어지는 사진을 선정했습니다.</p>
+              <p>이번 주말, 저희가 드리는 다양한 끌림의 전시를 느껴보시길 바랍니다.</p>
+            </div>
+            <dl class="attraction-visit-info" aria-label="전시 일정 및 장소">
+              <div>
+                <dt>일시</dt>
+                <dd data-exhibition-dates>2026.9.19(토) - 2026.9.20(일)</dd>
+              </div>
+              <div>
+                <dt>장소</dt>
+                <dd data-exhibition-venue>서울 어린이대공원 팔각당 전시실</dd>
+              </div>
+            </dl>
             <div class="attraction-summary" aria-label="전시 요약">
               <span>2026년 2학기</span>
               <span data-hero-state>68 works</span>
             </div>
           </div>
 
-          <div class="attraction-cover" role="img" aria-label="끌림 전시 표지">
-            <span>2026년 2학기</span>
-            <strong>끌림</strong>
-            <span data-cover-state>68 works</span>
-          </div>
+          <a
+            class="attraction-cover"
+            href="../../assets/exhibition-posters/attraction-poster.webp"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="포스터 크게 보기"
+          >
+            <img
+              src="../../assets/exhibition-posters/attraction-poster.webp"
+              srcset="
+                ../../assets/exhibition-posters/attraction-poster-600.webp 600w,
+                ../../assets/exhibition-posters/attraction-poster.webp 891w
+              "
+              sizes="(max-width: 760px) calc(100vw - 36px), (max-width: 1200px) 34vw, 420px"
+              width="891"
+              height="1260"
+              alt="밤부 열아홉 번째 사진전 끌림 공식 포스터, 2026년 9월 19일~20일, 서울어린이대공원 팔각당 전시실(B1)"
+              decoding="async"
+              fetchpriority="high"
+            />
+          </a>
         </section>
 
         <section class="attraction-album page-shell" id="gallery" aria-labelledby="album-title">
