@@ -66,6 +66,12 @@ await verifyResponsiveAssets(familiarData);
 if (attractionData.status !== "published" || attractionData.works.length !== 68) {
   throw new Error("Attraction exhibition must be published with exactly 68 works");
 }
+const hwangJaeYunWork = attractionData.works.find(
+  (work) => work.id === "attraction-2026-2-68-hwang-jae-yun"
+);
+if (hwangJaeYunWork?.title !== "매료") {
+  throw new Error("황재윤 작품 제목이 매료로 반영되지 않았습니다.");
+}
 for (const work of attractionData.works) {
   await access(path.join(projectRoot, "public", work.webAsset.publicUrl));
 }
@@ -219,7 +225,7 @@ async function openExhibitionList(width, height) {
   const images = page.locator(".entry-images img");
   if ((await images.count()) !== 3) throw new Error("Exhibition cover set is incomplete");
   const expectedCoverNames = [
-    attractionData.cover.publicUrl.split("/").at(-1),
+    "attraction-poster.webp",
     "first-poster.png",
     "familiar-happiness-poster.jpg",
   ];
@@ -631,6 +637,11 @@ await page.keyboard.press("Escape");
 if (await page.locator("[data-gallery-view]").isHidden()) {
   throw new Error("Attraction Escape navigation did not return to the gallery");
 }
+await page.goto(
+  `${baseUrl}/exhibitions/2026-2-attraction/#work=attraction-2026-2-68-hwang-jae-yun`,
+  { waitUntil: "networkidle" }
+);
+await expectAttractionDetail(hwangJaeYunWork, 68);
 await openGallery(390, 844);
 await expectResponsiveGalleryImage(".work-card");
 const menuToggle = page.locator(".menu-toggle");
