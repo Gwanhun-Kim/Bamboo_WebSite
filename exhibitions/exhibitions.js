@@ -7,6 +7,9 @@ const exhibitions = [
     href: "2026-2-attraction/",
     dataUrl: "../data/exhibitions/2026-2-attraction.json",
     period: "2026년 2학기",
+    coverImage: "../assets/exhibition-posters/attraction-poster.webp",
+    coverWidth: 891,
+    coverHeight: 1260,
   },
   {
     title: "처음",
