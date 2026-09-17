@@ -53,18 +53,58 @@
 }
 
 .exhibition-description {
-  max-width: 520px;
+  max-width: 560px;
   margin-top: 46px;
   font-size: 15px;
   letter-spacing: -0.025em;
-  line-height: 1.75;
+  line-height: 1.78;
+}
+
+.exhibition-description p {
+  margin: 0;
+  white-space: pre-line;
+}
+
+.exhibition-description p + p {
+  margin-top: 20px;
+}
+
+.exhibition-visit-info {
+  display: grid;
+  max-width: 520px;
+  gap: 10px;
+  margin: 32px 0 0;
+  padding-top: 18px;
+  border-top: 1px solid color-mix(in srgb, var(--green) 48%, transparent);
+}
+
+.exhibition-visit-info div {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr);
+  gap: 16px;
+}
+
+.exhibition-visit-info dt,
+.exhibition-visit-info dd {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.exhibition-visit-info dt {
+  color: var(--green);
+  font-weight: 560;
+}
+
+.exhibition-visit-info dd {
+  color: var(--ink);
 }
 
 .exhibition-summary {
   display: flex;
   max-width: 420px;
   gap: 34px;
-  margin-top: 34px;
+  margin-top: 24px;
   padding-top: 16px;
   border-top: 1px solid color-mix(in srgb, var(--green) 48%, transparent);
   color: var(--muted);
@@ -361,9 +401,14 @@
   }
 
   .exhibition-description {
-    max-width: 330px;
+    max-width: 100%;
     margin-top: 36px;
     font-size: 14px;
+  }
+
+  .exhibition-visit-info {
+    max-width: 100%;
+    margin-top: 28px;
   }
 
   .exhibition-hero-poster {

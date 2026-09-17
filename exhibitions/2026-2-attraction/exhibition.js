@@ -17,9 +17,9 @@ const galleryStatus = document.querySelector("[data-gallery-status]");
 const albumGrid = document.querySelector("[data-album-grid]");
 const workCount = document.querySelector("[data-work-count]");
 const heroState = document.querySelector("[data-hero-state]");
-const coverState = document.querySelector("[data-cover-state]");
-const attractionCover = document.querySelector(".attraction-cover");
 const exhibitionDescription = document.querySelector("[data-exhibition-description]");
+const exhibitionDates = document.querySelector("[data-exhibition-dates]");
+const exhibitionVenue = document.querySelector("[data-exhibition-venue]");
 const backToGallery = document.querySelector("[data-back-to-gallery]");
 const previousWork = document.querySelector("[data-previous-work]");
 const nextWork = document.querySelector("[data-next-work]");
@@ -78,6 +78,30 @@ function setGalleryImageSource(image, work) {
 
 function displayText(value, fallback = "기록 없음") {
   return typeof value === "string" && value.trim() ? value.trim() : fallback;
+}
+
+function renderExhibitionIntroduction(description) {
+  if (!exhibitionDescription || typeof description !== "string" || !description.trim()) return;
+
+  const paragraphs = description
+    .trim()
+    .split(/\n\s*\n/)
+    .map((paragraph) => paragraph.trim())
+    .filter(Boolean);
+
+  const fragment = document.createDocumentFragment();
+  paragraphs.forEach((paragraph, index) => {
+    const element = document.createElement("p");
+    if (index === 0) element.className = "attraction-description-lead";
+    element.textContent = paragraph;
+    fragment.append(element);
+  });
+  exhibitionDescription.replaceChildren(fragment);
+}
+
+function renderExhibitionVisitInfo(data) {
+  exhibitionDates.textContent = displayText(data.dates, exhibitionDates.textContent);
+  exhibitionVenue.textContent = displayText(data.venue, exhibitionVenue.textContent);
 }
 
 function formatSettings(settings) {
@@ -154,9 +178,8 @@ function renderGallery(data) {
   galleryStatus.hidden = true;
   workCount.textContent = String(works.length);
   heroState.textContent = `${works.length} works`;
-  coverState.textContent = `${works.length} works`;
-  attractionCover.setAttribute("aria-label", "끌림 전시 표지");
-  exhibitionDescription.textContent = displayText(data.description, exhibitionDescription.textContent);
+  renderExhibitionIntroduction(data.introduction || data.description);
+  renderExhibitionVisitInfo(data);
 }
 
 function showPreparingState(data) {
@@ -167,10 +190,12 @@ function showPreparingState(data) {
   exhibitionState.hidden = false;
   workCount.textContent = "0";
   heroState.textContent = "준비 중";
-  coverState.textContent = "전시 준비 중";
-  const description = displayText(data.description, exhibitionDescription.textContent);
-  exhibitionDescription.textContent = description;
-  exhibitionState.querySelector("p").textContent = description;
+  renderExhibitionIntroduction(data.introduction || data.description);
+  renderExhibitionVisitInfo(data);
+  exhibitionState.querySelector("p").textContent = displayText(
+    data.preparingMessage,
+    "작품 공개가 완료되면 이 페이지에서 전시를 감상할 수 있습니다."
+  );
 }
 
 function showGallery({ focusHeading = false } = {}) {
